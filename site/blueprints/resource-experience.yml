@@ -1,0 +1,55 @@
+// blueprint title (template title)
+title: resource-experience
+
+// page settings
+options:
+  delete: true
+  preview: true
+  status: true
+  template: false
+  url: true
+
+// subpages settings
+pages: false
+
+// file settings
+files: true
+  fields: 
+    alt:
+      label: Alt text
+      type: text
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo dell'esperienza
+    type: text
+  location: 
+    label: Luogo
+    type: text
+  partner:
+    label: Partner
+    type: text
+  date:
+    label: Data
+    type: date
+  short:
+    label: Descrizione breve
+    type: textarea
+  long:
+    label: Descrizione completa
+    type: textarea
+  image:
+    label: Immagine di copertina
+    type: image
+  movie:
+    label: Video
+    type: text
+    placeholder: Inserici solo l'id del video, per esempio 54785974
+    help: "Inserire l'id del video che è l'ultima parte del link (https://vimeo.com/54785974)"
+  alt-video:
+    label: Alt video
+    type: text
+  gallery:
+    label: Galleria immagini
+    type: gallery

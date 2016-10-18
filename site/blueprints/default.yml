@@ -1,0 +1,25 @@
+// blueprint title (template title)
+title: default
+
+// page settings
+options:
+  delete: true
+  preview: true
+  status: true
+  url: false
+  template: false
+
+// subpages settings
+pages: false
+
+// file settings
+files: false
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo della pagina
+    type: text
+  subtitle:
+    label: Sottotitolo
+    type: textarea 

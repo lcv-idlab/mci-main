@@ -1,0 +1,25 @@
+// blueprint title (template title)
+title: footer
+
+// page settings
+options:
+  delete: false
+  preview: false
+  status: false
+  template: false
+  url: false
+
+// subpages settings
+pages: true
+  max: 2
+
+// file settings
+files: false
+
+// fields with their fields types and options
+fields:
+  info:
+    label: Loghi per footer
+    type: info
+    text: >
+      <p>Seleziona la categoria di loghi interessata.</p>

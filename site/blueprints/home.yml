@@ -1,0 +1,12 @@
+// blueprint title (template title)
+title: home
+
+// page settings
+options:
+  delete: false
+
+// subpages settings
+pages: false
+
+// files
+files: false

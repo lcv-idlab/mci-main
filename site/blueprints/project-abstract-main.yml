@@ -1,0 +1,30 @@
+// blueprint title (template title)
+title: project-abstract-main
+
+// page settings
+options:
+  delete: false
+  preview: true
+  status: true
+  url: false
+  template: false
+
+// subpages settings
+pages: true
+  template: project-abstract
+  delete: false
+  max: 4
+
+// file settings
+files: false
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo della pagina
+    type: text
+  info:
+    label: Modifica l'abstract
+    type: info
+    text: >
+      <p>Seleziona la pagina relativa alla lingua interessata per apportare le modifiche.</p>

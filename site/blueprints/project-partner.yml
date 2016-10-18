@@ -1,0 +1,55 @@
+// blueprint title (template title)
+title: project-partner
+
+// page settings
+options:
+  delete: false
+  preview: true
+  status: true
+  url: false
+  template: false
+
+// subpages settings
+pages: false
+
+// file settings
+files: true
+  fields: 
+    alt:
+      label: Alt text
+      type: text
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo della pagina
+    type: text
+  partners: 
+    label: Partner
+    type: structure
+    entry: >
+      <b>{{name}}</b></br>
+      {{place}}</br>
+      <i>{{url}}</i></br>
+      <span style="font-size: 14px">{{description}}</span></br></br>
+      logo: {{logo}}
+    fields:
+      name:
+        label: Nome Partner
+        type: text
+        required: true
+      place:
+        label: Luogo
+        type: text
+        required: true
+      url:
+        label: Sito internet
+        type: text
+        required: true
+      description:
+        label: Descrizione
+        type: textarea
+        required: true
+      logo:
+        label: Logo
+        type: image

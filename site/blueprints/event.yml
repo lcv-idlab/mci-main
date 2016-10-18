@@ -1,0 +1,80 @@
+// blueprint title (template title)
+title: event
+
+// page settings
+options:
+  delete: true
+  preview: true
+  status: true
+  template: false
+  url: true
+
+// subpages settings
+pages: false
+
+// file settings
+files:
+  fields: 
+    alt: 
+      label: Alt text
+      type: text
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Nome evento
+    type: text
+  date:
+    label: Data evento
+    type: date
+  day:
+    label: Giorno della settimana
+    type: select
+    options:
+        Lu: Lu
+        Ma: Ma
+        Me: Me
+        Gi: Gi
+        Ve: Ve
+        Sa: Sa
+        Do: Do
+  from:
+    label: Dalle ore
+    type: time
+    default: 10:00
+    interval: 15
+  to:
+    label: Alle ore
+    type: time
+    default: 16:00
+    interval: 15
+  partner:
+    label: Partner/s
+    type: text
+  place:
+    label: Luogo
+    type: text
+  cap:
+    label: CAP
+    type: text
+  address:
+    label: Indirizzo (via)
+    type: text
+  phone:
+    label: Recapito telefonico del museo
+    type: text
+  email:
+    label: email di contatto per informazioni
+    type: email
+  website:
+    label: Sito internet del museo
+    type: url
+  short:
+    label: Descrizione breve
+    type: textarea
+  long:
+    label: Descrizione completa
+    type: textarea
+  image:
+    label: Logo del museo
+    type: image

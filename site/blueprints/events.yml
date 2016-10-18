@@ -1,0 +1,27 @@
+// blueprint title (template title)
+title: events
+
+// page settings
+options:
+  delete: false
+  preview: true
+  status: true
+  url: false
+
+// subpages settings
+pages:
+  template: event
+
+// file settings
+files: false
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo
+    type: text
+  info:
+    label: Aggiungi nuovo evento
+    type: info
+    text: >
+      <p>Clicca su "Add" per inserire un nuovo evento</p>

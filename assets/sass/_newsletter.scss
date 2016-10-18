@@ -1,0 +1,77 @@
+//--- NEWSLETTER ---//
+
+.newsletter {
+	@include outer-container();
+	@include pads(0 2 3 2);
+
+
+	hr {
+		padding-bottom: 1rem;
+	}
+
+	h2 {
+		@extend %baseline-size;
+		@extend %bold-weight;
+		padding-bottom: 1rem;
+	}
+
+	form {
+
+		margin-top: 1rem;
+
+		label {
+			@extend .visuallyhidden;			
+		}
+
+		input {
+			@extend %input-field;
+			//@include span-columns(6);
+			@include pads(0.5 1 0.5 1);
+			border: 1px solid color(brand);
+			margin-bottom: 1rem;
+			width: 100%;
+			display: block;
+			//clear: both;
+
+				margin-bottom: 1rem;
+				clear: both;
+		}
+
+		.button {
+			@include span-columns(4);
+			@include pads(0 0.5 0 0.5);
+			@extend %button;
+			display: block;
+			border: 1px solid color(brand);
+			background-color: color(brand);
+			color: color(white);
+			height: 2.5rem;
+			cursor: pointer;
+
+			@include media($medium) {
+				@include span-columns(4);
+				margin-right: 0;
+			}
+			@include media($small) {
+				@include span-columns(4);
+				margin-bottom: 1rem;
+			}
+			@include media($x-small) {
+				@include span-columns(4);
+				margin-bottom: 1rem;
+			}
+
+			&:hover {
+				background-color: color(accent-dark);
+				color: color(white);
+				border: none;
+			}
+
+			&:active {
+				background-color: color(accent-darker);
+				color: color(white);
+				border: none;
+			}
+		}
+	}
+}

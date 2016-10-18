@@ -1,0 +1,224 @@
+//--- RESOURCES ---//
+
+//-- documents --//
+.resource-document {
+	@include outer-container();
+	@include pads(0 2 3 2);
+
+	.button-download {
+		@include span-columns(4);
+		float: right;
+		margin-right: 0;
+		margin-bottom: 1rem;
+
+		@include media($x-small) {
+			@include span-columns(4);
+			margin-top: 1rem;
+		}
+
+		@include media($small) {
+			@include span-columns(4);
+			margin-top: 1rem;
+		}
+
+		@include media($medium) {
+			@include span-columns(3);
+			float: right;
+			margin-right: 0;
+		}
+	}
+
+	img {
+		@include span-columns(12);
+		display: block;
+	}
+}
+
+.resource-document-text {
+	@include outer-container();
+	@include pads(0 2 5 2);
+	
+	.border-top {
+		border-top: 1px solid color(gray);
+
+		.aside {
+			@include span-columns(4);
+			padding-top: 1rem;
+
+			h3 {
+				@extend %paragraph-title;
+
+				&#authors {
+					margin-top: 2rem;
+				}
+			}
+
+			li {
+				display: block;
+			}
+
+			@include media($mobile) {
+				@include span-columns(8);
+
+				li {
+					display: inline;
+				}
+				li::after {
+					content: " / ";
+				}
+				li:last-child::after {
+					content: "";
+				}
+			}
+		}
+
+		#article {
+			@include span-columns(8);
+			padding-top: 1rem;
+
+			.subtitle {
+				@extend %bold-weight;
+				margin-bottom: 1rem;
+			}
+
+			@include media($mobile) {
+				@include span-columns(8);
+				margin-top: 2rem;
+				border-top: 1px solid color(gray);
+			}
+		}
+	}
+}
+
+
+//-- experiences --//
+.resource-experience {
+	@include outer-container();
+	@include pads(0 2 3 2);
+
+	.video {
+		position: relative;
+		padding-bottom: 56.2757202%;
+		height: 0; overflow:
+		hidden; max-width: 100%;
+		background-color: color(white);
+		z-index: -1;
+	}
+
+	.video iframe, .video object, .video embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border: 0;
+		background-color: color(white);
+	}
+
+	img {
+		@include span-columns(12);
+		display: block;
+	}
+
+}
+
+.resource-experience-text {
+	@include outer-container();
+	@include pads(0 2 3 2);
+
+	.border-top {
+		border-top: 1px solid color(gray);
+
+		.aside {
+			@include span-columns(4);
+
+			.partner-experience {
+				margin-top: 1rem;
+				@extend %bold-weight;
+			}
+		}
+
+		#article {
+			@include span-columns(8);
+			padding-top: 1rem;
+
+			@include media($mobile) {
+				@include span-columns(8);
+				margin-top: 2rem;
+				border-top: 1px solid color(gray);
+			}
+		}
+	}
+}
+
+.resource-experience-gallery {
+	@include outer-container();
+	@include pads(0 2 5 2);
+
+	h2 {
+		@include span-columns(12);
+		@extend %bold-weight;
+		@include pads(1 0 1 0);
+		border-top: 1px solid color(gray);
+	}
+
+	ul {
+		li {
+			margin-bottom: 1rem;
+
+			@include media($desktop) {
+				@include span-columns(3);
+				@include omega(4n);
+			}
+
+			@include media($large) {
+				@include span-columns(3);
+				@include omega(4n);
+			}
+
+			@include media($medium) {
+				@include span-columns(8/3);
+				@include omega(3n);
+			}
+
+			@include media($small) {
+				@include span-columns(2);
+				@include omega(2n);
+			}
+
+			@include media($x-small) {
+				@include span-columns(2);
+				@include omega(2n);
+			}
+
+			figure {
+				width: 100%;
+				padding-bottom: 100%;
+				overflow: hidden;
+				position: relative;
+				z-index: -1;
+
+				img {
+					position: absolute;
+					margin: auto;
+					left: -100%;
+					right: -100%;
+					top: -100%;
+					bottom: -100%;
+
+					&.portrait {
+						width: 100%;
+						height: auto;
+					}
+
+					&.landscape {
+						height: 100%;
+						width: auto;
+
+					}
+				}
+			}
+		}
+	}
+}
+

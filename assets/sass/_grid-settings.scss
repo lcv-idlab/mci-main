@@ -1,0 +1,23 @@
+@import "neat/neat-helpers";
+
+//Change the grid settings
+$max-width: 1024px;
+
+
+/*
+// Define the breakpoints
+$mobile: new-breakpoint(max-width 480px 4);
+$small: new-breakpoint(max-width 600px 4);
+$tablet: new-breakpoint(min-width 601px max-width 840px 8);
+$desktop: new-breakpoint(min-width 769px 12);
+*/
+
+$mobile: new-breakpoint(max-width 840px 8);
+$no-mobile: new-breakpoint(min-width 841px 12);
+
+$x-small: new-breakpoint(max-width 480px 4);
+$small: new-breakpoint(min-width 481px max-width 600px 4);
+$medium: new-breakpoint(min-width 601px max-width 840px 8);
+$large: new-breakpoint(min-width 841px max-width 960px 12);
+$desktop: new-breakpoint(min-width 961px 12);
+

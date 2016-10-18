@@ -1,0 +1,26 @@
+// blueprint title (template title)
+title: resources
+
+// page settings
+options:
+  delete: false
+  status: true
+  url: false
+
+// subpages settings  
+pages:
+  template: [resource-experience, resource-document]
+
+// file settings  
+files: false
+
+// fields with their fields types and options
+fields:
+  title: 
+    label: Titolo
+    type: text
+  info:
+    label: Aggiungi una nuova risorsa
+    type: info
+    text: >
+      <p>Clicca su "Add" per inserire una nuova risorsa</p>

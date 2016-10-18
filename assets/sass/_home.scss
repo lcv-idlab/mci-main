@@ -1,0 +1,66 @@
+//--- HOME ---//
+
+.home-main-title {
+
+	@include media($x-small) {
+		@include pads(3.5714 2 4.2857 2);
+		&.desktop {
+			display: none;
+		}
+	}
+	@include media($small) {
+		@include pads(4 2 5 2);
+		&.desktop {
+			display: none;
+		}
+		font-size: 2.625rem;
+		line-height: 120%;
+	}
+	@include media($medium) {
+		@include pads(5 2 6 2);
+		&.mobile {
+			display: none;
+		}		
+		font-size: 2.25rem;
+		line-height: 120%;
+	}
+	@include media($large) {
+		@include pads(6.25 2 7.81 2);
+		&.mobile {
+			display: none;
+		}
+	}
+	@include media($desktop) {
+		//@include pads(6.25 2 7.81 2);
+		@include pads(4 2 7.81 2);
+		&.mobile {
+			display: none;
+		}
+	}
+}
+
+.home-title-container {
+	@include outer-container();
+	@include pads(0 2 3 2);
+
+	.title {
+		@include pads(1 0 0 0);
+	}
+}
+
+.container-boxes {
+
+	.experience {
+		.partner {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.document {
+		.subtitle {
+			@extend %bold-weight;
+			margin-bottom: 1rem;
+			margin-top: 1rem;
+		}
+	}
+}

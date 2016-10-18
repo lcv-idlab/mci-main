@@ -1,0 +1,144 @@
+//--- EVENTS ---//
+
+.container-events {
+	@include outer-container();
+	@include pads(0 2 3 2);
+
+	li {
+		@include pads(1 0 2 0);
+		border-top: 1px solid color(grey);
+
+		@include media($no-mobile) {
+		  @include span-columns(6);
+		  @include omega(2n);
+		}
+
+		@include media($mobile) {
+		  @include span-columns(8);
+		}
+
+		article {
+			time {
+				display: inline-block;
+				margin-right: 1rem;
+				@extend %headline;
+				color: color(brand);   
+			}
+
+			.event-list-title {
+				display: inline-block;
+				@extend %headline;
+			}
+
+			div {
+				margin-top: 1rem;
+
+				.location {
+					@extend %bold-weight;
+				}
+			}		
+		}
+	}
+}
+
+//--- EVENT ---//
+
+.event-title {
+  @include outer-container();
+  @include pads(1 2 3 2);
+  @extend %title;
+  display: block;
+  float: none;
+}
+
+.event-header {
+	@include outer-container();
+	@include pads(0 2 0 2);
+	@extend %medium-size;
+	color: color(brand);
+
+	#line {
+		@include span-columns(12);
+		@include pads(0 0 2 0);
+		border-bottom: 1px solid color(gray);
+	}
+
+	#time {
+		@include span-columns(4 of 12);
+
+		time {
+			@extend %bold-weight;
+			display: inline-block;
+		}
+	}
+
+	#place {
+		@include span-columns(8 of 12);
+	}
+
+	@include media(max-width 720px 8) {
+		#line {
+			@include span-columns(8);
+			@include pads(0 0 1 0);
+		}
+		#time {
+			@include span-columns(8 of 8);
+		}
+
+		#place {
+			@include span-columns(8 of 8);
+		}
+	}
+}
+
+.event-content {
+	@include outer-container();
+	@include pads(2 2 5 2);
+
+	@include media(max-width 720px 8) { 
+		display: flex;
+		flex-flow: row wrap;
+		flex-direction: column;
+		@include pads(1 2 5 2);
+	}
+
+	.aside {
+		@include span-columns(4);
+
+		@include media(max-width 720px 8) {
+			@include span-columns(8);
+			@include pads(1 0 0 0);
+			border-top: 1px solid color(gray);
+			order: 2;
+		}
+
+		address {
+
+			strong {
+				@extend %bold-weight;
+			}
+
+			#address {
+				margin-bottom: 1rem;
+			}
+			#contacts {
+				margin-bottom: 1rem;
+			}
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+	}
+
+	.content {
+		@include span-columns(8);
+
+		@include media(max-width 720px 8) {
+			@include span-columns(8);
+			order: 1;
+			margin-bottom: 1rem;
+		}
+	}
+}

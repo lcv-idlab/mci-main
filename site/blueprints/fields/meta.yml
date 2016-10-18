@@ -1,0 +1,11 @@
+label: Meta
+type: structure
+entry: >
+  <strong>{{name}}:</strong> {{value}}
+fields:
+  name:
+    label: Name
+    type: text
+  value: 
+    label: Value
+    type: text

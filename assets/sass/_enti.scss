@@ -1,0 +1,53 @@
+//--- ENTI ---//
+
+.enti {
+	@include outer-container();
+	@include pads(0 2 3 2);
+
+	.title-enti {
+		@include span-columns(12);
+		@extend %bold-weight;
+		border-top: 1px solid color(grey);
+		padding-top: 1rem;
+	}
+	li {
+		padding-top: 2rem;
+
+		@include media($x-small) {
+			@include span-columns(2);
+			@include omega(2n);
+		}
+
+		@include media($small) {
+			@include span-columns(4/3);
+			@include omega(3n);
+		}
+
+		@include media(min-width 601px max-width 720px 8) {
+			@include span-columns(8/3);
+			@include omega(3n);
+		}
+
+		@include media(min-width 721px max-width 840px 8) {
+			@include span-columns(2);
+			@include omega(4n);
+		}
+
+		@include media($large) {
+			@include span-columns(12/5);
+			@include omega(5n);
+		}
+
+		@include media($desktop) {
+			@include span-columns(12/5);
+			@include omega(5n);
+		}
+
+		img {
+			max-width: 100%;
+		}	
+
+	}
+	
+	
+}

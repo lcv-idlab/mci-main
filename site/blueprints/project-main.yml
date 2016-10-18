@@ -1,0 +1,26 @@
+// blueprint title (template title)
+title: project-main
+
+// page settings
+options:
+  delete: false
+  url: false
+  template: true
+
+// subpages settings
+pages: true
+  max: 3
+
+// file settings
+files: false
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Title
+    type:  text
+  info:
+    label: Modifica le sezioni
+    type: info
+    text: >
+      <p>Seleziona la pagina relativa alla sezione interessata per apportare le modifiche.</p>

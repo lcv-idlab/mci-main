@@ -1,0 +1,200 @@
+//--- FONTS ---//
+
+// base font size
+
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-size: 16px;
+
+	@include media($x-small) {
+		font-size: 14px;
+	}
+	@include media($small) {
+		font-size: 14px;
+	}
+	@include media($medium) {
+		font-size: 16px;
+	}
+	@include media($large) {
+		font-size: 16px;
+	}
+	@include media($desktop) {
+		font-size: 16px;
+	}
+}
+
+@include font-face('roboto-bold', '../fonts/roboto_bold/Roboto-Bold-webfont', normal, $file-formats: eot svg ttf woff);
+//@include font-face('roboto-medium', '../fonts/roboto_medium/Roboto-Medium-webfont', normal, $file-formats: eot svg ttf woff);
+@include font-face('roboto-regular', '../fonts/roboto_regular/Roboto-Regular-webfont', normal, $file-formats: eot svg ttf woff);
+@include font-face('roboto-light', '../fonts/roboto_light/Roboto-Light-webfont', normal, $file-formats: eot svg ttf woff);
+
+//--- FONT SIZES --//
+%baseline-size  {
+	//font-size: calc(1rem + 1vw);
+	font-size: 1rem;
+	line-height: 140%;
+	//margin-bottom: 1rem;
+	margin-top: 0;
+	color: color(black);
+
+	@include media($x-small) {
+		line-height: 140%;
+	}
+}
+
+%medium-size  {
+	//font-size: rem($base-font-size * 1.5);
+	font-size: 1.5rem;
+	line-height: 1.9375rem;
+	//margin-bottom: 1rem;
+	margin-top: 0;
+	color: color(black);
+	@include media($x-small) {
+		font-size: 1.2857142857rem;
+	}
+}
+
+%large-size {
+	//font-size: rem($base-font-size * 3);
+	font-size: 3rem;
+	line-height: 3.625rem;
+	//margin-bottom: 1rem;
+	margin-top: 0;
+	color: color(black);
+
+	@include media($x-small) {
+		font-size: 1.714128rem; //24px with html font-size: 14px
+		line-height: 120%;
+	}
+}
+
+%button-size {
+	font-size: 0.875rem;
+}
+
+
+//--- FONT WEIGHTS ---//
+%light-weight {
+	font-family: 'roboto-light', Arial, sans-serif;
+	font-weight: normal;
+}
+
+%regular-weight {
+	font-family: 'roboto-regular', Arial, sans-serif;
+	font-weight: normal;
+}
+
+%medium-weight {
+	font-family: 'roboto-medium', Arial, sans-serif;
+	font-weight: normal;
+
+}
+
+%bold-weight {
+	font-family: 'roboto-bold', Arial, sans-serif;
+	font-weight: normal;
+}
+
+// in classees
+
+
+
+
+//--- BASIC FONT STYLES ---//
+
+%link {
+	@extend %regular-weight;
+	//@extend %baseline-size;
+	color: color(brand);
+}
+
+%body {
+	@extend %regular-weight;
+	@extend %baseline-size;
+	color: color(black);
+}
+
+%headline {
+	@extend %bold-weight;
+	@extend %medium-size;
+	color: color(black);
+}
+
+%paragraph-title {
+	@extend %bold-weight;
+	@extend %baseline-size;
+}
+
+%title {
+	@extend %bold-weight;
+	@extend %large-size;
+	color: color(black);
+}
+
+%title-secondary {
+	@extend %regular-weight;
+	@extend %large-size;
+	color: color(brand);
+}
+
+%button {
+	@extend %medium-weight;
+	@extend %button-size;
+}
+
+%main-logo {
+	@extend %bold-weight;
+	@extend %medium-size;
+	color: color(white);
+
+	&:link, &:hover, &:visited, &:active {
+		color: color(white);
+		text-decoration: none;
+	}
+}
+
+%main-nav-button {
+	@extend %light-weight;
+	@extend %medium-size;
+	color: color(white);
+	text-decoration: none;
+
+	@include media($x-small) {
+		font-size: 1.2857142857rem;
+	}
+}
+
+%sec-nav-button {
+	@extend %light-weight;
+	@extend %medium-size;
+	color: color(brand);
+	text-decoration: none;
+}
+
+%second-element-active-font-style {
+	@include media($no-mobile) {
+		font-family: 'roboto-bold', Arial, sans-serif;
+	}
+	@include media($mobile) {
+		font-family: 'roboto-light', Arial, sans-serif;
+	}
+}
+
+%input-field {
+	@extend %regular-weight;
+	@extend %baseline-size;
+}
+
+
+// same but classes to use @extend when nested inside a media query
+
+.class-main-nav-button {
+	@extend %main-nav-button;
+}
+
+.class-sec-nav-button {
+	@extend %sec-nav-button;
+}

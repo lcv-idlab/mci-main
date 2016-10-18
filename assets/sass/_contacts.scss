@@ -1,0 +1,50 @@
+//--- CONTACTS ---//
+
+.contacts-contacts {
+	@include outer-container();
+	@include pads(0 2 0 2);
+
+	strong {
+		@extend %bold-weight;
+	}
+
+	a {
+		@extend .link;
+		border-bottom: 1px solid color(brand);
+	}
+
+	> address {
+		@include span-columns(4);
+
+		@include media($mobile) {
+			@include span-columns(8);
+		}
+
+		strong {
+			@extend %bold-weight;
+		}
+
+		a {
+			@extend .link;
+			border-bottom: 1px solid color(brand);
+		}
+	}
+
+	li {
+		@include span-columns(4);
+
+		@include media($mobile) {
+			@include span-columns(8);
+
+			margin-top: 3rem;
+		}
+	}
+}
+
+.contacts-colophon {
+
+	.colophon {
+		@include outer-container();
+		@include pads(0 2 3 2);
+	}
+}

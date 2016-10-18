@@ -1,0 +1,55 @@
+// blueprint title (template title)
+title: project-team
+
+// page settings
+options:
+  delete: false
+  preview: true
+  status: true
+  url: false
+  template: false
+
+// subpages settings
+pages: false
+
+// file settings
+files: true
+  fields: 
+    alt:
+      label: Alt text
+      type: text
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo della pagina
+    type: text
+  people: 
+    label: Persone
+    type: structure
+    entry: >
+      <b>{{name}} {{surname}}</b> - {{affiliation}} </br>
+      <i>{{biography}}</i>
+    fields:
+      name:
+        label: Nome
+        type: text
+        width: 1/2
+        required: true
+      surname:
+        label: Cognome
+        type: text
+        width: 1/2
+        required: true
+      affiliation:
+        label: Affiliazione
+        type: text
+        required: true
+      biography:
+        label: Biografia
+        type: textarea
+        required: true
+      image:
+        label: Fotografia
+        type: image
+        default: empty.jpg

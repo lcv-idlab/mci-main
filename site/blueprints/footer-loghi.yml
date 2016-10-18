@@ -1,0 +1,28 @@
+// blueprint title (template title)
+title: footer-loghi
+
+// page settings
+options:
+  delete: false
+  preview: false
+  status: false
+  template: false
+  url: false
+
+// subpages settings
+pages: false
+
+// file settings
+files: true
+  fields: 
+    alt:
+      label: Alt text
+      type: text
+
+// fields with their fields types and options
+fields:
+  info:
+    label: Loghi per footer
+    type: info
+    text: >
+      <p>Aggiungi i loghi per il footer cliccando su "Add" o trascinando i files nella pagina.</p>

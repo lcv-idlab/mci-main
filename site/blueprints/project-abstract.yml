@@ -1,0 +1,37 @@
+// blueprint title (template title)
+title: project-abstract
+
+// page settings
+options:
+  delete: false
+  preview: true
+  status: true
+  url: false
+  template: true
+
+// subpages settings
+pages: false
+
+// file settings
+files: false
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo della pagina
+    type: text
+  paragraphs: 
+    label: Paragrafi
+    type: structure
+    entry: >
+      <b>{{header}}</b> </br>
+      {{content}}
+    fields:
+      header:
+        label: Titolo paragrafo
+        type: text
+        required: true
+      content:
+        label: Contenuto paragrafo
+        type: textarea
+        required: true

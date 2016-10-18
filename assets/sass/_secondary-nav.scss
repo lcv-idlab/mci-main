@@ -1,0 +1,40 @@
+//--- SECONDARY NAVIGATION ---//
+
+.secondary-nav {
+	background-color: color(white);
+	border-bottom: 1px solid color(brand);
+
+	nav {
+		@include outer-container();
+		@include pads (0 2 0 0);
+
+		a {
+			@extend %sec-nav-button;
+			@include pads(1 2 1 2);
+			display: inline-block;
+
+			&:hover {
+
+				span {
+					padding-bottom: 0.3333333rem;
+					border-bottom: 1px solid color(brand);
+
+					&.active {
+						border-bottom: none;
+					}
+				}
+			}
+
+			&.active {
+				@extend %bold-weight;
+			}
+
+		}
+	}
+}
+
+@include media($mobile) {
+		.secondary-nav {
+		display: none;
+	}
+}

@@ -1,0 +1,48 @@
+// blueprint title (template title)
+title: contacts
+
+// page settings
+options:
+  delete: false
+  preview: true
+  status: true
+  url: false
+
+// subpages settings
+pages: false
+
+// file settings
+files: false
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo
+    type: text
+  main:
+    label: Contatto principale
+    type: textarea
+  contacts: 
+    label: Contatti
+    type: structure
+    entry: >
+      <b>{{name}} {{surname}}</b></br>
+      {{email}}, {{phone}}
+    fields:
+      name:
+        label: Nome
+        type: text
+        required: true
+      surname:
+        label: Cognome
+        type: text
+        required: true
+      email:
+        label: Email
+        type: email
+      phone:
+        label: Telefono
+        type: tel
+  colophon:
+    label: Colophon
+    type: textarea

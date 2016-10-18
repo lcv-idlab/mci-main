@@ -1,0 +1,18 @@
+//--- COLORS ---//
+
+// to test the contrast ratio: http://dasplankton.de/ContrastA
+
+$colors: (
+	white: #FFFFFF,
+	black: #212121,
+	brand: #C20F2F,
+	brand-lighter: #F7F5F5,
+	gray: #aaaaaa,
+	accent-dark: #AE112D,
+	accent-darker: #9F152E,
+	);
+
+// function to get the colors
+@function color($key) {
+		@return map-get($colors, $key);
+}

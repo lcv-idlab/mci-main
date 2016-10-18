@@ -1,0 +1,61 @@
+// blueprint title (template title)
+title: resource-document
+
+// page settings
+options:
+  delete: true
+  preview: true
+  status: true
+  template: false
+  url: true
+
+// subpages settings
+pages: false
+
+// file settings
+files: 
+  fields: 
+    alt: 
+      label: Alt text
+      type: text
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo del documento
+    type: text
+  subtitle:
+    label: Sottotitolo
+    type: textarea
+  short:
+    label: Descrizione breve (homepage)
+    type: textarea
+    required: true
+  long:
+    label: Descrizione lunga
+    type: textarea
+    required: true
+  date:
+    label: Data di pubblicazione
+    type: date
+    required: true
+  authors:
+    label: Autore/i
+    type: structure
+    entry: >
+      <b>{{name}} {{surname}}</b>
+    fields:
+      name:
+        label: Nome
+        type: text
+      surname:
+        label: Cognome
+        type: text
+  info:
+    label: Documento
+    type: info
+    text: >
+      <p><a data-upload href="#upload"><i class="icon icon-left fa fa-plus-circle"></i><span>Aggiungi il documento in pdf</span></a></p>
+  image:
+    label:  Immagine documento
+    type: image

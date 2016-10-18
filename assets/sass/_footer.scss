@@ -1,0 +1,48 @@
+//--- FOOTER ---//
+
+footer {
+	border-top: 1px solid color(grey);
+
+	.contacts {
+		@include outer-container();
+		@include pads(1 2 1 2);
+
+		div {
+			display: inline-block;
+
+			@include media($x-small) {
+				display: block;
+			}
+
+			p {
+				display: inline-block;
+
+				@include media(max-width 720px 8) {
+					display: block;
+				}
+			}
+
+			p:first-child::after {
+				content: " - ";
+
+				@include media(max-width 720px 8) {
+					content: "";
+				}
+			}
+		}
+
+		a {
+			color: color(brand);
+			text-decoration: none;
+			float: right;
+
+			@include media($x-small) {
+				float: none;
+				display: block;
+			}
+		}
+		a:hover {
+			border-bottom: 1px solid color(brand);
+		}
+	}
+}
