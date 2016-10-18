@@ -10,7 +10,7 @@
 Clone and install dependencies
 
 ```
-git clone ssh://git@code.lcv.space:23/roman/kirby-mame.git
+git clone ssh://git@code.lcv.space:23/Marco/mci-website.git
 cd kirby-mame
 npm install -g gulp
 npm install
