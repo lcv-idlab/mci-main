@@ -43,9 +43,11 @@ body {
   //padding-bottom: 33.375rem;
 }
 main {
+  /*  necessary only for the fixed main header
   @include media($x-small) {
     margin-top: 3.9285714286rem;
   }
+  */
 }
 ol, ul {
   list-style: none;
@@ -166,8 +168,6 @@ hr {
   @include pads(0 2 3 2);
 
   > li {    // just the first childrends
-
-    //background-color: color(grey-light);
 
     @include span-columns(4);
     @include pads(1 0 3 0);
@@ -314,6 +314,7 @@ hr {
 
 .headline {
   @extend %headline;
+
 }
 
 .title {
@@ -325,7 +326,7 @@ hr {
 
   @include media($x-small) {
     @include pads(3.5714 2 4.2857 2);
-    margin-top: 4rem; // fot the fixed header menu
+    //margin-top: 4rem; // fot the fixed header menu
   }
 }
 

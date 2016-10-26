@@ -3,12 +3,6 @@
 .main-nav {
 	background-color: color(brand);
 
-	@include media($x-small) {
-		position: fixed;
-		width: 100%;
-		top: 0;
-	}
-
 	nav {
 		@include outer-container();
 
@@ -25,15 +19,11 @@
 				@include pads(1 2 1 2);
 				font-size: 1rem;
 				font-size: 4vw;
-			}
-
-			@include media(max-width 320px 4) {
 				&::after {
 					content: "MCI";
 					font-size: 1.2857rem;
 				}
 			}
-
 
 			@include media($small) {
 				font-size: 1rem;
@@ -89,6 +79,7 @@
 			}
 
 			&.open {
+				/*
 				@include media($x-small) {
 	 				height: 100vh;
 	 				//max-height: 100vh;
@@ -102,6 +93,14 @@
 	 			@include media($medium) {
 	 				//max-height: 701px;
 	 				height: 384px;
+	 			}
+	 			*/
+
+	 			// scorllable 
+
+	 			@include media($mobile) {
+	 				//height: 24rem;		// when the abstract is present in the menu
+	 				height: 20rem;
 	 			}
 			}
 
@@ -146,7 +145,8 @@
 						width: 100%;
 
 						&.resources-li-menu-mobile {
-							margin-top: 12rem;
+							//margin-top: 12rem;		// to use when the abstract appears in the menu
+							margin-top: 8rem;
 						}
 
 						&:hover {

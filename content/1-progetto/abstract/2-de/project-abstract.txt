@@ -1,0 +1,29 @@
+Title: Deutsch
+
+----
+
+Paragraphs: 
+
+- 
+  header: Forschen und Experimentieren
+  content: 'Durch eine Forschungsaktion möchte das Projekt leicht skalierbare und reproduzierbare Lösungen bestimmen, um die grossen Kunstmuseen der italienischen Schweiz Menschen mit Sehbehinderungen zugänglich zu machen und auf diese Art und Weise den freien Zugang zur kulturellen und künstlerischen Welt zu fördern. Neben der theoretischen Forschung mit Vertiefungen in der Lehre, einer Zuordnung der Best Practices in der Schweiz und im Ausland und einer vertieften Untersuchung bei blinden und sehbehinderten Menschen sieht das Projekt - im Verlauf des Jahres 2017 - einen gegliederten Pfad mit praktischen Experimenten vor, insbesondere durch die Durchführung von verschiedenen Tätigkeiten der integrierten Vermittlung von Kultur in Zusammenarbeit mit den Partnern der Projekte.'
+- 
+  header: Kunstmuseen
+  content: 'Um die gefundenen Lösungen auszuprobieren, muss man an bestimmten Objekten und Orten arbeiten und sie im Detail von einem künstlerischen, konzeptionellen und materiellen Standpunkt aus studieren. In diesem Sinne ist die Zusammenarbeit mit unseren Partnermuseen von grundlegender Bedeutung; m.a.x.  Museum in Chiasso, Museo Civico di Villa dei Cedri in Bellinzona, Museo Comunale d’Arte Moderna (Gemeindemuseum für moderne Kunst) und Museo Castello San Materno in Ascona, Museo d’Arte della Svizzera italiana (Kunstmuseum der italienischen Schweiz - MASI) in Lugano, Museo Vincenzo Vela in Ligornetto, Pinacoteca cantonale (kantonale Pinakothek) Giovanni Züst in Rancate und Museo d’Arte (Kunstmuseum) in Mendrisio.'
+- 
+  header: Menschen mit Sehbehinderungen
+  content: 'Die Beteiligung mehrerer Institutionen ermöglicht Experimente mit spezifischen Lösungen der Vermittlung, die nicht nur an unterschiedliche Räume angepasst sind, sondern vor allem an eine Vielzahl von Formen der Kunst, die zu unterschiedlichen historischen Perioden gehören. Das Projekt stützt sich auf ein breites und renommiertes Netzwerk von Museen, Die repräsentativ sind für die Öffnung gegenüber Experimenten, Qualität und Vielfalt der Erfahrungen der kulturellen Vermittlung, unterschiedliche Arten der eigenen Kunstsammlungen und territoriale Abdeckung der italienischen Schweiz. Parallel zur Arbeit an den Werken und Räumen Werden die Bedürfnisse und besonderen Erwartungen des blinden und sehbehinderten Publikums vertieft: Die Zusammenarbeit mit Unitas, dem Verband der Blinden und Sehbehinderten der italienischen Schweiz, spielt eine eine entscheidende Rolle in Bezug auf die Entwicklung, die Erprobung und die Förderung der Arbeitslösungen, welche die Bedürfnisse von Menschen mit Sehbehinderungen erfüllen können.'
+- 
+  header: Mitteilen
+  content: >
+    Das Projekt versteht sich als ein Labor
+    für Untersuchungen, Experimente, Arbeit
+    und Verbreitung von Massnahmen und Best
+    Practices der integrierten Vermittlung
+    von Kultur zugunsten von sehbehinderten
+    Personen; die Ergebnisse werden allen
+    schweizerischen Einrichtungen als
+    Empfehlung mitgeteilt und in einem
+    Arbeitsprotokoll aufgeführt, das frei
+    zugänglich ist unter der Lizenz
+    Creative Commons.

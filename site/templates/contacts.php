@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
 
+<main>
+
 	<h1 class="title"><?php echo page()->title()->html() ?></h1>
 
 	<div class="contacts-contacts">
@@ -21,6 +23,8 @@
 		<h2 class="title">colophon</h2>
 		<div class="colophon"><?php echo page()->colophon()->kt() ?></div>
 	</section>
+
+</main>
 
 <?php snippet('enti-promotori') ?>
 <?php snippet('enti-sostenitori') ?>

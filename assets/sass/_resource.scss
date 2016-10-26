@@ -1,5 +1,20 @@
 //--- RESOURCES ---//
 
+
+a.resource-link {
+	color: color(black);
+	text-decoration: none;
+
+	&:visited {
+	  color: color(black);
+	}
+
+	&:hover {
+	  color: color(brand);
+	  border-bottom: 1px solid color(brand);
+	}
+}
+
 //-- documents --//
 .resource-document {
 	@include outer-container();
@@ -14,6 +29,7 @@
 		@include media($x-small) {
 			@include span-columns(4);
 			margin-top: 1rem;
+			min-height: auto;
 		}
 
 		@include media($small) {
@@ -81,6 +97,10 @@
 				margin-bottom: 1rem;
 			}
 
+			p {
+				margin-bottom: 1rem;
+			}
+
 			@include media($mobile) {
 				@include span-columns(8);
 				margin-top: 2rem;
@@ -96,13 +116,38 @@
 	@include outer-container();
 	@include pads(0 2 3 2);
 
+	/* object video
+
+	.video {
+		width: 100%;		
+		position: relative;
+		padding-bottom: 56.4%;
+		background-color: color(white);
+
+		object {
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			background-color: color(white);
+
+			embed {
+				background-color: color(white);
+			}
+		}
+	}
+
+	/*
+
+	/* for iframe video */
+
 	.video {
 		position: relative;
 		padding-bottom: 56.2757202%;
 		height: 0; overflow:
 		hidden; max-width: 100%;
 		background-color: color(white);
-		z-index: -1;
 	}
 
 	.video iframe, .video object, .video embed {
@@ -132,15 +177,33 @@
 		.aside {
 			@include span-columns(4);
 
-			.partner-experience {
-				margin-top: 1rem;
+			@include media($mobile) {
+				@include span-columns(8);
+			}
+
+			#partners {
 				@extend %bold-weight;
+				margin-top: 1rem;
+			}
+
+			#location {
+				@extend %bold-weight;
+				margin-top: 2rem;
 			}
 		}
 
 		#article {
 			@include span-columns(8);
 			padding-top: 1rem;
+
+			.subtitle {
+				@extend %bold-weight;
+				margin-bottom: 1rem;
+			}
+
+			p {
+				margin-bottom: 1rem;
+			}
 
 			@include media($mobile) {
 				@include span-columns(8);
@@ -196,25 +259,27 @@
 				padding-bottom: 100%;
 				overflow: hidden;
 				position: relative;
-				z-index: -1;
 
-				img {
-					position: absolute;
-					margin: auto;
-					left: -100%;
-					right: -100%;
-					top: -100%;
-					bottom: -100%;
+				a {
 
-					&.portrait {
-						width: 100%;
-						height: auto;
-					}
+					img {
+						position: absolute;
+						margin: auto;
+						left: -100%;
+						right: -100%;
+						top: -100%;
+						bottom: -100%;
 
-					&.landscape {
-						height: 100%;
-						width: auto;
+						&.portrait {
+							width: 100%;
+							height: auto;
+						}
 
+						&.landscape {
+							height: 100%;
+							width: auto;
+
+						}
 					}
 				}
 			}

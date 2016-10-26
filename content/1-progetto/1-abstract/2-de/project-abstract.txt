@@ -1,9 +1,0 @@
-Title: Deutsch
-
-----
-
-Paragraphs: 
-
-- 
-  header: Erste paragraph
-  content: Das is der esrte Paragrph

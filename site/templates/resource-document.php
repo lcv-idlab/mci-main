@@ -2,7 +2,7 @@
 
   <main>
 
-    <a href="<?php echo page('home')->url() ?>/#risorse-home" class="link link-back"><span>Torna indietro</span></a>
+    <a href="<?php echo page('risorse')->url() ?>" class="link link-back"><span>Torna indietro</span></a>
     
     <h1 class="title-article"><?php echo ucfirst( page()->title()->html() ) ?></h1>
 
@@ -14,8 +14,21 @@
       <?php endforeach ?>
       <!-- end -->
 
+      
       <?php if(page()->image()): ?>
-        <img src="<?php echo page()->image()->url() ?>" alt="<?php echo image()->alt()->html() ?>">
+
+        <?php 
+          // retrieve the alt text from the image, if not present, use a generic one
+          $img = $page->image();
+          if($img->alt()->isNotEmpty()) {
+            $alt_img = $img->alt()->html();
+          }
+          else {
+            $alt_img = "Fotografia rappresentativa dell'evento " . page()->title()->html();
+          }
+        ?>
+
+        <img src="<?php echo $img->url() ?>" alt="<?php echo $alt_img ?>">
       <?php endif ?>
     </div>
 
@@ -33,7 +46,7 @@
         </div>
         <div id="article">
           <h2 class="subtitle"><?php echo page()->subtitle()->html() ?></h2>
-          <p><?php echo page()->long()->html() ?></p>
+          <?php echo page()->long()->kt()->html() ?>
         </div>
       </div>
     </div>

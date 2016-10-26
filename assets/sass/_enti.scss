@@ -18,6 +18,12 @@
 			@include omega(2n);
 		}
 
+		@include media(max-width 320px 2) {
+			@include span-columns(2);
+			@include omega(1n);
+			padding-top: 1rem;
+		}
+
 		@include media($small) {
 			@include span-columns(4/3);
 			@include omega(3n);

@@ -1,8 +1,20 @@
 //--- PROJECT (Abstract, Team, Partner) ---//
 
+
+// General
+.title-project {
+	margin-top: 3rem;
+
+	@include media($mobile) {
+		margin-top: 0;
+	}
+}
+
 // Partner
 
 .project-partner {
+
+	margin-bottom: 5rem;
 
 	li {
 		@include outer-container();
@@ -71,13 +83,18 @@
 		border-top: 1px solid color(gray);
 		border-bottom: 1px solid color(gray);
 		min-height: 4rem;
+		
+		@include media($x-small) {
+			min-height: 16rem;
+		}
 	}
 
 	li {
 		display: inline-block;
 
 		@include media($x-small) {
-			@include span-columns(1);
+			@include span-columns(4);
+			display: list-item;
 		}
 
 		a {
@@ -132,6 +149,10 @@
 		div {
 		    @include span-columns(8);
 		    margin-right: 0;
+
+		    p {
+		    	margin-bottom: 1rem;
+		    }
 
 		    @include media($mobile) {
 		      @include span-columns(8);

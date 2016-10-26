@@ -8,30 +8,44 @@
 
 		<section>
 			<h2 class="hidden home-title-container"><?php echo page('risorse')->title()->html() ?></h2>
-			<ul class="container-boxes" id="risorse-home">
+			<ul class="container-boxes">
 			<?php foreach (page('risorse')->children()->visible() as $resource): ?>
-			<li><a href="<?php echo $resource->url() ?>" class="link-box">
+			<li>
 			
 				<!-- Experience -->
 				<?php if($resource->intendedTemplate() === "resource-experience"): ?>
 					<article class="experience">
-						<h3 class="headline"><?php echo $resource->title()->html() ?></h3>
+						<h3 class="headline"><a href="<?php echo $resource->url() ?>" class="resource-link"><?php echo $resource->title()->html() ?></a></h3>
+						<!--
 						<p class="partner"><?php echo $resource->partner()->html() ?>, <?php echo $resource->location() ?></p>
+						-->
 						<p class="body"><?php echo $resource->short()->html() ?></p>
 					</article>
 				<?php if( $resource->image()->isNotEmpty() ): ?>
-					<img src="<?php echo $resource->image()->url() ?>" alt="<?php echo $resource->image()->alt()->html() ?>">
+
+					<?php 
+		            // retrieve the alt text from the image, if not present, use a generic one
+		            $img = $resource->image();
+		            if($img->alt()->isNotEmpty()) {
+		              $alt_img = $img->alt()->html();
+		            }
+		            else {
+		              $alt_img = "Fotografia rappresentativa dell'evento " . $resource->title()->html();
+		            }
+		          ?>
+
+					<img src="<?php echo $img->url() ?>" alt="<?php echo $alt_img ?>">
 				<?php endif ?>
 
 				<!-- Document -->
 				<?php elseif($resource->intendedTemplate() === "resource-document"): ?>
 					<article class="document">
-						<h3 class="headline"><?php echo $resource->title()->html() ?></h3>
-						<h4 class="subtitle"><?php echo $resource->subtitle()->html() ?></h4>
+						<h3 class="headline"><a href="<?php echo $resource->url() ?>"  class="resource-link"><?php echo $resource->title()->html() ?></a></h3>
+						<p class="subtitle"><?php echo $resource->subtitle()->html() ?></p>
 						<p class="body"><?php echo $resource->short()->html() ?></p>
 					</article>
 				<?php endif ?>
-			</a></li>
+			</li>
       		<?php endforeach ?>
       		</ul>
 		</section>

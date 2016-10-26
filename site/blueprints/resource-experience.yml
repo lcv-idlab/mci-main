@@ -47,9 +47,9 @@ fields:
     type: text
     placeholder: Inserici solo l'id del video, per esempio 54785974
     help: "Inserire l'id del video che è l'ultima parte del link (https://vimeo.com/54785974)"
-  alt-video:
+  alt_video:
     label: Alt video
-    type: text
+    type: textarea
   gallery:
     label: Galleria immagini
     type: gallery

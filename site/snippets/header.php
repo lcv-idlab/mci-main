@@ -34,7 +34,7 @@
 <header class="main-nav">
 	<nav>
 		<a href="<?php echo $site->url() ?>" class="main-logo"></a>
-		<span class="menu-button"><a href="#menu" id="toggle"></a></span>
+		<span class="menu-button"><a href="" id="toggle"></a></span>
 		<ul>
 		<?php foreach ($site->pages()->visible() as $page): ?>
 
@@ -53,7 +53,7 @@
 				</li>
 			<?php elseif($page->title() == "risorse"): ?>
 
-				<li><a href="<?php echo site()->url() ?>#risorse-home" class="<?php e($page->isOpen(), 'active');?> resources-li-menu-mobile"><span class="<?php e($page->isOpen(), 'active'); ?>"><?php echo $page->title() ?></span></a></li>
+				<li><a href="<?php echo page('risorse')->url() ?>" class="<?php e($page->isOpen(), 'active');?> resources-li-menu-mobile"><span class="<?php e($page->isOpen(), 'active'); ?>"><?php echo $page->title() ?></span></a></li>
 
 			<?php else: ?>
 				
