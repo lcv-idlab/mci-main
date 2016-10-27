@@ -176,3 +176,19 @@ Partners:
   url: http://museo.mendrisio.ch
   description: "Fondato nel 1982 negli spazi di un antico convento, il Museo d'arte di Mendrisio propone esposizioni dedicate a grandi maestri del '900. Alterna a questa attività esposizioni su figure e temi inerenti al territorio, approfondendo capitoli della storia locale e valorizzando artisti contemporanei locali. Il Museo d'arte di Mendrisio può vantare una notevole collezione di dipinti (tra cui un significativo gruppo di ex-voto), sculture e opere su carta che spaziano dal XVI al XX secolo e che documentano capillarmente la storia artistica locale."
   logo: logo_mendrisio_museo_arte.jpg
+- 
+  name: Mediamus
+  place: CH
+  url: http://mediamus.ch/web/
+  description: >
+    Associazione svizzera dei professionisti
+    della mediazione culturale attivi nei
+    musei. Rappresenta il settore
+    professionale della mediazione culturale
+    nei musei e negli ambiti affini verso il
+    pubblico e le rispettive istituzioni.
+    Promuove il riconoscimento della
+    professione e si impegna per gli
+    interessi, professionali, materiali,
+    politici, etici e sociali dei suoi soci.
+  logo: logo_mediamus.jpg

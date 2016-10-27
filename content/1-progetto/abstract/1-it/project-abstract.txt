@@ -6,10 +6,7 @@ Paragraphs:
 
 - 
   header: Ricerca e sperimentazione
-  content: |
-    Attraverso una ricerca-azione il progetto intende individuare delle soluzioni facilmente scalabili e riproducibili, in grado di rendere accessibili alle persone con disabilità visive i principali musei d'arte della Svizzera italiana, promuovendo in questo modo il libero accesso al mondo culturale e artistico.
-    
-    Oltre alla ricerca teorica, che comprende approfondimenti disciplinari, una mappatura delle buone pratiche Svizzere ed estere e un’indagine in profondità presso il pubblico cieco e ipovedente, il progetto prevede – nel corso del 2017 – un articolato percorso di sperimentazione pratica, in particolare attraverso lo svolgimento di molteplici attività di mediazione culturale inclusive organizzate in collaborazione con i partner del progetto.
+  content: "Attraverso una ricerca-azione il progetto intende individuare delle soluzioni facilmente scalabili e riproducibili, in grado di rendere accessibili alle persone con disabilità visive i principali musei d'arte della Svizzera italiana, promuovendo in questo modo il libero accesso al mondo culturale e artistico. Oltre alla ricerca teorica, che comprende approfondimenti disciplinari, una mappatura delle buone pratiche Svizzere ed estere e un’indagine in profondità presso il pubblico cieco e ipovedente, il progetto prevede – nel corso del 2017 – un articolato percorso di sperimentazione pratica, in particolare attraverso lo svolgimento di molteplici attività di mediazione culturale inclusive organizzate in collaborazione con i partner del progetto."
 - 
   header: "Musei d'arte"
   content: |

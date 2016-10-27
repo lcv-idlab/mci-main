@@ -7,19 +7,20 @@ Paragraphs:
 - 
   header: Research and experimentationh
   content: >
-    Through an action research, the project
-    seeks to identify easily scalable and
-    reproducible solutions, able to make the
-    major art museums in the
-    Italian-speaking Switzerland accessible
-    to persons with visual impairments, thus
-    promoting free access to the world of
-    art and culture. The theoretical
-    research element of the project will
-    include in-depth studies the subject, a
-    mapping of Swiss and foreign good
-    practices, and an in-depth survey of the
-    blind and visually impaired public. In
+    Through an action research approach, the
+    project seeks to identify easily
+    scalable and reproducible solutions,
+    able to make the major art museums in
+    the Italian-speaking Switzerland
+    accessible to persons with visual
+    impairments, thus promoting free access
+    to the world of art and culture. The
+    theoretical research element of the
+    project will include in-depth studies
+    the subject, a mapping of Swiss and
+    foreign good practices, and an in-depth
+    survey of the blind and visually
+    impaired public cultural practices. In
     addition, over the course of 2017, the
     project will also involve a
     well-structured series of practical
