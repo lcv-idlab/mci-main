@@ -53,3 +53,10 @@ fields:
         label: Fotografia
         type: image
         default: empty.jpg
+      colophon:
+        label: Colophon
+        type: radio
+        default: collaborazione
+        options:
+          coordinamento: Coordinamento
+          collaborazione: Collaborazione

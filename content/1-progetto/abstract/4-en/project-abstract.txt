@@ -5,18 +5,17 @@ Title: English
 Paragraphs: 
 
 - 
-  header: Research and experimentationh
+  header: Research and experimentation
   content: >
     Through an action research approach, the
     project seeks to identify easily
-    scalable and reproducible solutions,
-    able to make the major art museums in
-    the Italian-speaking Switzerland
-    accessible to persons with visual
-    impairments, thus promoting free access
-    to the world of art and culture. The
-    theoretical research element of the
-    project will include in-depth studies
+    scalable and reproducible solutions, in
+    order to make the major art museums in
+    Ticino accessible to persons with visual
+    impairments, thus furthering the free
+    access to the world of art and culture.
+    The theoretical research element of the
+    project will include in-depth studies of
     the subject, a mapping of Swiss and
     foreign good practices, and an in-depth
     survey of the blind and visually
@@ -30,35 +29,21 @@ Paragraphs:
     with the project partners.
 - 
   header: Art museums
-  content: 'In order to test the solutions identified, it will be necessary to work on specific places and objects, studying them in detail from the artistic, conceptual, and material point of view. The cooperation of our museum partners is essential for this purpose: m.a.x.  Chiasso museum, the Civic Museum of the Villa dei Cedri in Bellinzona, the Municipal Museum of Modern Art and the Castle Museum of San Materno in Ascona, the Art Museum of Italian-speaking Switzerland (MASI) in Lugano, the Vincenzo Vela Museum in Ligornetto, the Giovanni Züst Cantonal Pinacoteca in Rancate, and the Mendrisio art Museum.'
+  content: 'In order to test the identified solutions, it will be necessary to work on specific places and objects, studying them in detail from the artistic, conceptual, and material point of view. The cooperation of our museum partners is essential for this purpose: m.a.x.  Chiasso museum, the Civic Museum of the Villa dei Cedri in Bellinzona, the Municipal Museum of Modern Art and the Castle Museum of San Materno in Ascona, the Art Museum of Italian-speaking Switzerland (MASI) in Lugano, the Vincenzo Vela Museum in Ligornetto, the Giovanni Züst Cantonal Pinacoteca in Rancate, and the Mendrisio art Museum. Involving several institutions will enable the specific mediation solutions to be tested and adapted not only to diverse spaces, but especially to a variety of art forms belonging to various historical periods. The project relies on a wide network of prestigious museums that are representative in terms of openness to experimentation, the quality and variety of cultural mediation experiences, the diversity of the types of art collections, and geographical coverage of Italian-speaking Switzerland.'
 - 
   header: People with visual impairments
   content: >
-    Involving several institutions will
-    enable the specific mediation solutions
-    to be tested and adapted not only to
-    diverse spaces, but especially to a
-    variety of art forms belonging to
-    various historical periods. The project
-    relies on a wide network of prestigious
-    museums that are representative in terms
-    of openness to experimentation, the
-    quality and variety of cultural
-    mediation experiences, the diversity of
-    the types of art collections, and
-    geographical coverage of
-    Italian-speaking Switzerland. Alongside
-    the work on spaces and artworks, the
-    needs and specific expectations of the
-    blind and visually impaired public will
-    be investigated in depth; the
-    collaboration with Unitas, the
-    Association of the Blind and Visually
-    Impaired of Italian-speaking
-    Switzerland, plays a key role in
-    developing, testing, and promoting
-    solutions capable of meeting the needs
-    of people with visual impairments.
+    Alongside the work on spaces and
+    artworks, the needs and specific
+    expectations of the blind and visually
+    impaired public will be investigated in
+    depth. The collaboration with Unitas,
+    the Association of the Blind and
+    Visually Impaired of Ticino, plays a key
+    role in developing, testing, and
+    promoting solutions capable of meeting
+    the needs of people with visual
+    impairments.
 - 
   header: Sharing
   content: >
@@ -66,7 +51,7 @@ Paragraphs:
     for investigating, testing,
     implementing, and disseminating
     inclusive cultural mediation measures
-    and good practices for people with
+    and good practices, for people with
     impaired vision, the results of which
     will be promoted at all Swiss
     institutions and set out in a freely

@@ -39,7 +39,7 @@ fields:
   long:
     label: Descrizione completa
     type: textarea
-  image:
+  main_image:
     label: Immagine di copertina
     type: image
   movie:

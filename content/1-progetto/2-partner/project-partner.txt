@@ -32,6 +32,8 @@ Partners:
     (DFA) e il Dipartimento economia
     aziendale, sanità e sociale (DEASS).
   logo: logo_supsi.jpg
+  colophon: promotore
+  logo_footer: footer_logo_supsi.jpg
 - 
   name: Unitas
   place: Tenero
@@ -61,6 +63,8 @@ Partners:
     cieche e ipovedenti alla popolazione,
     all’economia e alle autorità.
   logo: logo_unitas.jpg
+  colophon: promotore
+  logo_footer: footer_logo_unitas.jpg
 - 
   name: m.a.x. museo
   place: Chiasso
@@ -91,6 +95,8 @@ Partners:
     più significativi graphic designer del
     XX secolo.
   logo: logo_max_museo.jpg
+  colophon: partner
+  logo_footer: footer_logo_max_museo.jpg
 - 
   name: Museo Civico Villa dei Cedri
   place: Bellinzona
@@ -119,6 +125,8 @@ Partners:
     con una particolare attenzione al
     settore della grafica.
   logo: logo_museo_villa_dei_cedri.jpg
+  colophon: partner
+  logo_footer: footer_logo_museo_villa_dei_cedri.jpg
 - 
   name: >
     Museo Comunale d’Arte Moderna / Museo
@@ -127,6 +135,8 @@ Partners:
   url: http://www.museoascona.ch
   description: 'Il Museo Comunale d’Arte Moderna di Ascona ospita la Collezione del Comune ed è sede di due fondazioni: la Fondazione Marianne Werefkin e la Fondazione Richard e Uli Seewald. La Collezione del Comune ha preso origine nel 1922, quando molti tra gli artisti giunti ad Ascona decisero di donare una loro opera, con lo scopo di creare il Museo Comunale di Ascona. Grazie al felice accordo tra il Comune di Ascona e la Fondazione per la cultura Kurt e Barbara Alten, il Castello San Materno, dopo un accurato restauro, ritorna a vivere nel suo splendore diventando un moderno spazio espositivo del Comune di Ascona. La collezione Alten conserva più di quaranta opere di artisti di area tedesca, tra i più significativi del periodo che va dalla fine dell’Ottocento al primo dopoguerra.'
   logo: logo_museo_ascona.jpg
+  colophon: partner
+  logo_footer: footer_logo_museo_ascona.jpg
 - 
   name: >
     Museo d’Arte della Svizzera italiana
@@ -135,6 +145,8 @@ Partners:
   url: http://www.masilugano.ch
   description: 'L’attività del Museo d’arte della Svizzera italiana (MASI Lugano) si svolge in parallelo in due sedi: quella principale situata all’interno del nuovo edificio del LAC e quella storica di Palazzo Reali, in precedenza sede del Museo Cantonale d’Arte. Al LAC il MASI focalizza il suo interesse sull’arte del Novecento e contemporanea, nelle diverse forme e tecniche espressive, dedicando attenzione sia agli artisti giovani ed emergenti, sia a quelli già storicizzati, ai temi attuali e futuri delle arti e della società, proponendo esposizioni interdisciplinari in collaborazione con il settore del teatro e della musica. A Palazzo Reali, l’attività del MASI si concentra invece sulla storia dell’arte del territorio e sulla valorizzazione di nuclei specifici delle collezioni.'
   logo: logo_masi_lugano.jpg
+  colophon: partner
+  logo_footer: footer_logo_masi_lugano.jpg
 - 
   name: Museo Vincenzo Vela
   place: Ligornetto
@@ -164,18 +176,24 @@ Partners:
     vengono organizzate regolarmente delle
     mostre temporanee.
   logo: logo_museo_vincenzo_vela.jpg
+  colophon: partner
+  logo_footer: footer_logo_museo_vincenzo_vela.jpg
 - 
   name: Pinacoteca cantonale Giovanni Zuest
   place: Rancate
   url: http://www.ti.ch/zuest
   description: 'La pinacoteca cantonale Giovanni Zuest raccoglie opere di artisti attivi sul territorio ticinese dal XVII al XIX secolo. Il nucleo principale fu donato allo Stato del Canton Ticino dal collezionista Giovanni Zuest ed è costituito dalle opere di Antonio Rinaldi. Il Mendrisiotto, soprattutto con l’opera del Rinaldi, rappresenta il nucleo più strettamente locale della raccolta; ma c’è anche un’anima di più largo respiro, che trova i suoi vertici nelle opere settecentesche del Serodine e del Petrini. Il secolo maggiormente rappresentato rimane comunque il XIX, che, accanto al Rinaldi, allinea dipinti di importanti pittori ticinesi: Luigi Rossi, Adolfo Feragutti Visconti, Ernesto Fontana, Bernardino Pasta. La Pinacoteca cantonale propone frequentemente mostre temporanee.'
   logo: logo_pinacoteca_zuest.jpg
+  colophon: partner
+  logo_footer: footer_logo_pinacoteca_zuest.jpg
 - 
   name: Museo d’Arte
   place: Mendrisio
   url: http://museo.mendrisio.ch
   description: "Fondato nel 1982 negli spazi di un antico convento, il Museo d'arte di Mendrisio propone esposizioni dedicate a grandi maestri del '900. Alterna a questa attività esposizioni su figure e temi inerenti al territorio, approfondendo capitoli della storia locale e valorizzando artisti contemporanei locali. Il Museo d'arte di Mendrisio può vantare una notevole collezione di dipinti (tra cui un significativo gruppo di ex-voto), sculture e opere su carta che spaziano dal XVI al XX secolo e che documentano capillarmente la storia artistica locale."
   logo: logo_mendrisio_museo_arte.jpg
+  colophon: partner
+  logo_footer: footer_logo_mendrisio_museo_arte.jpg
 - 
   name: Mediamus
   place: CH
@@ -192,3 +210,5 @@ Partners:
     interessi, professionali, materiali,
     politici, etici e sociali dei suoi soci.
   logo: logo_mediamus.jpg
+  colophon: partner
+  logo_footer: footer_logo_mediamus.jpg

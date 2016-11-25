@@ -29,3 +29,15 @@ fields:
     type: info
     text: >
       <p>Aggiungi i loghi per il footer cliccando su "Add" o trascinando i files nella pagina.</p>
+  sostenitori:
+    label: Enti sostenitori
+    type: structure
+    entry: <b>{{name}}</b>
+    fields:
+      name:
+        label: Nome
+        type: textarea
+        required: true
+      logo:
+        label: Logo
+        type: image

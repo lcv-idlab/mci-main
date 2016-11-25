@@ -53,3 +53,13 @@ fields:
       logo:
         label: Logo
         type: image
+      logo_footer:
+        label: Logo per il footer
+        type: image
+      colophon:
+        label: Colophon
+        type: radio
+        default: partner
+        options:
+          promotore: Promotore
+          partner: Partner

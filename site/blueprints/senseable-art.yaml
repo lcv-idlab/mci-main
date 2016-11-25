@@ -1,0 +1,145 @@
+// blueprint title (template title)
+title: sensible-art
+
+// page settings
+options:
+  delete: false
+  preview: true
+  status: true
+  template: false
+  url: true
+
+// subpages settings
+pages: false
+
+// file settings
+files: 
+  fields: 
+    alt: 
+      label: Alt text
+      type: text
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo del workshop
+    type: text
+  subtitle:
+    label: Sottotitolo del workshop
+    type: textarea
+  place:
+    label: Luogo del workshop
+    type: text
+  date_time:
+    label: Data del workshop
+    type: text
+  workshop_description:
+    label: Descrizione del workshop (sotto il titolo "workshop")
+    type: textarea
+  people_description:
+    label: Descrizione delle persone (sotto titolo "persone")
+    type: textarea
+  experts_title:
+    label: Titolo "Experts in residence"
+    type: text
+  experts:
+    label: Experts in residence list
+    type: structure
+    entry: <b>{{name}} {{surname}}</b>
+    fields:
+      name:
+        label: Name
+        type: text
+      surname:
+        label: Surname
+        type: text
+      affiliation:
+        label: Affilation/Studio
+        type: text
+      link:
+        label: Website/linkedin link
+        type: url
+  guests_speakers_title:
+    label: Titolo "Guest speakers"
+    type: text
+  guests_speakers:
+    label: Guest speakers list
+    type: structure
+    entry: <b>{{name}} {{surname}}</b>
+    fields:
+      name:
+        label: Name
+        type: text
+      surname:
+        label: Surname
+        type: text
+      affiliation:
+        label: Affilation/Studio
+        type: text
+      link:
+        label: Website/linkedin link
+        type: url
+  other_partecipants_title:
+    label: Titolo "Other participants"
+    type: text
+  other_partecipants:
+    label: Other participants list
+    type: structure
+    entry: <b>{{name}} {{surname}}</b>
+    fields:
+      name:
+        label: Name
+        type: text
+      surname:
+        label: Surname
+        type: text
+  research_mentors_title:
+    label: Titolo "Research mentors"
+    type: text
+  research_mentors:
+    label: Research mentors list
+    type: structure
+    entry: <b>{{name}} {{surname}}</b>
+    fields:
+      name:
+        label: Name
+        type: text
+      surname:
+        label: Surname
+        type: text
+  coordinator_title:
+    label: Titolo "Coordinator and leading"
+    type: text
+  coordinator:
+    label: Coordinator and leading list
+    type: structure
+    entry: <b>{{name}} {{surname}}</b>
+    fields:
+      name:
+        label: Name
+        type: text
+      surname:
+        label: Surname
+        type: text
+  projects:
+    label: Projects del workshop
+    type: structure
+    entry: <b>{{title}}</b>
+    fields:
+      title:
+        label: Title
+        type: text
+      description:
+        label: Description
+        type: textarea
+      project_picture:
+        label: Project picture
+        type: image
+        default: empty_project.jpg
+      link:
+        label: Link to the projects
+        type: url
+
+
+
+

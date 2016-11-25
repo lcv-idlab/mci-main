@@ -6,7 +6,7 @@
 	<ul class="project-partner">
 		<?php foreach ( page()->partners()->toStructure() as $partner ): ?>
 			<li>
-				<article>
+				<article id="<?php echo str_replace(' ', '_', strtolower($partner->name()->html())) ?>">
 				<?php if($logo = $page->image($partner->logo())): ?>
 					<a href="<?php echo $partner->url()->toURL() ?>" target="_blank"><img src="<?php echo $logo->url() ?>" alt="<?php echo $partner->name()->html() ?>"></a>
 				<?php endif ?>

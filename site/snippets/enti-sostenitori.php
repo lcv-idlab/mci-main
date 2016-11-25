@@ -3,15 +3,10 @@
 <section class="enti">
     <h2 class="title-enti">Enti sostenitori</h2>
     <ul>
-	<?php foreach( page('footer/enti-sostenitori')->images() as $image): ?>
+	<?php foreach( page('footer/enti-sostenitori')->sostenitori()->toStructure() as $ente): ?>
 		<li>
-		<?php if ($image->link()->isNotEmpty() ): ?>
-			<a href="<?php echo $image->link() ?>" target="_blank">
-				<img src="<?php echo $image->url() ?>" alt="<?php echo $image->alt()->html() ?>">
-			</a>
-		<?php else: ?>
-			<img src="<?php echo $image->url() ?>" alt="<?php echo $image->alt()->html() ?>">
-		<?php endif ?>
+		<?php $image = $ente->logo() ?>
+				<img src="<?php echo page('footer/enti-sostenitori')->image($image)->url() ?>" alt="Logo <?php echo $ente->name()->html() ?>">
 		</li>
 	<?php endforeach ?>
 	</ul>

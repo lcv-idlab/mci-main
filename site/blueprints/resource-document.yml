@@ -51,11 +51,28 @@ fields:
       surname:
         label: Cognome
         type: text
-  info:
-    label: Documento
-    type: info
-    text: >
-      <p><a data-upload href="#upload"><i class="icon icon-left fa fa-plus-circle"></i><span>Aggiungi il documento in pdf</span></a></p>
-  image:
+  main_image:
     label:  Immagine documento
     type: image
+  pdf_it:
+      label: Documento ufficiale in italiano
+      type: select 
+      default: architecture
+      options: documents
+  pdf_de:
+      label: Riassunto documento in tedesco
+      type: select 
+      default: architecture
+      options: documents
+  pdf_fr:
+      label: Riassunto documento in francese
+      type: select 
+      default: architecture
+      options: documents
+  pdf_en:
+      label: Riassunto documento in inglese
+      type: select 
+      default: architecture
+      options: documents
+  
+    

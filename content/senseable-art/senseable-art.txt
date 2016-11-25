@@ -1,0 +1,170 @@
+Title: Senseable Art
+
+----
+
+Subtitle: 
+
+Experiments in art-mediation 
+via technology and the human senses
+
+----
+
+Place: SUPSI, Lugano
+
+----
+
+Date-time: 12-16 December 2016
+
+----
+
+Workshop-description: The action-research points at designing  other codes for making cultural artifacts accessible, perceivable and understandable to all, both visually impaired and sighted people.
+
+----
+
+People-description: Designers, artists, researchers, students and makers collaborate to realize prototypes of solutions that mediate, deconstruct and open - via other senses - the artworks of the museums in the Italian speaking Switzerland.
+
+----
+
+Experts: 
+
+- 
+  name: Gabriele
+  surname: Gambotto
+  affiliation: Leva Engineering
+  link: http://leva.io/
+- 
+  name: Varvara
+  surname: Guljajeva
+  link: http://www.varvarag.info
+  affiliation: ""
+- 
+  name: Peter
+  surname: Law
+  affiliation: Flying Object Studio
+  link: http://www.weareflyingobject.com
+- 
+  name: Alice
+  surname: Mela
+  affiliation: TODO
+  link: http://todo.to.it/
+- 
+  name: Selena
+  surname: Savic
+  affiliation: Kucjica
+  link: http://kucjica.org/
+- 
+  name: Carl
+  surname: Smith
+  affiliation: Ravensbourne University
+  link: >
+    https://www.ravensbourne.ac.uk/staff/carl-smith
+
+----
+
+Guests-speakers: 
+
+- 
+  name: Liviu
+  surname: Babitz
+  affiliation: Cyborg Nest
+  link: http://www.cyborgnest.net/
+- 
+  name: Shintaro
+  surname: Miyazaki
+  affiliation: IXDM Basel
+  link: https://www.ixdm.ch/
+- 
+  name: Stefano
+  surname: Papetti
+  affiliation: ZHdK
+  link: 'https://www.zhdk.ch/?person/detail&id=181595'
+
+----
+
+Other-partecipants: 
+
+- 
+  name: Serena
+  surname: Cangiano
+- 
+  name: Fabian
+  surname: Frei
+- 
+  name: Marco
+  surname: Lurati
+- 
+  name: Sandro
+  surname: Pianetti
+- 
+  name: Giovanni
+  surname: Profeta
+- 
+  name: Vanessa
+  surname: De Luca
+
+----
+
+Research-mentors: 
+
+- 
+  name: Valeria
+  surname: Donnarumma
+- 
+  name: Jean-Pierre
+  surname: Candeloro
+
+----
+
+Coordinator: 
+
+- 
+  name: Serena
+  surname: Cangiano
+
+----
+
+Projects: 
+
+- 
+  title: Project 1
+  description: >
+    Bal bal bal baodbosajbd basiudfba sifb
+    visdfbdsjbfj sdibf
+  picture: empty_project.jpg
+  link: ""
+  project_picture: empty_project.jpg
+- 
+  title: Project 2
+  description: THis is the project 2
+  picture: empty_project.jpg
+  link: ""
+  project_picture: empty_project.jpg
+- 
+  title: Project 3
+  description: ""
+  project_picture: empty_project.jpg
+  link: ""
+
+----
+
+Date: 12-16 December 2016
+
+----
+
+Experts-title: Experts in residence
+
+----
+
+Guests-speakers-title: Guest speakers
+
+----
+
+Other-partecipants-title: Other participants
+
+----
+
+Research-mentors-title: Research mentors
+
+----
+
+Coordinator-title: Coordinator and leading

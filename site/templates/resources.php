@@ -19,8 +19,18 @@
 					-->
 					<p class="body"><?php echo $resource->short()->html() ?></p>
 				</article>
-			<?php if( $resource->image()->isNotEmpty() ): ?>
-				<img src="<?php echo $resource->image()->url() ?>" alt="<?php echo $resource->image()->alt()->html() ?>">
+			<?php if( $resource->main_image()->isNotEmpty() ): ?>
+				<?php 
+		            // retrieve the alt text from the image, if not present, use a generic one
+		            $img = $resource->image($resource->main_image());
+		            if($img->alt()->isNotEmpty()) {
+		              $alt_img = $img->alt()->kt()->html();
+		            }
+		            else {
+		              $alt_img = "Fotografia rappresentativa dell'evento " . $resource->title()->html();
+		            }
+		          ?>
+		          <a href="<?php echo $resource->url() ?>"><img src="<?php echo $img->url() ?>" alt="<?php echo $alt_img ?>"></a>
 			<?php endif ?>
 
 			<!-- Document -->

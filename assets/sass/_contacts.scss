@@ -43,8 +43,105 @@
 
 .contacts-colophon {
 
-	.colophon {
+	.colophon-container {
 		@include outer-container();
 		@include pads(0 2 3 2);
+
+		h3 {
+			@extend %bold-weight;
+			margin-bottom: 1rem;
+		}
+
+
+		a {
+			@extend .link;
+		}
+
+		a:hover {
+			border-bottom: 1px solid color(brand);
+		}
+
+		li {
+			line-height: 150%;
+		}
+
+		a:hover {
+			@extend %link;
+			//color: color(black);
+		}
+
+		.colophon-section {
+			@include span-columns(12);
+			margin-bottom: 2rem;
+
+			.colophon-coordinamento {
+				@include span-columns(3 of 12);
+
+				margin-bottom: 2rem;
+
+				@media all and (max-width: 914px) {
+					@include span-columns(4 of 12);
+				}
+
+				@media all and (max-width: 766px) {
+					@include span-columns(12 of 12);
+				}
+			}
+
+			.colophon-collaborazione {
+				@include span-columns(9 of 12);
+
+				@media all and (max-width: 914px) {
+					@include span-columns(8 of 12);
+				}
+
+				@media all and (max-width: 766px) {
+					@include span-columns(12 of 12);
+				}
+
+				ul {
+					-moz-column-count: 3;
+					-webkit-column-count: 3;
+					column-count: 3;
+
+					@media all and (max-width: 914px) {
+						-moz-column-count: 2;
+						-webkit-column-count: 2;
+						column-count: 2;
+					}
+
+					@media all and (max-width: 766px) {
+						-moz-column-count: 1;
+						-webkit-column-count: 1;
+						column-count: 1;
+					}
+				}
+			}
+
+			.colophon-promosso {
+				@include span-columns(3 of 12);
+				margin-bottom: 2rem;
+
+				@media all and (max-width: 914px) {
+					@include span-columns(4 of 12);
+				}
+
+				@media all and (max-width: 766px) {
+					@include span-columns(12 of 12);
+				}
+			}
+			.colophon-partner {
+				@include span-columns(9 of 12);
+
+				@media all and (max-width: 914px) {
+					@include span-columns(8 of 12);
+				}
+
+				@media all and (max-width: 766px) {
+					@include span-columns(12 of 12);
+				}
+			}
+		}
 	}
+
 }

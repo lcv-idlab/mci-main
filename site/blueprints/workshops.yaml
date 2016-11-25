@@ -1,0 +1,24 @@
+// blueprint title (template title)
+title: workshops
+
+// page settings
+options:
+  delete: false
+  preview: false
+  status: false
+  template: false
+  url: false
+
+// subpages settings
+pages: true
+
+// file settings
+files: false
+
+// fields with their fields types and options
+fields:
+  info:
+    label: Pagine per i workshops
+    type: info
+    text: >
+      <p>Seleziona il workshop per modificarlo.</p>

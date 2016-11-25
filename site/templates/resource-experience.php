@@ -35,7 +35,8 @@
 
 
       <?php else: ?>
-        <img src="<?php echo page()->image()->url() ?>" alt="<?php echo page()->image()->alt()->html() ?>">
+
+        <img src="<?php echo page()->image($resource->main_image())->url() ?>" alt="<?php echo page()->image($resource->main_image())->alt()->kt()->html() ?>">
       <?php endif ?>
     </div>
 
