@@ -18,7 +18,7 @@
 
 <header class="header senseable-main-nav">
 	<nav>
-		<h1>Mediation Culture Inclusion</h1>
+		<h1></h1>
 		<span class="senseable-menu-button"><a href="" id="toggle"></a></span>
 		<ul>
 			<li><a href="<?php echo page()->url() ?>/#workshop"><span class="link-button">Workshop</span></a> / </li>
@@ -72,7 +72,7 @@
 			</div>
 
 			<div class="list">
-				<h3><?php echo page()->experts_title()->html() ?></h3>
+				<h3><?php echo page()->other_partecipants_title()->html() ?></h3>
 				<ul>
 				<?php foreach (page()->other_partecipants()->toStructure() as $item ): ?>
 					<li><?php echo $item->name()->html() ?> <?php echo $item->surname()->html() ?></li>
@@ -127,17 +127,20 @@
 		<div class="info-items">
 			<div class="info-info">
 				<h2 id="info">Info</h2>
-				<p><a href="http://www.mci.supsi.ch" target="_blank">www.mci.supsi.ch</a><br><a href="http://www.lcv.supsi.ch" target="_blank">www.lcv.supsi.ch</a></p>
+				<p>The workshop is organized by Laboratory of Visual Culture within the research project Mediation Culture Inclusion.<br><a href="http://www.mci.supsi.ch" target="_blank">www.mci.supsi.ch</a></p>
+			</div>
+			<div class="info-more">
+				<h2>Location</h2>
 				<p>Campus Trevano SUPSI<br>Lugano, Switzerland</p>
 			</div>
-			<div class="info-license">
+			<div class="info-more">
 				<h2>License</h2>
 				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img src="https://creativecommons.org/wp-content/themes/creativecommons.org/images/chooser_cc.png">
 				<img src="https://creativecommons.org/wp-content/themes/creativecommons.org/images/chooser_by.png">
 				<img src="https://creativecommons.org/wp-content/themes/creativecommons.org/images/chooser_nc.png">
 				<img src="https://creativecommons.org/wp-content/themes/creativecommons.org/images/chooser_sa.png"></a>
 			</div>
-			<div class="info-repo">
+			<div class="info-more">
 				<h2>Repository</h2>
 				<a href=""><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a>
 			</div>

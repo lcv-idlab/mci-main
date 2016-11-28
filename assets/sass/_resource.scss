@@ -49,6 +49,14 @@ a.resource-link {
 	img {
 		@include span-columns(12);
 		display: block;
+
+		filter: blur(25px);
+		@include transition( filter .8s);
+
+		&:hover {
+			filter: blur(0px);
+			@include transition( filter .8s);
+		}
 	}
 }
 

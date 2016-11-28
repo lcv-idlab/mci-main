@@ -60,13 +60,13 @@ html {
     .container-sections article, .body, .container-list li div h3, .container-sections h3, .abstact-content section h3, .resource-document-text .border-top .aside h3, .newsletter form input, .container-list, .project-partner article > div .headline, .abstract-lang-nav li a, .newsletter h2, body.senseable-art, body.senseable-art h2, body.senseable-art .workshop-title .place-time, body.senseable-art .people-lists .list {
       line-height: 140%; } }
 
-.headline, .container-events li article time, .container-events li article .event-list-title, .main-nav nav .main-logo, .class-main-nav-button, .main-nav nav > ul > li > a, .main-nav nav .menu-button a, .class-sec-nav-button, .main-nav nav .conatiner-second-level .second-level > li > a, .event-header, body.senseable-art .header.senseable-main-nav .senseable-menu-button a, body.senseable-art .header.senseable-main-nav nav, body.senseable-art .description, body.senseable-art .info-items .info-info {
+.headline, .container-events li article time, .container-events li article .event-list-title, .main-nav nav .main-logo, .class-main-nav-button, .main-nav nav > ul > li > a, .main-nav nav .menu-button a, .class-sec-nav-button, .main-nav nav .conatiner-second-level .second-level > li > a, .event-header, body.senseable-art .header.senseable-main-nav nav, body.senseable-art .description, body.senseable-art .info-items .info-info {
   font-size: 1.5rem;
   line-height: 1.9375rem;
   margin-top: 0;
   color: #212121; }
   @media screen and (max-width: 480px) {
-    .headline, .container-events li article time, .container-events li article .event-list-title, .main-nav nav .main-logo, .class-main-nav-button, .main-nav nav > ul > li > a, .main-nav nav .menu-button a, .class-sec-nav-button, .main-nav nav .conatiner-second-level .second-level > li > a, .event-header, body.senseable-art .header.senseable-main-nav .senseable-menu-button a, body.senseable-art .header.senseable-main-nav nav, body.senseable-art .description, body.senseable-art .info-items .info-info {
+    .headline, .container-events li article time, .container-events li article .event-list-title, .main-nav nav .main-logo, .class-main-nav-button, .main-nav nav > ul > li > a, .main-nav nav .menu-button a, .class-sec-nav-button, .main-nav nav .conatiner-second-level .second-level > li > a, .event-header, body.senseable-art .header.senseable-main-nav nav, body.senseable-art .description, body.senseable-art .info-items .info-info {
       font-size: 1.2857142857rem; } }
 
 .title, .title-article, .event-title, body.senseable-art .workshop-title .workshop-subtitle, body.senseable-art .workshop-title h1, body.senseable-art .workshop-title .description {
@@ -1285,9 +1285,18 @@ a.resource-link {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    display: block; }
+    display: block;
+    filter: blur(25px);
+    -webkit-transition: filter 0.8s;
+    -moz-transition: filter 0.8s;
+    transition: filter 0.8s; }
     .resource-document img:last-child {
       margin-right: 0; }
+    .resource-document img:hover {
+      filter: blur(0px);
+      -webkit-transition: filter 0.8s;
+      -moz-transition: filter 0.8s;
+      transition: filter 0.8s; }
 
 .resource-document-text {
   max-width: 1024px;
@@ -2137,7 +2146,8 @@ body.senseable-art .header.senseable-main-nav {
       width: 8rem;
       text-align: center;
       color: #FFFFFF;
-      text-decoration: none; }
+      text-decoration: none;
+      font-size: 1.2857rem; }
       @media screen and (max-width: 480px) {
         body.senseable-art .header.senseable-main-nav .senseable-menu-button a {
           padding: 1rem 2rem 1rem 2rem; } }
@@ -2161,6 +2171,12 @@ body.senseable-art .header.senseable-main-nav {
     body.senseable-art .header.senseable-main-nav nav h1 {
       margin-left: 1rem;
       display: inline; }
+      body.senseable-art .header.senseable-main-nav nav h1::after {
+        content: "Mediation Culture Inclusion"; }
+      @media screen and (max-width: 405px) {
+        body.senseable-art .header.senseable-main-nav nav h1::after {
+          content: "MCI";
+          font-size: 1.2857rem; } }
     body.senseable-art .header.senseable-main-nav nav ul {
       display: inline-block;
       float: right;
@@ -2199,13 +2215,15 @@ body.senseable-art .header.senseable-main-nav {
           body.senseable-art .header.senseable-main-nav nav ul li a:active {
             color: #FFFFFF; }
           @media screen and (max-width: 639px) {
-            body.senseable-art .header.senseable-main-nav nav ul li a:hover {
-              color: #C20F2F;
-              border-bottom: 2px solid #FFFFFF; }
-            body.senseable-art .header.senseable-main-nav nav ul li a:visited {
+            body.senseable-art .header.senseable-main-nav nav ul li a {
               color: #C20F2F; }
-            body.senseable-art .header.senseable-main-nav nav ul li a:active {
-              color: #C20F2F; } }
+              body.senseable-art .header.senseable-main-nav nav ul li a:hover {
+                color: #C20F2F;
+                border-bottom: 2px solid #FFFFFF; }
+              body.senseable-art .header.senseable-main-nav nav ul li a:visited {
+                color: #C20F2F; }
+              body.senseable-art .header.senseable-main-nav nav ul li a:active {
+                color: #C20F2F; } }
 
 body.senseable-art .container {
   max-width: 1024px;
@@ -2244,15 +2262,23 @@ body.senseable-art .description {
       body.senseable-art .description:last-child {
         margin-right: 0; } }
 
-body.senseable-art hr {
+body.senseable-art .hr-container {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
-  border-top: 0.375rem solid #C20F2F; }
-  body.senseable-art hr::after {
+  padding: 0rem 1rem 0rem 1rem; }
+  body.senseable-art .hr-container::after {
     clear: both;
     content: "";
     display: table; }
+  body.senseable-art .hr-container hr {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    border-top: 0.1rem solid #C20F2F; }
+    body.senseable-art .hr-container hr:last-child {
+      margin-right: 0; }
 
 body.senseable-art .workshop-title {
   background-color: #C20F2F;
@@ -2406,13 +2432,9 @@ body.senseable-art .info-items {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 31.76157%; }
+      width: 65.88078%; }
       body.senseable-art .info-items .info-info:last-child {
-        margin-right: 0; }
-      body.senseable-art .info-items .info-info:nth-child(3n) {
-        margin-right: 0; }
-      body.senseable-art .info-items .info-info:nth-child(3n+1) {
-        clear: left; } }
+        margin-right: 0; } }
   @media screen and (min-width: 640px) and (max-width: 890px) {
     body.senseable-art .info-items .info-info {
       float: left;
@@ -2436,58 +2458,34 @@ body.senseable-art .info-items {
     color: #212121; }
     body.senseable-art .info-items .info-info a:hover {
       border-bottom: 1px solid #212121; }
-  @media screen and (min-width: 891px) {
-    body.senseable-art .info-items .info-license {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      body.senseable-art .info-items .info-license:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 640px) and (max-width: 890px) {
-    body.senseable-art .info-items .info-license {
-      float: left;
-      display: block;
-      margin-right: 3.57866%;
-      width: 48.21067%; }
-      body.senseable-art .info-items .info-license:last-child {
-        margin-right: 0; } }
-  @media screen and (max-width: 639px) {
-    body.senseable-art .info-items .info-license {
-      float: left;
-      display: block;
-      margin-right: 7.42297%;
-      width: 100%; }
-      body.senseable-art .info-items .info-license:last-child {
-        margin-right: 0; } }
-  body.senseable-art .info-items .info-license a {
-    text-decoration: none; }
-  @media screen and (min-width: 891px) {
-    body.senseable-art .info-items .info-repo {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 31.76157%; }
-      body.senseable-art .info-items .info-repo:last-child {
-        margin-right: 0; } }
-  @media screen and (min-width: 640px) and (max-width: 890px) {
-    body.senseable-art .info-items .info-repo {
-      float: left;
-      display: block;
-      margin-right: 3.57866%;
-      width: 48.21067%; }
-      body.senseable-art .info-items .info-repo:last-child {
-        margin-right: 0; } }
-  @media screen and (max-width: 639px) {
-    body.senseable-art .info-items .info-repo {
-      float: left;
-      display: block;
-      margin-right: 7.42297%;
-      width: 100%; }
-      body.senseable-art .info-items .info-repo:last-child {
-        margin-right: 0; } }
-  body.senseable-art .info-items .info-repo a {
-    text-decoration: none; }
+  body.senseable-art .info-items .info-more {
+    margin-top: 2rem; }
+    @media screen and (min-width: 891px) {
+      body.senseable-art .info-items .info-more {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%; }
+        body.senseable-art .info-items .info-more:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 640px) and (max-width: 890px) {
+      body.senseable-art .info-items .info-more {
+        float: left;
+        display: block;
+        margin-right: 3.57866%;
+        width: 30.94756%; }
+        body.senseable-art .info-items .info-more:last-child {
+          margin-right: 0; } }
+    @media screen and (max-width: 639px) {
+      body.senseable-art .info-items .info-more {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%; }
+        body.senseable-art .info-items .info-more:last-child {
+          margin-right: 0; } }
+    body.senseable-art .info-items .info-more a {
+      text-decoration: none; }
   body.senseable-art .info-items img {
     width: 2.5rem;
     height: auto; }

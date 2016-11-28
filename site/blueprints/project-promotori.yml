@@ -1,5 +1,5 @@
 // blueprint title (template title)
-title: project-partner
+title: project-promotori
 
 // page settings
 options:
@@ -24,8 +24,8 @@ fields:
   title:
     label: Titolo della pagina
     type: text
-  partners: 
-    label: Partner
+  promotori: 
+    label: Promotori
     type: structure
     entry: >
       <b>{{name}}</b></br>

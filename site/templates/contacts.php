@@ -55,10 +55,8 @@
 				<div class="colophon-promosso">
 					<h3>Promosso da</h3>
 					<ul>
-					<?php foreach ( page('progetto/partner')->partners()->toStructure() as $partner ): ?>
-						 <?php if($partner->colophon() == "promotore"): ?>
-						<li><a href="<?php echo page('progetto/partner')->url() ?>/#<?php echo strtolower($partner->name()->html()) ?>"><?php echo $partner->name()->html() ?></a></li>
-						 <?php endif ?>
+					<?php foreach ( page('progetto/promotori')->promotori()->toStructure() as $promotori ): ?>
+						<li><a href="<?php echo page('progetto/promotori')->url() ?>/#<?php echo strtolower($promotori->name()->html()) ?>"><?php echo $promotori->name()->html() ?></a></li>
 					<?php endforeach ?>
 					</ul>
 				</div>
@@ -67,9 +65,7 @@
 					<h3>Partners</h3>
 					<ul>
 					<?php foreach ( page('progetto/partner')->partners()->toStructure() as $partner ): ?>
-						 <?php if($partner->colophon() == "partner"): ?>
 						<li><a href="<?php echo page('progetto/partner')->url() ?>/#<?php echo str_replace(' ', '_', strtolower($partner->name()->html())) ?>"><?php echo $partner->name()->html() ?></a></li>
-						 <?php endif ?>
 					<?php endforeach ?>
 					</ul>
 				</div>
