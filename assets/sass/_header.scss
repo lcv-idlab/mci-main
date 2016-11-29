@@ -99,8 +99,7 @@
 	 			// scorllable 
 
 	 			@include media($mobile) {
-	 				//height: 24rem;		// when the abstract is present in the menu
-	 				height: 20rem;
+	 				height: 24rem;
 	 			}
 			}
 
@@ -145,8 +144,7 @@
 						width: 100%;
 
 						&.resources-li-menu-mobile {
-							//margin-top: 12rem;		// to use when the abstract appears in the menu
-							margin-top: 8rem;
+							margin-top: 12rem;
 						}
 
 						&:hover {

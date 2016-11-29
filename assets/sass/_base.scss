@@ -66,6 +66,8 @@ table {
   background-color: #fff;
 }
 
+
+
 //--- BASE FUNCTIONS ---//
 
 // function that retun the padding values based on the $baseline value
@@ -79,6 +81,26 @@ table {
 } 
 
 //--- BASE STYLES SHARED ---//
+
+.error-page {
+  @include outer-container();
+  @include pads(0 2 0 2);
+  margin-bottom: 4rem;
+
+
+  h1 {
+    @include span-columns(12);
+    @include pads(6 0 5 0);
+    @extend %title;
+  }
+  p {
+    @include span-columns(12);
+    @extend %medium-weight;
+    @extend %medium-size;
+    margin-bottom: 2rem;
+  }
+}
+
 
 // standard hr
 hr {

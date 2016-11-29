@@ -60,22 +60,22 @@ html {
     .container-sections article, .body, .container-list li div h3, .container-sections h3, .abstact-content section h3, .resource-document-text .border-top .aside h3, .newsletter form input, .container-list, .project-partner article > div .headline, .abstract-lang-nav li a, .newsletter h2, body.senseable-art, body.senseable-art h2, body.senseable-art .workshop-title .place-time, body.senseable-art .people-lists .list {
       line-height: 140%; } }
 
-.headline, .container-events li article time, .container-events li article .event-list-title, .main-nav nav .main-logo, .class-main-nav-button, .main-nav nav > ul > li > a, .main-nav nav .menu-button a, .class-sec-nav-button, .main-nav nav .conatiner-second-level .second-level > li > a, .event-header, body.senseable-art .header.senseable-main-nav nav, body.senseable-art .description, body.senseable-art .info-items .info-info {
+.headline, .container-events li article time, .container-events li article .event-list-title, .main-nav nav .main-logo, .class-main-nav-button, .main-nav nav > ul > li > a, .main-nav nav .menu-button a, .class-sec-nav-button, .main-nav nav .conatiner-second-level .second-level > li > a, .error-page p, .event-header, body.senseable-art .header.senseable-main-nav nav, body.senseable-art .description, body.senseable-art .info-items .info-info {
   font-size: 1.5rem;
   line-height: 1.9375rem;
   margin-top: 0;
   color: #212121; }
   @media screen and (max-width: 480px) {
-    .headline, .container-events li article time, .container-events li article .event-list-title, .main-nav nav .main-logo, .class-main-nav-button, .main-nav nav > ul > li > a, .main-nav nav .menu-button a, .class-sec-nav-button, .main-nav nav .conatiner-second-level .second-level > li > a, .event-header, body.senseable-art .header.senseable-main-nav nav, body.senseable-art .description, body.senseable-art .info-items .info-info {
+    .headline, .container-events li article time, .container-events li article .event-list-title, .main-nav nav .main-logo, .class-main-nav-button, .main-nav nav > ul > li > a, .main-nav nav .menu-button a, .class-sec-nav-button, .main-nav nav .conatiner-second-level .second-level > li > a, .error-page p, .event-header, body.senseable-art .header.senseable-main-nav nav, body.senseable-art .description, body.senseable-art .info-items .info-info {
       font-size: 1.2857142857rem; } }
 
-.title, .title-article, .event-title, body.senseable-art .workshop-title .workshop-subtitle, body.senseable-art .workshop-title h1, body.senseable-art .workshop-title .description {
+.error-page h1, .title, .title-article, .event-title, body.senseable-art .workshop-title .workshop-subtitle, body.senseable-art .workshop-title h1, body.senseable-art .workshop-title .description {
   font-size: 3rem;
   line-height: 3.625rem;
   margin-top: 0;
   color: #212121; }
   @media screen and (max-width: 480px) {
-    .title, .title-article, .event-title, body.senseable-art .workshop-title .workshop-subtitle, body.senseable-art .workshop-title h1, body.senseable-art .workshop-title .description {
+    .error-page h1, .title, .title-article, .event-title, body.senseable-art .workshop-title .workshop-subtitle, body.senseable-art .workshop-title h1, body.senseable-art .workshop-title .description {
       font-size: 1.714128rem;
       line-height: 120%; } }
 
@@ -90,11 +90,11 @@ html {
   font-family: 'roboto-regular', Arial, sans-serif;
   font-weight: normal; }
 
-.button, .newsletter form .button, body.senseable-art .header.senseable-main-nav nav, body.senseable-art .description, body.senseable-art .workshop-title .workshop-subtitle, body.senseable-art .workshop-title .description, body.senseable-art .info-items .info-info {
+.button, .newsletter form .button, .error-page p, body.senseable-art .header.senseable-main-nav nav, body.senseable-art .description, body.senseable-art .workshop-title .workshop-subtitle, body.senseable-art .workshop-title .description, body.senseable-art .info-items .info-info {
   font-family: 'roboto-medium', Arial, sans-serif;
   font-weight: normal; }
 
-.headline, .container-events li article time, .container-events li article .event-list-title, .container-list li div h3, .container-sections h3, .abstact-content section h3, .resource-document-text .border-top .aside h3, .title, .title-article, .event-title, .main-nav nav .main-logo, .body strong, .container-boxes .document .subtitle, .project-partner article > div .headline, .abstract-lang-nav li a.active, .project-team li article div h2, .resource-document-text .border-top #article .subtitle, .resource-experience-text .border-top .aside #partners, .resource-experience-text .border-top .aside #location, .resource-experience-text .border-top #article .subtitle, .resource-experience-gallery h2, .contacts-contacts strong, .contacts-contacts > address strong, .contacts-colophon .colophon-container h3, .container-events li article div .location, .event-header #time time, .event-content .aside address strong, .newsletter h2, .enti .title-enti, body.senseable-art h2, body.senseable-art .workshop-title h1, body.senseable-art .people-lists .list h3 {
+.headline, .container-events li article time, .container-events li article .event-list-title, .container-list li div h3, .container-sections h3, .abstact-content section h3, .resource-document-text .border-top .aside h3, .error-page h1, .title, .title-article, .event-title, .main-nav nav .main-logo, .body strong, .container-boxes .document .subtitle, .project-partner article > div .headline, .abstract-lang-nav li a.active, .project-team li article div h2, .resource-document-text .border-top #article .subtitle, .resource-experience-text .border-top .aside #partners, .resource-experience-text .border-top .aside #location, .resource-experience-text .border-top #article .subtitle, .resource-experience-gallery h2, .contacts-contacts strong, .contacts-contacts > address strong, .contacts-colophon .colophon-container h3, .container-events li article div .location, .event-header #time time, .event-content .aside address strong, .newsletter h2, .enti .title-enti, body.senseable-art h2, body.senseable-art .workshop-title h1, body.senseable-art .people-lists .list h3 {
   font-family: 'roboto-bold', Arial, sans-serif;
   font-weight: normal; }
 
@@ -107,7 +107,7 @@ html {
 .headline, .container-events li article time, .container-events li article .event-list-title {
   color: #212121; }
 
-.title, .title-article, .event-title {
+.error-page h1, .title, .title-article, .event-title {
   color: #212121; }
 
 .main-nav nav .main-logo {
@@ -191,6 +191,33 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   background-color: #fff; }
+
+.error-page {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem 2rem 0rem 2rem;
+  margin-bottom: 4rem; }
+  .error-page::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .error-page h1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 6rem 0rem 5rem 0rem; }
+    .error-page h1:last-child {
+      margin-right: 0; }
+  .error-page p {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-bottom: 2rem; }
+    .error-page p:last-child {
+      margin-right: 0; }
 
 hr {
   border: 0;
@@ -602,7 +629,7 @@ hr {
 	 			*/ }
         @media screen and (max-width: 840px) {
           .main-nav nav > ul.open {
-            height: 20rem; } }
+            height: 24rem; } }
       .main-nav nav > ul > li {
         display: inline; }
         @media screen and (max-width: 840px) {
@@ -628,7 +655,7 @@ hr {
               display: list-item;
               width: 100%; }
               .main-nav nav > ul > li > a.resources-li-menu-mobile {
-                margin-top: 8rem; }
+                margin-top: 12rem; }
               .main-nav nav > ul > li > a:hover {
                 background-color: #F7F5F5; }
                 .main-nav nav > ul > li > a:hover span {

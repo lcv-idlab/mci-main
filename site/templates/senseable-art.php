@@ -4,6 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
+  <meta name="description" content="Experiments in art-mediation via technology and the human senses">
+  <meta property="og:url" content="http://www.mci.supsi.ch/senseable-art" />
+  <meta property="og:title" content="Senseable Art workshop">
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="<?= url('assets/images/senseable-art-workshop.jpg') ?>">
+  <meta property="og:description" content="The action-research points at designing other codes for making cultural artifacts accessible, perceivable and understandable to all, both visually impaired and sighted people.">
 
   <!-- css -->
   <?php echo css('assets/css/main.css'); ?>
@@ -46,7 +52,9 @@
 		<p class="description"><?php echo page()->workshop_description()->html() ?></p>
 	</div>
 
-	<hr>
+	<div class="hr-container">
+		<hr>
+	</div>
 
 	<div class="container">
 		<h2 id="people">People</h2>
@@ -121,7 +129,9 @@
 
 	-->
 
-	<hr>
+	<div class="hr-container">
+		<hr>
+	</div>
 
 	<div class="container">
 		<div class="info-items">

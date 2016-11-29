@@ -163,8 +163,8 @@ Other-partecipants-title: Other participants
 
 ----
 
-Research-mentors-title: Research mentors
+Research-mentors-title: Research leaders
 
 ----
 
-Coordinator-title: Coordinator and leading
+Coordinator-title: Coordination and leading
