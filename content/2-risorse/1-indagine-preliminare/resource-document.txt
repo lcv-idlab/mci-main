@@ -69,4 +69,4 @@ Pdf-en: abstract-indagine-preliminare-ingle.pdf
 
 ----
 
-Main-image: indagine_preliminare_cover.jpg
+Main-image: 2016-04-14-10.33.58-1.jpg

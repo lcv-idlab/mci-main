@@ -126,7 +126,7 @@ Partners:
   colophon: partner
   logo_footer: footer_logo_pinacoteca_zuest.jpg
 - 
-  name: Museo d’Arte
+  name: Museo d’arte Mendrisio
   place: Mendrisio
   url: http://museo.mendrisio.ch
   description: "Fondato nel 1982 negli spazi di un antico convento, il Museo d'arte di Mendrisio propone esposizioni dedicate a grandi maestri del '900. Alterna a questa attività esposizioni su figure e temi inerenti al territorio, approfondendo capitoli della storia locale e valorizzando artisti contemporanei locali. Il Museo d'arte di Mendrisio può vantare una notevole collezione di dipinti (tra cui un significativo gruppo di ex-voto), sculture e opere su carta che spaziano dal XVI al XX secolo e che documentano capillarmente la storia artistica locale."

@@ -1,4 +1,10 @@
 User-agent: *
 Disallow: /
+Disallow: /assets/
+Disallow: /panel/
+Disallow: /kirby/
+Disallow: /content/
+Disallow: /node_modules/
+Disallow: /thumbs/
 
 Sitemap: http://www.mci.supsi.ch/sitemap

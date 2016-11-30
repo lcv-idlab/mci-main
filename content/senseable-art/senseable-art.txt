@@ -21,7 +21,7 @@ Workshop-description: The action-research points at designing  other codes for m
 
 ----
 
-People-description: Designers, artists, researchers, students and makers collaborate to realize prototypes of solutions that mediate, deconstruct and open - via other senses - the artworks of the museums in the Italian speaking Switzerland.
+People-description: Designers, artists, researchers, students and makers collaborate to realize prototypes of solutions that mediate, deconstruct and open - via other senses - the artworks of the museums in the Italian-speaking Switzerland.
 
 ----
 
@@ -167,4 +167,4 @@ Research-mentors-title: Research leaders
 
 ----
 
-Coordinator-title: Coordination and leading
+Coordinator-title: Coordinator and leading
