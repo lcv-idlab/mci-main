@@ -303,13 +303,13 @@ body.senseable-art {
 				@include omega(4n);
 				margin-top: 2rem;
 
-				@include media($tablet) {
-					@include span-columns(4);
+				@media screen and (min-width: 301px) and (max-width: 600px)  {
+					@include span-columns(6);
 					@include omega(2n);
 				}
-				@include media($mobile) {
-					@include span-columns(4);
-					max-width: 300px;
+				@media screen and (max-width: 300px) {
+					@include span-columns(12);
+					@include omega(1n);
 					margin-top: 4rem;
 				}
 
@@ -461,6 +461,7 @@ body.senseable-art.senseable-art-project {
 	}
 
 	.project-title {
+		margin-top: 56px;
 		background-position: center center;
 		//background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -471,9 +472,21 @@ body.senseable-art.senseable-art-project {
 		color: color(white);
 		//border-top: 1px solid color(white);
 		padding-top: 4rem;
+		position: relative;
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, .6);
+		}
 
 		.container {
-			padding-bottom: 5rem;
+			padding-bottom: 7rem;
+			position: relative;
+
 		}
 		h1 {
 			@extend %large-size;

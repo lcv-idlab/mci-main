@@ -163,7 +163,7 @@ Projects:
 - 
   title: InstArt
   description: ""
-  project_picture: how-they-see.png
+  project_picture: instart.png
   link: instart
 
 ----

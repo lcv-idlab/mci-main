@@ -34,6 +34,7 @@
 	<!-- COVER WITH TITLE -->
 
 	<div class="project-title" style="background-image: url('<?php echo image(page()->cover())->url() ?>')">
+		<div class="overlay"></div>
 		<div class="container">
 			<h1><?php echo page()->title()->html() ?></h1>
 			<div class="project-subtitle"><?php echo page()->subtitle()->kt()->html() ?></div>

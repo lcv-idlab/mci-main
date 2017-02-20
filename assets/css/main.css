@@ -2433,28 +2433,31 @@ body.senseable-art .project-lists ul li {
     margin-right: 0; }
   body.senseable-art .project-lists ul li:nth-child(4n+1) {
     clear: left; }
-  @media screen and (min-width: 640px) and (max-width: 890px) {
+  @media screen and (min-width: 301px) and (max-width: 600px) {
     body.senseable-art .project-lists ul li {
       float: left;
       display: block;
-      margin-right: 3.57866%;
-      width: 48.21067%; }
+      margin-right: 2.35765%;
+      width: 48.82117%; }
       body.senseable-art .project-lists ul li:last-child {
         margin-right: 0; }
       body.senseable-art .project-lists ul li:nth-child(2n) {
         margin-right: 0; }
       body.senseable-art .project-lists ul li:nth-child(2n+1) {
         clear: left; } }
-  @media screen and (max-width: 639px) {
+  @media screen and (max-width: 300px) {
     body.senseable-art .project-lists ul li {
       float: left;
       display: block;
-      margin-right: 7.42297%;
+      margin-right: 2.35765%;
       width: 100%;
-      max-width: 300px;
       margin-top: 4rem; }
       body.senseable-art .project-lists ul li:last-child {
-        margin-right: 0; } }
+        margin-right: 0; }
+      body.senseable-art .project-lists ul li:nth-child(1n) {
+        margin-right: 0; }
+      body.senseable-art .project-lists ul li:nth-child(1n+1) {
+        clear: left; } }
   body.senseable-art .project-lists ul li img {
     width: 100%;
     height: auto;
@@ -2588,6 +2591,7 @@ body.senseable-art.senseable-art-project header nav {
       right: 2rem; }
 
 body.senseable-art.senseable-art-project .project-title {
+  margin-top: 56px;
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -2595,9 +2599,18 @@ body.senseable-art.senseable-art-project .project-title {
   -o-background-size: cover;
   background-size: cover;
   color: #FFFFFF;
-  padding-top: 4rem; }
+  padding-top: 4rem;
+  position: relative; }
+  body.senseable-art.senseable-art-project .project-title .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); }
   body.senseable-art.senseable-art-project .project-title .container {
-    padding-bottom: 5rem; }
+    padding-bottom: 7rem;
+    position: relative; }
   body.senseable-art.senseable-art-project .project-title h1 {
     color: #FFFFFF; }
   body.senseable-art.senseable-art-project .project-title .project-subtitle {

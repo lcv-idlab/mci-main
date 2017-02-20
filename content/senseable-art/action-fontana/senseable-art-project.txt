@@ -41,10 +41,13 @@ Artpiece: cover-action-fontana.jpg
 Gallery: 
 
 - cover-action-fontana.jpg
-- action-fontana-001.jpg
-- action-fontana-002.jpg
-- action-fontana-concept-1.jpg
-- action-fontana-concept-2.jpg
+- Action-Fontana_senseable-art_006.jpg
+- Action-Fontana_senseable-art_007.jpg
+- Action-Fontana_senseable-art_003.jpg
+- Action-Fontana_senseable-art_001.jpg
+- Action-Fontana_senseable-art_002.jpg
+- Action-Fontana_senseable-art_004.jpg
+- Action-Fontana_senseable-art_005.jpg
 
 ----
 
@@ -60,7 +63,7 @@ Bom: canvas, black paint, rail + wheels, MDF, High brightness cold white LED str
 
 ----
 
-Cover: cover-action-fontana.jpg
+Cover: action_fontana-bg.jpg
 
 ----
 

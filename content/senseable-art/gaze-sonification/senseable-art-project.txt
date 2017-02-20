@@ -25,11 +25,16 @@ Artpiece: cover-gaze-sonification.jpg
 Gallery: 
 
 - cover-gaze-sonification.jpg
-- workshop_mame_12-2016-076.jpg
-- 31723540936_1912e6037b_k.jpg
-- 31760925205_a61c35eb89_k.jpg
-- 31760925715_ce71a730dc_k.jpg
-- 30951202913_1de6a990bb_k.jpg
+- >
+  Gaze-sonification_project_senseable-art_005.jpg
+- >
+  Gaze-sonification_project_senseable-art_003.jpg
+- >
+  Gaze-sonification_project_senseable-art_002.jpg
+- >
+  Gaze-sonification_project_senseable-art_004.jpg
+- >
+  Gaze-sonification_project_senseable-art_001.jpg
 
 ----
 
@@ -51,7 +56,7 @@ Prototype:
 
 ----
 
-Cover: cover-gaze-sonification.jpg
+Cover: gaze-sonification-bg.jpg
 
 ----
 

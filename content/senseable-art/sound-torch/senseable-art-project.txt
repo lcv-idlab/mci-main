@@ -28,9 +28,10 @@ Artpiece: cover-sound-torch.jpg
 Gallery: 
 
 - cover-sound-torch.jpg
-- 30951206413_cdd62e8148_k.jpg
-- 30951206063_5e4245c5a3_k.jpg
-- 31562671411_b2f7cd3bd8_k.jpg
+- Sound-torch_senseable-art_002.jpg
+- Sound-torch_senseable-art_001.jpg
+- Sound-torch_senseable-art_003.jpg
+- sound-torch_senseable-art_004.jpg
 
 ----
 
@@ -58,7 +59,7 @@ Flickr: https://www.flickr.com/photos/maindinteraction/sets/72157674056152493/
 
 ----
 
-Cover: cover-sound-torch.jpg
+Cover: sound-torch.jpg
 
 ----
 

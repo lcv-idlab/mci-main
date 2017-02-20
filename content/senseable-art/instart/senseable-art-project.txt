@@ -29,14 +29,14 @@ Artpiece: cover-instart.jpg
 Gallery: 
 
 - cover-instart.jpg
-- 31562671091_9a5628f21b_k.jpg
-- 31678115705_7dda1ee444_k.jpg
-- mobile-app.jpg
-- 31388587750_2be07130b2_k.jpg
-- 30951202073_e68caf54da_k.jpg
-- 31613959512_c2fb9850a5_k.jpg
-- screen-shot-2017-02-20-at-11.14.14.jpg
-- screen-shot-2017-02-20-at-11.13.07.png
+- InstArt_project_senseable-art_007.jpg
+- InstArt_project_senseable-art_006.jpg
+- InstArt_project_senseable-art_003.jpg
+- InstArt_project_senseable-art_002.jpg
+- InstArt_project_senseable-art_001.jpg
+- InstArt_project_senseable-art_004.jpg
+- InstArt_project_senseable-art_005.jpg
+- InstArt_project_senseable-art_008.jpg
 
 ----
 
@@ -59,7 +59,7 @@ The webpage use "Boubon Neat" to be responsive.
 
 ----
 
-Cover: cover-instart.jpg
+Cover: instart-bg.jpg
 
 ----
 
