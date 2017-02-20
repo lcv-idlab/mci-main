@@ -1,0 +1,78 @@
+Title: InstArt
+
+----
+
+Subtitle: Mediation service based on a web application to modify and share photos of the art pieces
+
+----
+
+Authors: Giovanni Profeta / Serena Cangiano / Marco Lurati
+
+----
+
+Abstract: The concept of the project is to allow anyone visiting the museum to create a personal "view" of the art-pieces exhibited. The idea comes from Instagram (form here the name "Inst...Art"), where anyone can create it's own personal representation of what he/she sees by editing the images with filters. Anyone will be able to adapt the vision for her/himself by changing the parameters like contrast, colours and brightness to accomodate as best the personal taste and especially the vision needs in case of difficulties.
+
+----
+
+Description: 
+
+The project is based on two main parts. The first is the mobile device with a camera (tablet for example) that allows users to move around and see the art-pieces live on screen, change the image parameters and then save the current view as picture. The second part is a webpage on witch the images taken by the users with the mobile devices will be collected and shown.
+
+The final idea would be to show the pictures taken by the audience on a big screen (or something similar) in the lobby of the museum, so that other people can will be able to see how other see the exhibited art pieces.
+
+----
+
+Artpiece: cover-instart.jpg
+
+----
+
+Gallery: 
+
+- cover-instart.jpg
+- 31562671091_9a5628f21b_k.jpg
+- 31678115705_7dda1ee444_k.jpg
+- mobile-app.jpg
+- 31388587750_2be07130b2_k.jpg
+- 30951202073_e68caf54da_k.jpg
+- 31613959512_c2fb9850a5_k.jpg
+- screen-shot-2017-02-20-at-11.14.14.jpg
+- screen-shot-2017-02-20-at-11.13.07.png
+
+----
+
+References: 
+
+----
+
+Bom: 
+
+----
+
+Prototype: 
+
+The prototype has been developed with Processing for the mobile device, and with html, css and js for the webpage.
+As mobile device it has been used a mac with an usb camera clipped on the front. The sketch allows to change the contrast and brightness of the image by moving the mouse horizontally or vertically respectively. By clicking on the filter button different filters will be applied by moving right to left with the mouse (like black and white, inverted colours and so on).
+Once the camera button is pressed, a picture will be saved on a dropbox folder that it's used to be able to share the pictures with the webpage running on a second computer (that's a good and easy way to get a prototype done very quickly).
+
+On the second computer as already said, there is the webpage running. Thanks to a javascript script the page checks the shared folder on dropbox and update the list of pictures taken with the mobile device. The sorting of the pictures is chronological and it's based on the pictures file name composed as year-month-day-... and so on till .jpg.
+The webpage use "Boubon Neat" to be responsive.
+
+----
+
+Cover: cover-instart.jpg
+
+----
+
+Slideshowinstaed: 
+
+----
+
+Github: https://github.com/lcv-idlab/senseable-art/tree/master/instart
+
+----
+
+Slideshow: 
+
+----
+
+Flickr: https://www.flickr.com/photos/maindinteraction/sets/72157674056152493/

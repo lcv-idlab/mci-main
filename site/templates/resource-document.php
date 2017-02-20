@@ -50,12 +50,6 @@
             <a href="<?php echo page()->document(page()->pdf_it())->url() ?>" target="_blank" title="<?php echo page()->pdf_it()->fileName() ?>" class="button button-download main-document">Documento completo</a>
           <?php endif ?>
 
-          <!--
-          <?php if(page()->pdf_de()->isNotEmpty() || page()->pdf_fr()->isNotEmpty() || page()->pdf_en()->isNotEmpty()) : ?>
-            <h3>Abstract</h3>
-          <?php endif ?>
-          -->
-
           <?php if(page()->pdf_de()->isNotEmpty()): ?>
             <a href="<?php echo page()->document(page()->pdf_de())->url() ?>" target="_blank" title="<?php echo page()->pdf_de()->fileName() ?>" class="button button-download">Abstract auf Deutsch</a>
           <?php endif ?>

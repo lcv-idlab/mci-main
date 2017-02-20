@@ -27,9 +27,9 @@
 		<h1></h1>
 		<span class="senseable-menu-button"><a href="" id="toggle"></a></span>
 		<ul>
-			<li><a href="<?php echo page()->url() ?>/#workshop"><span class="link-button">Workshop</span></a> / </li>
-			<li><a href="<?php echo page()->url() ?>/#people" class="link-button" >People</a> / </li>
-			<!-- <li><a href="<?php echo page()->url() ?>/#projects">Projects</a> / </li> -->
+			<li><a href="<?php echo page()->url() ?>/#workshop" class="link-button" target="_self">Workshop</a> / </li>
+			<li><a href="<?php echo page()->url() ?>/#people" class="link-button">People</a> / </li>
+			<li><a href="<?php echo page()->url() ?>/#projects" class="link-button">Projects</a> / </li>
 			<li><a href="<?php echo page()->url() ?>/#info" class="link-button">Info</a></li>
 
       	</ul>
@@ -80,6 +80,15 @@
 			</div>
 
 			<div class="list">
+				<h3><?php echo page()->remote_speakers_title()->html() ?></h3>
+				<ul>
+				<?php foreach (page()->remote_speakers()->toStructure() as $item ): ?>
+					<li><?php if($item->link()->isNotEmpty()): ?><a href="<?php echo $item->link() ?>" target="_blank"><?php endif ?><?php echo $item->name()->html() ?> <?php echo $item->surname()->html() ?><?php if($item->affiliation()->isNotEmpty()): ?>, <?php echo $item->affiliation()->html() ?><?php endif ?><?php if($item->link()->isNotEmpty()): ?></a><?php endif ?><?php if($item->event_time()->isNotEmpty()): ?><br><?php echo $item->event_time() ?><?php endif ?></li>
+				<?php endforeach ?>
+				</ul>
+			</div>
+
+			<div class="list">
 				<h3><?php echo page()->other_partecipants_title()->html() ?></h3>
 				<ul>
 				<?php foreach (page()->other_partecipants()->toStructure() as $item ): ?>
@@ -109,8 +118,9 @@
 		</div>
 	</div>
 
-	<!--
-	<hr>
+	<div class="hr-container">
+		<hr>
+	</div>
 
 	<div class="container">
 		<h2 id="projects">Projects</h2>
@@ -119,15 +129,15 @@
 			<ul>
 			<?php foreach(page()->projects()->toStructure() as $item): ?>
 				<li class="project">
+				<a href="<?php if($item->link()->isNotEmpty()): ?><?php echo(page()->url() . '/' . $item->link()->html())?><?php endif ?>">
 					<img src="<?php if($item->project_picture()->isNotEmpty()): ?><?php echo image($item->project_picture())->url() ?><?php endif ?>">
 					<h3><?php echo $item->title()->html() ?></h3>
+				</a>
 				</li>
 			<?php endforeach ?>
 			</ul>
 		</div>
 	</div>
-
-	-->
 
 	<div class="hr-container">
 		<hr>
@@ -139,20 +149,21 @@
 				<h2 id="info">Info</h2>
 				<p>The workshop is organized by Laboratory of Visual Culture within the research project Mediation Culture Inclusion.<br><a href="http://www.mci.supsi.ch" target="_blank">www.mci.supsi.ch</a></p>
 			</div>
-			<div class="info-more">
+			<div class="info-more" id="location">
 				<h2>Location</h2>
 				<p>Campus Trevano SUPSI<br>Lugano, Switzerland</p>
 			</div>
-			<div class="info-more">
+			<div class="info-more" id="license">
 				<h2>License</h2>
 				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img src="https://creativecommons.org/wp-content/themes/creativecommons.org/images/chooser_cc.png">
 				<img src="https://creativecommons.org/wp-content/themes/creativecommons.org/images/chooser_by.png">
 				<img src="https://creativecommons.org/wp-content/themes/creativecommons.org/images/chooser_nc.png">
 				<img src="https://creativecommons.org/wp-content/themes/creativecommons.org/images/chooser_sa.png"></a>
+				<p>Unless otherwise stated</p>
 			</div>
-			<div class="info-more">
-				<h2>Repository</h2>
-				<a href=""><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a>
+			<div class="info-more" id="gallery">
+				<h2>Workshop gallery</h2>
+				<a href="<?php echo page()->gallery() ?>" target="_blank"><img src="https://s.yimg.com/pw/images/goodies/black-large-chiclet.png"></a>
 			</div>
 		</div>
 	</div>

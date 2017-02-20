@@ -1,0 +1,74 @@
+Title: Sound Torch
+
+----
+
+Subtitle: A mediation artifact for Tony Craig, Minster (LAC collection)
+
+----
+
+Authors: Jacopo Foglietti / Sandro Pianetti / Yvonne Weber
+
+----
+
+Abstract: Sound Torch is an extension of the arm that allows the user to "feel" the artworks without the need of touching them. The project points to offer to visually impaired person the ability to feel the museum space together with the presence of the artworks.
+
+----
+
+Description: 
+
+The Sound Torch combines a specific sonar feedback with an open sound interpretation of the artworks that allows the user to perceive elements of the artwork and at the same time the disposition and overall sensation provided by the tridimensional exhibition space.
+While the torch is usually a tool created for sighted people to be able to see in the dark, in this project it gives the unsighted people a chance to have a gaze over tridimensional art space. A hidden sound environment surrounds all the exhibition space and the torch gives the possibility to hear a portion of it. The user decides what to hear and when to hear it, she or he can create a sound collage that can provide a pleasant experience.
+
+----
+
+Artpiece: cover-sound-torch.jpg
+
+----
+
+Gallery: 
+
+- cover-sound-torch.jpg
+- 30951206413_cdd62e8148_k.jpg
+- 30951206063_5e4245c5a3_k.jpg
+- 31562671411_b2f7cd3bd8_k.jpg
+
+----
+
+References: 
+
+(link: https://vimeo.com/49484255 text: Video 'An Instrument for the Sonification of Everday Things')
+
+(link: https://www.ultracane.com/index.php?_route_=about_the_ultracane text: The UltraCane - an award winning primary mobility aid)
+
+----
+
+Bom: Ultrasonic Sensor HC-SR04 (Ideally also Laser rangefinder - LIDAR Lite V3), Arduino Leonardo (as a Midi controller thanks to USBMIDI library and NewPing library to control the sensor), Ableton live
+
+----
+
+Github: 
+
+----
+
+Slideshow: 
+
+----
+
+Flickr: https://www.flickr.com/photos/maindinteraction/sets/72157674056152493/
+
+----
+
+Cover: cover-sound-torch.jpg
+
+----
+
+Prototype: 
+
+The interface is a physical torch connected wirelessly to a smartphone that provides sound trough headphones. In the ideal prototype a laser rangefinder and an ultrasonic rangefinder are embedded in the head of the torch (in order to provide information from a precise single point and a wider 30° beam). The torch is connected to an Arduino via Bluetooth. The data are sent wireless to a smartphone that runs an app capable of translating the information into sound.
+The sound is determined by the sensors but also by the position of the user inside the exhibition area. This allows to assign different standard background sounds to different artworks and more information about a single artwork.
+ 
+The current working prototype is composed by a ultrasonic sensor connected to an Arduino Leonardo and a laptop running Ableton Live. The data sent via Arduino influences some parameters in the Live set.
+
+----
+
+Slideshowinstaed: 

@@ -5,7 +5,7 @@ Title: Senseable Art
 Subtitle: 
 
 Experiments in art-mediation 
-via technology and the human senses
+via technologies and human senses
 
 ----
 
@@ -21,7 +21,7 @@ Workshop-description: The action-research points at designing  other codes for m
 
 ----
 
-People-description: Designers, artists, researchers, students and makers collaborate to realize prototypes of solutions that mediate, deconstruct and open - via other senses - the artworks of the museums in the Italian-speaking Switzerland.
+People-description: Designers, artists, researchers, students and makers collaborate to realize prototypes of solutions that mediate, deconstruct and open - via other senses - the artworks of the museums in the Italian speaking Switzerland.
 
 ----
 
@@ -36,7 +36,7 @@ Experts:
   name: Varvara
   surname: Guljajeva
   link: http://www.varvarag.info
-  affiliation: ""
+  affiliation: 'Varvara&Mar'
 - 
   name: Peter
   surname: Law
@@ -78,6 +78,11 @@ Guests-speakers:
   surname: Papetti
   affiliation: ZHdK
   link: 'https://www.zhdk.ch/?person/detail&id=181595'
+- 
+  name: Thomas
+  surname: Amberg
+  affiliation: Yaler.net
+  link: https://yaler.net/
 
 ----
 
@@ -101,6 +106,15 @@ Other-partecipants:
 - 
   name: Vanessa
   surname: De Luca
+- 
+  name: Jacopo
+  surname: Foglietti
+- 
+  name: Simone
+  surname: Mignami
+- 
+  name: Yvonne
+  surname: Weber
 
 ----
 
@@ -126,24 +140,31 @@ Coordinator:
 Projects: 
 
 - 
-  title: Project 1
+  title: Action Fontana
   description: >
-    Bal bal bal baodbosajbd basiudfba sifb
-    visdfbdsjbfj sdibf
+    Mediation artifact based on Lucio
+    Fontana, New York 15 (LAC Collection)
   picture: empty_project.jpg
-  link: ""
-  project_picture: empty_project.jpg
+  link: action-fontana
+  project_picture: action-fontana.png
 - 
-  title: Project 2
+  title: Gaze Sonification
   description: THis is the project 2
   picture: empty_project.jpg
-  link: ""
-  project_picture: empty_project.jpg
+  link: gaze-sonification
+  project_picture: gaze-sonification.png
 - 
-  title: Project 3
+  title: Sound Torch
+  description: >
+    A mediation artifact for Tony Craig,
+    Minster (LAC collection)
+  project_picture: sount-torch.png
+  link: sound-torch
+- 
+  title: InstArt
   description: ""
-  project_picture: empty_project.jpg
-  link: ""
+  project_picture: how-they-see.png
+  link: instart
 
 ----
 
@@ -167,4 +188,23 @@ Research-mentors-title: Research leaders
 
 ----
 
-Coordinator-title: Coordinator and leading
+Coordinator-title: Coordination and leading
+
+----
+
+Remote-speakers-title: Live streaming**
+
+----
+
+Remote-speakers: 
+
+- 
+  name: Liviu
+  surname: Babitz
+  affiliation: Cyborg Nest
+  link: http://www.cyborgnest.net/
+  event_time: 13.12.2016, h. 17.30
+
+----
+
+Gallery: https://www.flickr.com/photos/maindinteraction/sets/72157674056152493/

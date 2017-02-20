@@ -1,0 +1,86 @@
+Title: Action Fontana
+
+----
+
+Subtitle: Mediation artifact based on Lucio Fontana, New York 15 (LAC Collection)
+
+----
+
+Authors: Fabian Frei, SUPSI / Varvara Guljiajeva, Varvara&Mar / Alice Mela, TODO / Carl Smith, Ravensbourne University
+
+----
+
+Abstract: 
+
+The Action Fontana project refers to the series of paintings torn "Attese" by Lucio Fontana and his concept of "Spatialisme" ( "Concetto Spaziale") which is seen as an attempt to overcome the illusion of representation of space in paint by introducing real space.
+The installation enables the museum visitors to become the artist and to experience the intention of the artist. The process is based on the following sequence: Become the artist > Become the action > Become the Artwork.
+
+----
+
+Description: 
+
+#### 1. Become the artist
+A long canvas is mounted on a wall. The visitor can use tools to cut and pierce the surface, emulating Fontana's work and then move a bar along it, reproducing sounds when passing over the cuts and piercings. In this way the bar becomes a manual music player. At the same time, a person is invited to experience the production technique of Fontana by piercing and cutting the canvas. Sound samples will be recorded from actual piercing and cutting canvases.
+
+
+#### 2. Become the action
+A full body interaction allows to create cuts and piercings on a virtual canvas, projected on a wall. To each of the canvas modifications corresponds a sound of cutting or piercing, which loudness is proportional to the size of the modification.
+
+#### 3. Become the artwork
+A haptic experience allows visitors to try on their skin the feeling of being cut or pierced, simulating pain and sounds.
+
+This intervention does not just apply to Fontana’s work but to all artists who proposed a research based on the interaction with the canvas as a material with a tridimensional dimension. 
+Making the art creation process tangible through multiple senses (sound and touch) allows to transform the process itself in a material. This approach make art accessible by opening the artistic process and by stressing the importance of body experience in the exhibition space where usually body and mind are by default separated.
+
+----
+
+Artpiece: cover-action-fontana.jpg
+
+----
+
+Gallery: 
+
+- cover-action-fontana.jpg
+- action-fontana-001.jpg
+- action-fontana-002.jpg
+- action-fontana-concept-1.jpg
+- action-fontana-concept-2.jpg
+
+----
+
+References: 
+
+(link: https://www.youtube.com/watch?v=7cyHFT2abXE  text: Daphne Oram,  Oramics target: _blank)
+
+(link: http://www.imiteme.com/english/en-photopages/en-cyber.htm text: Cecile Colle}{Ralf Nuhn, Cyber-Spatialism, 2005 target: _blank)
+
+----
+
+Bom: canvas, black paint, rail + wheels, MDF, High brightness cold white LED strips, 12V power adapter, Teensy, Sound recorder, speakers/transducers, LDRs, header pins
+
+----
+
+Cover: cover-action-fontana.jpg
+
+----
+
+Github: https://github.com/lcv-idlab/senseable-art/tree/master/action-fontana
+
+----
+
+Slideshow: http://www.mci.supsi.ch/
+
+----
+
+Flickr: https://www.flickr.com/photos/maindinteraction/sets/72157674056152493/
+
+----
+
+Prototype: 
+
+The frame of the installation moves on tow aluminum profiles with wheels.
+A LED backlit black canvas highlights the cuts and the piercings. While the frame is sliding, an array of light sensors reads the cuts and holes and creates a sound composition based on modified sounds samples of cutting and piercing. The sound modifications are based on the size and shape of the cuts. The visitor can add cuts and piercings to the composition by using manual tools such as cutters, awls and other sharp objects.
+
+----
+
+Slideshowinstaed: 

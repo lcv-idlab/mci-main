@@ -87,28 +87,6 @@
         <?php endforeach ?>
         </ul>
       
-      <!--
-      <?php foreach(page()->gallery()->yaml() as $image): ?>
-
-        <a href="<?php $img = $page->image($image); echo $img? $img->url() : '' ?>" data-lightbox="prova1" data-title="<?php echo page()->title()->html() ?>">
-          <img src="<?php $img = $page->image($image); echo $img? $img->url() : '' ?>" alt="<?php echo page()->title()->html() ?>" class="<?php e($img->dimensions()->portrait(), 'portrait', 'landscape'); ?>" />
-        </a>
-
-      <?php endforeach ?>
-
-      -->
-
-      <!--
-      <ul>
-        <?php foreach(page()->gallery()->yaml() as $image): ?>
-        <li>
-          <figure>
-            <img src="<?php $img = $page->image($image); echo $img? $img->url() : '' ?>" alt="<?php echo page()->title()->html() ?>" class="<?php e($img->dimensions()->portrait(), 'portrait', 'landscape'); ?>" />
-          </figure>
-        </li>
-        <?php endforeach ?>
-        </ul>
-        -->
 
     </section>
 

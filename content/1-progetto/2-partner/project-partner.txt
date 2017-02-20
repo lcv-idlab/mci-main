@@ -77,12 +77,10 @@ Partners:
   colophon: partner
   logo_footer: footer_logo_museo_ascona.jpg
 - 
-  name: >
-    Museo d’Arte della Svizzera italiana
-    (MASI)
+  name: Museo d’arte della Svizzera italiana
   place: Lugano
   url: http://www.masilugano.ch
-  description: 'L’attività del Museo d’arte della Svizzera italiana (MASI Lugano) si svolge in parallelo in due sedi: quella principale situata all’interno del nuovo edificio del LAC e quella storica di Palazzo Reali, in precedenza sede del Museo Cantonale d’Arte. Al LAC il MASI focalizza il suo interesse sull’arte del Novecento e contemporanea, nelle diverse forme e tecniche espressive, dedicando attenzione sia agli artisti giovani ed emergenti, sia a quelli già storicizzati, ai temi attuali e futuri delle arti e della società, proponendo esposizioni interdisciplinari in collaborazione con il settore del teatro e della musica. A Palazzo Reali, l’attività del MASI si concentra invece sulla storia dell’arte del territorio e sulla valorizzazione di nuclei specifici delle collezioni.'
+  description: 'L’attività del Museo d’arte della Svizzera italiana (MASI Lugano) si svolge in parallelo in due sedi: quella principale situata all’interno del nuovo edificio del LAC (Lugano Arte e Cultura) e quella storica di Palazzo Reali, in precedenza sede del Museo Cantonale d’Arte. Al LAC il MASI Lugano focalizza il suo interesse sull’arte del Novecento e contemporanea, nelle diverse forme e tecniche espressive, dedicando attenzione sia agli artisti giovani ed emergenti, sia a quelli già storicizzati, ai temi attuali e futuri delle arti e della società, proponendo esposizioni interdisciplinari in collaborazione con il settore del teatro e della musica. A Palazzo Reali, l’attività del MASI Lugano si concentra invece sulla storia dell’arte del territorio e sulla valorizzazione di nuclei specifici delle collezioni.'
   logo: logo_masi_lugano.jpg
   colophon: partner
   logo_footer: footer_logo_masi_lugano.jpg

@@ -449,7 +449,7 @@ People:
 - 
   name: Isabella
   surname: Lenzo Massei
-  affiliation: MASI Lugano
+  affiliation: LAC Mediazione Culturale
   biography: |
     Laureata in Lettere all’Università di Losanna, ottiene un Master in Servizi Educativi per il Patrimonio Artistico, dei Musei Storici e di Arti Visive all’Università Cattolica del Sacro Cuore di Milano. Ha lavorato presso gli archivi fotografici delle Città di Bologna e Losanna e per la casa d’aste Christie’s International di Ginevra e Lugano. Dal 2003 lavora presso il Dicastero Attività Culturali di Lugano, per il quale ha collaborato alla realizzazione di esposizioni temporanee e alla gestione delle collezioni civiche. Ha collaborato inoltre con il Museo delle Culture nell’ambito della ricerca e dedicandosi all'organizzazione e alla gestione del progetto educativo e delle esposizioni "Dèibambini". Da gennaio 2007 è stata responsabile delle Attività educative del Dicastero Attività Culturali, progettando e coordinando le attività didattiche del Museo delle Culture, del Museo d’Arte e del Museo di Villa Ciani. Da gennaio 2015 è responsabile del Settore di Mediazione culturale del LAC, che propone attività legate alle arti visive, alla musica, al teatro e alla danza.
   image: isabella_lenzo.jpg

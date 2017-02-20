@@ -10,7 +10,8 @@ options:
   url: true
 
 // subpages settings
-pages: false
+pages:
+  template: senseable-art-project
 
 // file settings
 files: 
@@ -79,6 +80,29 @@ fields:
       link:
         label: Website/linkedin link
         type: url
+  remote_speakers_title:
+    label: Titolo "Remote speakers"
+    type: text
+  remote_speakers:
+    label: Remote speakers list
+    type: structure
+    entry: <b>{{name}} {{surname}}</b>
+    fields:
+      name:
+        label: Name
+        type: text
+      surname:
+        label: Surname
+        type: text
+      affiliation:
+        label: Affilation/Studio
+        type: text
+      link:
+        label: Website/linkedin link
+        type: url
+      event_time:
+        label: Speach data and time link
+        type: text
   other_partecipants_title:
     label: Titolo "Other participants"
     type: text
@@ -137,8 +161,12 @@ fields:
         type: image
         default: empty_project.jpg
       link:
-        label: Link to the projects
-        type: url
+        label: Link (name of the page only) of the project
+        type: text
+  gallery:
+    label: Flicker gallery del workshop
+    type: url
+
 
 
 

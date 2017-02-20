@@ -1,0 +1,65 @@
+// blueprint title (template title)
+title: sensible-art-project
+
+// page settings
+options:
+  delete: true
+  preview: true
+  status: true
+  template: false
+  url: true
+
+// subpages settings
+pages: false
+
+// file settings
+files: 
+  fields: 
+    alt: 
+      label: Alt text
+      type: text
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo del progetto
+    type: text
+  subtitle:
+    label: Sottotitolo del progetto
+    type: textarea
+  authors:
+    label: Autori
+    type: text
+  abstract:
+    label: Abstract
+    type: textarea
+  description:
+    label: Descrizione del progetto
+    type: textarea
+  prototype:
+    label: Descrizione del prototipo
+    type: textarea
+  references:
+    label: References
+    type: textarea
+  bom:
+    label: BOM
+    type: textarea
+  cover:
+    label: Cover
+    type: image
+  slideshowinstaed:
+    label: Se non c'è la documentazione, usa la presentazione seguente
+    type: url
+  gallery:
+    label: Immagini
+    type: gallery
+  github:
+    label: Github repository
+    type: url
+  slideshow:
+    label: Slideshow link
+    type: url
+  flickr:
+    label: Flicker gallery
+    type: url

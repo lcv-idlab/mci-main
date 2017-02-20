@@ -37,7 +37,7 @@
         <img src="<?php echo page()->image()->url() ?>" alt="<?php echo page()->image()->alt() ?>">
       </div>
       <div class="content">
-        <?php echo page()->long()->kt() ?>s
+        <?php echo page()->long()->kt()->html() ?>
       </div>
     </div>
   </article>
