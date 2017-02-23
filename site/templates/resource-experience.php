@@ -11,11 +11,14 @@
 
       <h2 class="visuallyhidden">Video dell'evento</h2>
 
+
+
         <?php if( page()->alt_video()->isNotEmpty()) {
 
             $alt_video = page()->alt_video();
 
           } else {
+
               $alt_video = "Video dell'evento " . page()->title()->html();
           }
 
@@ -31,13 +34,24 @@
 
            -->
     
-        </div>
+      </div>
 
+
+    <?php else: ?>
+
+      <?php if(page()->ext_link()->isNotEmpty()): ?>
+
+        <a href="<?php echo page()->ext_link()->url() ?>">
+        <img src="<?php echo page()->image(page()->main_image())->url() ?>" alt="<?php echo page()->image(page()->main_image())->alt()->html() ?>">
+        </a>
 
       <?php else: ?>
 
-        <img src="<?php echo page()->image($resource->main_image())->url() ?>" alt="<?php echo page()->image($resource->main_image())->alt()->kt()->html() ?>">
+        <img src="<?php echo page()->image(main_image())->url() ?>" alt="<?php echo page()->image(main_image())->alt()->kt()->html() ?>">
+
       <?php endif ?>
+
+    <?php endif ?>
     </div>
 
     <div class="resource-experience-text">
@@ -47,10 +61,17 @@
           <p><?php echo page()->partner()->html() ?></p>
           <h3 id="location">Data e luogo</h3>
           <p><?php echo page()->date('d.m.Y') ?>, <?php echo page()->location()->html() ?></p>
+
+          <?php if(page()->ext_link()->isNotEmpty()): ?>
+  
+            <a href="<?php echo page()->ext_link()->url() ?>" id="ext_resource" title="<?php echo page()->title() ?>" class="button">Risorsa esterna</a>
+
+          <?php endif ?>
+
         </div>
         <div id="article">
           <h3 class="subtitle">Descrizione dell'evento</h3>
-        <?php echo page()->long()->kt()->html() ?>
+        <?php echo page()->long()->kt() ?>
         </div>
       </div>
     </div>

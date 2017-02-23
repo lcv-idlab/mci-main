@@ -334,20 +334,51 @@ hr {
     margin-right: 2.35765%;
     width: 31.76157%;
     padding: 1rem 0rem 3rem 0rem;
-    border-top: 1px solid #aaaaaa;
-    display: block; }
+    border-top: 1px solid #aaaaaa; }
     .container-boxes > li:last-child {
       margin-right: 0; }
     .container-boxes > li:nth-child(3n) {
       margin-right: 0; }
     .container-boxes > li:nth-child(3n+1) {
       clear: left; }
+    @media screen and (min-width: 961px) {
+      .container-boxes > li {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%; }
+        .container-boxes > li:last-child {
+          margin-right: 0; }
+        .container-boxes > li:nth-child(3n) {
+          margin-right: 0; }
+        .container-boxes > li:nth-child(3n+1) {
+          clear: left; } }
+    @media screen and (min-width: 841px) and (max-width: 960px) {
+      .container-boxes > li {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%; }
+        .container-boxes > li:nth-child(2n) {
+          margin-right: 2.35765%; }
+        .container-boxes > li:nth-child(2n+1) {
+          clear: none; }
+        .container-boxes > li:last-child {
+          margin-right: 0; }
+        .container-boxes > li:nth-child(3n) {
+          margin-right: 0; }
+        .container-boxes > li:nth-child(3n+1) {
+          clear: left; } }
     @media screen and (min-width: 601px) and (max-width: 840px) {
       .container-boxes > li {
         float: left;
         display: block;
         margin-right: 3.57866%;
         width: 48.21067%; }
+        .container-boxes > li:nth-child(3n) {
+          margin-right: 2.35765%; }
+        .container-boxes > li:nth-child(3n+1) {
+          clear: none; }
         .container-boxes > li:last-child {
           margin-right: 0; }
         .container-boxes > li:nth-child(2n) {
@@ -360,6 +391,10 @@ hr {
         display: block;
         margin-right: 7.42297%;
         width: 100%; }
+        .container-boxes > li:nth-child(2n) {
+          margin-right: 2.35765%; }
+        .container-boxes > li:nth-child(2n+1) {
+          clear: none; }
         .container-boxes > li:last-child {
           margin-right: 0; }
         .container-boxes > li:nth-child(1n) {
@@ -1504,6 +1539,22 @@ a.resource-link {
         margin-top: 1rem; }
       .resource-experience-text .border-top .aside #location {
         margin-top: 2rem; }
+      .resource-experience-text .border-top .aside #ext_resource {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 73.14426%;
+        margin-top: 2rem; }
+        .resource-experience-text .border-top .aside #ext_resource:last-child {
+          margin-right: 0; }
+        @media screen and (max-width: 840px) {
+          .resource-experience-text .border-top .aside #ext_resource {
+            float: left;
+            display: block;
+            margin-right: 3.57866%;
+            width: 100%; }
+            .resource-experience-text .border-top .aside #ext_resource:last-child {
+              margin-right: 0; } }
     .resource-experience-text .border-top #article {
       float: left;
       display: block;
@@ -2204,15 +2255,18 @@ body.senseable-art .header.senseable-main-nav {
       clear: both;
       content: "";
       display: table; }
-    body.senseable-art .header.senseable-main-nav nav h1 {
-      margin-left: 1rem;
-      float: left; }
-      body.senseable-art .header.senseable-main-nav nav h1::after {
-        content: "Mediation Culture Inclusion"; }
-      @media screen and (max-width: 405px) {
-        body.senseable-art .header.senseable-main-nav nav h1::after {
-          content: "MCI";
-          font-size: 1.2857rem; } }
+    body.senseable-art .header.senseable-main-nav nav a.logo {
+      color: #FFFFFF; }
+      body.senseable-art .header.senseable-main-nav nav a.logo h1 {
+        margin-left: 1rem;
+        float: left;
+        color: #FFFFFF; }
+        body.senseable-art .header.senseable-main-nav nav a.logo h1::after {
+          content: "Mediation Culture Inclusion"; }
+        @media screen and (max-width: 405px) {
+          body.senseable-art .header.senseable-main-nav nav a.logo h1::after {
+            content: "MCI";
+            font-size: 1.2857rem; } }
     body.senseable-art .header.senseable-main-nav nav ul {
       display: inline-block;
       float: right;
@@ -2581,17 +2635,25 @@ body.senseable-art.senseable-art-project a:link, body.senseable-art.senseable-ar
   text-decoration: none;
   border-bottom: 1px solid #C20F2F; }
 
-body.senseable-art.senseable-art-project header nav {
+body.senseable-art.senseable-art-project .header.senseable-main-nav {
   position: relative; }
-  body.senseable-art.senseable-art-project header nav .back-button {
-    z-index: 200; }
-    body.senseable-art.senseable-art-project header nav .back-button span {
-      color: #FFFFFF;
-      position: absolute;
-      right: 2rem; }
+  body.senseable-art.senseable-art-project .header.senseable-main-nav .back-button {
+    z-index: 200;
+    float: right;
+    color: #FFFFFF;
+    margin-right: 1rem; }
+  body.senseable-art.senseable-art-project .header.senseable-main-nav a.logo h1 {
+    margin-left: 1rem;
+    float: left;
+    color: #FFFFFF; }
+    body.senseable-art.senseable-art-project .header.senseable-main-nav a.logo h1::after {
+      content: "Senseable Art"; }
+    @media screen and (max-width: 405px) {
+      body.senseable-art.senseable-art-project .header.senseable-main-nav a.logo h1::after {
+        content: "Senseable Art";
+        font-size: 1.2857rem; } }
 
 body.senseable-art.senseable-art-project .project-title {
-  margin-top: 56px;
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;

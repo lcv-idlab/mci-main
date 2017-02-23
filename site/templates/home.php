@@ -9,7 +9,11 @@
 		<section>
 			<h2 class="hidden home-title-container"><?php echo page('risorse')->title()->html() ?></h2>
 			<ul class="container-boxes">
-			<?php foreach (page('risorse')->children()->visible() as $resource): ?>
+			<?php foreach (page('risorse')->children()->visible()->sortBy('date', 'desc') as $resource): ?>
+				
+				<?php if($temp++ < 3 ): ?>
+
+
 			<li>
 			
 				<!-- Experience -->
@@ -59,6 +63,11 @@
 				<?php endif ?>
 				<?php endif ?>
 			</li>
+
+			<?php else: ?>
+				<?php break ?>
+			<?php endif ?>
+
       		<?php endforeach ?>
       		</ul>
 		</section>

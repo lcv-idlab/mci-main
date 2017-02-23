@@ -24,7 +24,7 @@
 
 <header class="header senseable-main-nav">
 	<nav>
-		<h1></h1>
+		<a href="http://www.mci.supsi.ch" class="logo"><h1></h1></a>
 		<span class="senseable-menu-button"><a href="" id="toggle"></a></span>
 		<ul>
 			<li><a href="<?php echo page()->url() ?>/#workshop" class="link-button" target="_self">Workshop</a> / </li>
@@ -118,9 +118,11 @@
 		</div>
 	</div>
 
+
 	<div class="hr-container">
 		<hr>
 	</div>
+
 
 	<div class="container">
 		<h2 id="projects">Projects</h2>
@@ -139,6 +141,7 @@
 		</div>
 	</div>
 
+
 	<div class="hr-container">
 		<hr>
 	</div>
@@ -147,7 +150,7 @@
 		<div class="info-items">
 			<div class="info-info">
 				<h2 id="info">Info</h2>
-				<p>The workshop is organized by Laboratory of Visual Culture within the research project Mediation Culture Inclusion.<br><a href="http://www.mci.supsi.ch" target="_blank">www.mci.supsi.ch</a></p>
+				<p>The workshop is organized by Laboratory of Visual Culture within the research project <a href="http://www.mci.supsi.ch" target="_blank">Mediation Culture Inclusion</a> and in collaboration with MASI Lugano.</p>
 			</div>
 			<div class="info-more" id="location">
 				<h2>Location</h2>

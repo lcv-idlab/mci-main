@@ -231,6 +231,17 @@ a.resource-link {
 				@extend %bold-weight;
 				margin-top: 2rem;
 			}
+
+			#ext_resource {
+				@include span-columns(3 of 4);
+				margin-top: 2rem;
+
+				@include media($mobile) {
+					@include span-columns(8 of 8);
+				}
+
+
+			}
 		}
 
 		#article {

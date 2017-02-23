@@ -7,7 +7,7 @@
 	<section>
 		<h2 class="hidden home-title-container" id="risorse-home"><?php echo page('risorse')->title()->html() ?></h2>
 		<ul class="container-boxes">
-		<?php foreach (page('risorse')->children()->visible() as $resource): ?>
+		<?php foreach (page('risorse')->children()->visible()->sortBy('date', 'desc') as $resource): ?>
 		<li>
 		
 			<!-- Experience -->

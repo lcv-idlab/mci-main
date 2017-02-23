@@ -20,3 +20,8 @@ $small: new-breakpoint(min-width 481px max-width 600px 4);
 $medium: new-breakpoint(min-width 601px max-width 840px 8);
 $large: new-breakpoint(min-width 841px max-width 960px 12);
 $desktop: new-breakpoint(min-width 961px 12);
+
+@mixin omega-reset($nth) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+  &:nth-child(#{$nth}+1) { clear: none }
+}

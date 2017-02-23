@@ -193,22 +193,36 @@ hr {
 
     @include span-columns(4);
     @include pads(1 0 3 0);
+  
     @include omega(3n);
 
     border-top: 1px solid color(gray);
 
     //position: relative;
 
-    display: block;
+    //display: block;
 
     //height: 25rem;
 
+    @include media($desktop) {
+      @include span-columns(4);
+      @include omega(3n);
+    }
+
+    @include media($large) {
+      @include omega-reset(2n);
+      @include span-columns(4);
+      @include omega(3n);
+    }
+
     @include media($medium) {
+      @include omega-reset(3n);
       @include span-columns(4);
       @include omega(2n);
     }
 
     @include media($small) {
+      @include omega-reset(2n);
       @include span-columns(4);
       @include omega(1n);
     }

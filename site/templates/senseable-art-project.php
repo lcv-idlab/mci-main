@@ -24,7 +24,7 @@
 
 <header class="header senseable-main-nav">
 	<nav>
-		<h1></h1>
+		<a href="http://www.mci.supsi.ch/senseable-art" class="logo"><h1></h1></a>
 		<a href="<?php echo page()->parent()->url() ?>" class="back-button"><span>< Back</span></a>
 	</nav>
 </header>
@@ -47,7 +47,7 @@
 
 	<div class="container">
 		<h2 id="abstract">Abstract</h2>
-		<p class="abstract"><?php echo page()->abstract()->html() ?></p>
+		<p class="abstract"><?php echo page()->abstract()->kt() ?></p>
 	</div>
 
 	<div class="hr-container">
@@ -67,7 +67,7 @@
 
 		<div class="container">
 			<h2 id="people">Description</h2>
-			<?php echo page()->description()->kt()->html() ?>
+			<?php echo page()->description()->kt() ?>
 		</div>
 
 		<div class="hr-container">
@@ -76,7 +76,7 @@
 
 		<div class="container">
 			<h2 id="people">Prototype</h2>
-			<?php echo page()->prototype()->kt()->html() ?>
+			<?php echo page()->prototype()->kt() ?>
 		</div>
 
 
@@ -91,7 +91,7 @@
 
 		<div class="container references">
 			<h2 id="references">References</h2>
-			<?php echo page()->references()->kt()->html() ?>
+			<?php echo page()->references()->kt() ?>
 		</div>
 
 

@@ -53,3 +53,7 @@ fields:
   gallery:
     label: Galleria immagini
     type: gallery
+  ext_link:
+    label: Link esterno della risorsa (mini sito, ecc)
+    type: url
+    

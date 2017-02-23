@@ -75,23 +75,26 @@ body.senseable-art {
 			@extend %medium-weight;
 			color: color(white);
 
-			h1 {
-				margin-left: 1rem;
-				float: left;
+			a.logo {
 
-				&::after {
-					content: "Mediation Culture Inclusion";
-				}
+				color: color(white);
 
-				@include media(max-width 405px) {
+				h1 {
+					margin-left: 1rem;
+					float: left;
+					color: color(white);
+
 					&::after {
-						content: "MCI";
-						font-size: 1.2857rem;
+						content: "Mediation Culture Inclusion";
+					}
+
+					@include media(max-width 405px) {
+						&::after {
+							content: "MCI";
+							font-size: 1.2857rem;
+						}
 					}
 				}
-
-
-
 			}
 
 			ul {
@@ -447,21 +450,39 @@ body.senseable-art.senseable-art-project {
 		border-bottom: 1px solid color(brand);
 	}
 
-	header nav {
+	.header.senseable-main-nav {
 		position: relative;
 		.back-button {
-				z-index: 200;
-
-				span {
-					color: color(white);
-					position: absolute;
-					right: 2rem;
-				}
+			z-index: 200;
+			float: right;
+			color: color(white);
+			margin-right: 1rem;
 		}
+
+		a.logo {
+
+			h1 {
+				margin-left: 1rem;
+				float: left;
+				color: color(white);
+				&::after {
+					content: "Senseable Art";
+				}
+
+				@include media(max-width 405px) {
+					&::after {
+						content: "Senseable Art";
+						font-size: 1.2857rem;
+					}
+				}
+			}
+		}
+
+
 	}
 
 	.project-title {
-		margin-top: 56px;
+		//margin-top: 56px;
 		background-position: center center;
 		//background-attachment: fixed;
 		background-repeat: no-repeat;
