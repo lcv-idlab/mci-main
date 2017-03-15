@@ -2,7 +2,7 @@ Title: Gaze Sonification
 
 ----
 
-Subtitle: Mediation artifact based on Sophie Taeuber-Arp’s ‘Composition Horizontale-Verticale’ (LAC Collection)
+Subtitle: A sonification device to mediate Sophie Taeuber-Arp’s visual compositions
 
 ----
 
@@ -12,7 +12,7 @@ Authors: Selena Savic / Gabriele Gambotto / Peter Law
 
 Abstract: 
 
-The concept of the project is to create an interactive sonification of Sophie Taeuber-Arp’s ‘Composition Horizontale-Verticale’ for all visitors (blind, partially-sighted and sighted).
+The concept of the project is to create an interactive sonification of Sophie Taeuber-Arp’s ‘Horizontal-Vertical Composition’ for all visitors (blind, partially-sighted and sighted).
 
 (link: https://vimeo.com/205063178 text: Video of the project)
 
@@ -29,8 +29,6 @@ Artpiece: cover-gaze-sonification.jpg
 Gallery: 
 
 - cover-gaze-sonification.jpg
-- >
-  Gaze-sonification_project_senseable-art_005.jpg
 - >
   Gaze-sonification_project_senseable-art_003.jpg
 - >

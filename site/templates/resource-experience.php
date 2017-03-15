@@ -7,39 +7,34 @@
     <h1 class="title-article"><?php echo ucfirst( page()->title()->html() ) ?></h1>
 
     <div class="resource-experience">
+
+
     <?php if( page()->movie()->isNotEmpty() ): ?>
 
       <h2 class="visuallyhidden">Video dell'evento</h2>
 
+        <?php if( page()->alt_video()->isNotEmpty()) : ?>
 
-
-        <?php if( page()->alt_video()->isNotEmpty()) {
-
-            $alt_video = page()->alt_video();
-
-          } else {
-
-              $alt_video = "Video dell'evento " . page()->title()->html();
-          }
-
-        ?>
-        <div class="video" aria-label="<?php echo $alt_video ?>">
+          <div class="video" aria-label="<?php echo page()->alt_video() ?>">
         
-          <iframe src="https://player.vimeo.com/video/<?php echo page()->movie() ?>" allowFullScreen></iframe>
-
-         
-        
-          <!--
-          <object width="500" height="281"><param name="allowfullscreen" value="true"><param name="allowscriptaccess" value="always"><param name="movie" value="https://vimeo.com/moogaloop.swf?clip_id=<?php echo page()->movie() ?>&amp;show_byline=0&amp;show_portrait=0&amp;force_embed=vimeo.com&amp;fullscreen=1"><embed src="https://vimeo.com/moogaloop.swf?clip_id=<?php echo page()->movie() ?>&amp;show_byline=0&amp;show_portrait=0&amp;force_embed=vimeo.com&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="allowfullscreen" allowscriptaccess="always" width="500" height="281"></object>
-
-           -->
+            <iframe src="https://player.vimeo.com/video/<?php echo page()->movie() ?>" allowFullScreen></iframe>
     
-      </div>
+          </div>
 
+        <?php else: ?>
+
+          <div class="video" aria-label="<?php echo "Video dell'evento " . page()->title()->html() ?>">
+  
+            <iframe src="https://player.vimeo.com/video/<?php echo page()->movie() ?>" allowFullScreen></iframe>
+      
+          </div>
+
+        <?php endif ?>
+        
 
     <?php else: ?>
 
-      <?php if(page()->ext_link()->isNotEmpty()): ?>
+      <?php if( page()->ext_link()->isNotEmpty()): ?>
 
         <a href="<?php echo page()->ext_link()->url() ?>">
         <img src="<?php echo page()->image(page()->main_image())->url() ?>" alt="<?php echo page()->image(page()->main_image())->alt()->html() ?>">
@@ -47,11 +42,12 @@
 
       <?php else: ?>
 
-        <img src="<?php echo page()->image(main_image())->url() ?>" alt="<?php echo page()->image(main_image())->alt()->kt()->html() ?>">
+        <img src="<?php echo page()->image(page()->main_image())->url() ?>" alt="<?php echo page()->image(page()->main_image())->alt()->html() ?>">
 
       <?php endif ?>
 
     <?php endif ?>
+
     </div>
 
     <div class="resource-experience-text">
@@ -64,7 +60,7 @@
 
           <?php if(page()->ext_link()->isNotEmpty()): ?>
   
-            <a href="<?php echo page()->ext_link()->url() ?>" id="ext_resource" title="<?php echo page()->title() ?>" class="button">Risorsa esterna</a>
+            <a href="<?php echo page()->ext_link()->url() ?>" id="ext_resource" title="<?php echo page()->title() ?>" class="button"><?php echo page()->ext_link_desc()->kt() ?></a>
 
           <?php endif ?>
 

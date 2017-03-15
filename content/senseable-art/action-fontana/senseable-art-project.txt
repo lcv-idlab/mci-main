@@ -2,11 +2,11 @@ Title: Action Fontana
 
 ----
 
-Subtitle: Mediation artifact based on Lucio Fontana, New York 15 (LAC Collection)
+Subtitle: An interactive mediation artifact to experience Lucio Fontana's spatialisme
 
 ----
 
-Authors: Fabian Frei, SUPSI / Varvara Guljiajeva, Varvara&Mar / Alice Mela, TODO / Carl Smith, Ravensbourne University
+Authors: Fabian Frei, Varvara Guljiajeva, Alice Mela, Carl Smith
 
 ----
 
@@ -43,9 +43,6 @@ Gallery:
 - cover-action-fontana.jpg
 - Action-Fontana_senseable-art_006.jpg
 - Action-Fontana_senseable-art_007.jpg
-- Action-Fontana_senseable-art_003.jpg
-- Action-Fontana_senseable-art_001.jpg
-- Action-Fontana_senseable-art_002.jpg
 - Action-Fontana_senseable-art_004.jpg
 - Action-Fontana_senseable-art_005.jpg
 

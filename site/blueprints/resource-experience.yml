@@ -56,4 +56,7 @@ fields:
   ext_link:
     label: Link esterno della risorsa (mini sito, ecc)
     type: url
+  ext_link_desc:
+    label: Titolo del bottone "Link esterno"
+    type: text
     

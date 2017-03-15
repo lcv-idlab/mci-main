@@ -2,23 +2,23 @@ Title: InstArt
 
 ----
 
-Subtitle: Mediation service based on a web application to modify and share photos of the art pieces
+Subtitle: An web filter for personalizing and sharing artworks'views
 
 ----
 
-Authors: Giovanni Profeta / Serena Cangiano / Marco Lurati
+Authors: Giovanni Profeta / Marco Lurati
 
 ----
 
-Abstract: The concept of the project is to allow anyone visiting the museum to create a personal "view" of the art-pieces exhibited. The idea comes from Instagram (form here the name "Inst...Art"), where anyone can create it's own personal representation of what he/she sees by editing the images with filters. Anyone will be able to adapt the vision for her/himself by changing the parameters like contrast, colours and brightness to accomodate as best the personal taste and especially the vision needs in case of difficulties.
+Abstract: InstArt allows anyone to visit the museum and to create a personal "view" of the  exhibited artvpieces. The application enables the personal representation of what the museum visitor sees thanks to a customizable set of filters. The users can adapt the vision by changing the parameters like contrast, colours and brightness and to adjust them especially in case of visual impairments.
 
 ----
 
 Description: 
 
-The project is based on two main parts. The first is the mobile device with a camera (tablet for example) that allows users to move around and see the art-pieces live on screen, change the image parameters and then save the current view as picture. The second part is a webpage on witch the images taken by the users with the mobile devices will be collected and shown.
+The project is based on two main parts. The first is the mobile application that allows users to move around and see the art-pieces live on screen,  to change the filter parameters and then save the current view as picture. The second part is a website on witch the images taken by the users  are collected and shown.
 
-The final idea would be to show the pictures taken by the audience on a big screen (or something similar) in the lobby of the museum, so that other people can will be able to see how other see the exhibited art pieces.
+A potential third device, a huge screen, can show  the pictures taken by the audience in the lobby of the museum, so that other people will be able to see how other see the exhibited art pieces.
 
 ----
 
@@ -30,13 +30,11 @@ Gallery:
 
 - cover-instart.jpg
 - InstArt_project_senseable-art_007.jpg
-- InstArt_project_senseable-art_006.jpg
 - InstArt_project_senseable-art_003.jpg
-- InstArt_project_senseable-art_002.jpg
-- InstArt_project_senseable-art_001.jpg
 - InstArt_project_senseable-art_004.jpg
-- InstArt_project_senseable-art_005.jpg
 - InstArt_project_senseable-art_008.jpg
+- InstArt_project_senseable-art_005.jpg
+- InstArt_project_senseable-art_001.jpg
 
 ----
 
@@ -50,12 +48,12 @@ Bom:
 
 Prototype: 
 
-The prototype has been developed with Processing for the mobile device, and with html, css and js for the webpage.
-As mobile device it has been used a mac with an usb camera clipped on the front. The sketch allows to change the contrast and brightness of the image by moving the mouse horizontally or vertically respectively. By clicking on the filter button different filters will be applied by moving right to left with the mouse (like black and white, inverted colours and so on).
-Once the camera button is pressed, a picture will be saved on a dropbox folder that it's used to be able to share the pictures with the webpage running on a second computer (that's a good and easy way to get a prototype done very quickly).
-
-On the second computer as already said, there is the webpage running. Thanks to a javascript script the page checks the shared folder on dropbox and update the list of pictures taken with the mobile device. The sorting of the pictures is chronological and it's based on the pictures file name composed as year-month-day-... and so on till .jpg.
+The prototype of the mobile application has been developed with Processing. The website is developed in html, css and javascript.
+The mobile application runs on a mobile device or a mac with an usb camera clipped on the front. The sketch allows to change the contrast and brightness of the image by moving the mouse horizontally or vertically respectively. The filter can be applied by by clicking on the filter button and by moving right to left with the mouse (like black and white, inverted colours and so on).
+Once the camera button is pressed, a picture will be saved on a dropbox folder that it is used to share the pictures on the website running on a second computer.
+Thanks to a js script the website page checks the shared folder on dropbox and updates the list of pictures taken with the mobile device. The sorting of the pictures is chronological and it is based on the pictures file name composed as year-month-day-... and so on till .jpg.
 The webpage use "Boubon Neat" to be responsive.
+The painting used to develop the prototype is Paul Klee's Snail (1924).
 
 ----
 
