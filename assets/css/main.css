@@ -1544,7 +1544,8 @@ a.resource-link {
         display: block;
         margin-right: 7.42297%;
         width: 73.14426%;
-        margin-top: 2rem; }
+        margin-top: 2rem;
+        margin-bottom: 1rem; }
         .resource-experience-text .border-top .aside #ext_resource:last-child {
           margin-right: 0; }
         @media screen and (max-width: 840px) {
@@ -1555,6 +1556,14 @@ a.resource-link {
             width: 100%; }
             .resource-experience-text .border-top .aside #ext_resource:last-child {
               margin-right: 0; } }
+      .resource-experience-text .border-top .aside .button-download {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 73.14426%;
+        margin-top: 1rem; }
+        .resource-experience-text .border-top .aside .button-download:last-child {
+          margin-right: 0; }
     .resource-experience-text .border-top #article {
       float: left;
       display: block;

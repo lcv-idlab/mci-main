@@ -156,6 +156,7 @@ a.resource-link {
 	@include outer-container();
 	@include pads(0 2 3 2);
 
+
 	/* object video
 
 	.video {
@@ -235,12 +236,18 @@ a.resource-link {
 			#ext_resource {
 				@include span-columns(3 of 4);
 				margin-top: 2rem;
+				margin-bottom: 1rem;
 
 				@include media($mobile) {
 					@include span-columns(8 of 8);
 				}
 
 
+			}
+
+			.button-download {
+				@include span-columns(3 of 4);
+				margin-top: 1rem;
 			}
 		}
 

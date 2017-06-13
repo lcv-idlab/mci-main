@@ -39,6 +39,21 @@ fields:
   long:
     label: Descrizione completa
     type: textarea
+  docs:
+    label: Documenti
+    type: structure
+    entry: >
+      <b>{{doc_title}}</b><br>
+      {{doc}}
+    fields:
+      doc_title:
+        label: Nome del documento
+        type: text
+      doc:
+        label: Scegli il docuento
+        type: select
+        default: architecture
+        options: documents
   main_image:
     label: Immagine di copertina
     type: image

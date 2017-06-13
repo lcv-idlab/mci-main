@@ -64,6 +64,12 @@
 
           <?php endif ?>
 
+          <?php if(page()->docs()->isNotEmpty()): ?>
+            <?php foreach(page()->docs()->toStructure() as $doc): ?>
+              <a href="<?php echo page()->document($doc->doc())->url() ?>" target="_blank" title="<?php echo $doc->doc_title() ?>" class="button button-download main-document"><?php echo $doc->doc_title() ?></a>
+            <?php endforeach ?>
+          <?php endif ?>
+
         </div>
         <div id="article">
           <h3 class="subtitle">Descrizione dell'evento</h3>
