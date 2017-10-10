@@ -8,68 +8,71 @@
 
 		<section>
 			<h2 class="hidden home-title-container"><?php echo page('risorse')->title()->html() ?></h2>
-			<ul class="container-boxes">
+			<ul class="container-boxes home-page">
 			<?php foreach (page('risorse')->children()->visible() as $resource): ?>
 				
 				<?php if($temp++ < 3 ): ?>
 
 
-			<li>
-			
-				<!-- Experience -->
-				<?php if($resource->intendedTemplate() === "resource-experience"): ?>
-					<article class="experience">
-						<h3 class="headline"><a href="<?php echo $resource->url() ?>" class="resource-link"><?php echo $resource->title()->html() ?></a></h3>
-						<!--
-						<p class="partner"><?php echo $resource->partner()->html() ?>, <?php echo $resource->location() ?></p>
-						-->
-						<p class="body"><?php echo $resource->short()->html() ?></p>
-					</article>
-				<?php if( $resource->main_image()->isNotEmpty() ): ?>
-
-					<?php 
-		            // retrieve the alt text from the image, if not present, use a generic one
-		            $img = $resource->image($resource->main_image());
-		            if($img->alt()->isNotEmpty()) {
-		              $alt_img = $img->alt()->html();
-		            }
-		            else {
-		              $alt_img = "Fotografia rappresentativa dell'evento " . $resource->title()->html();
-		            }
-		          ?>
-					<a href="<?php echo $resource->url() ?>"><img src="<?php echo $img->url() ?>" alt="<?php echo $alt_img ?>"></a>
-				<?php endif ?>
-
-				<!-- Document -->
-				<?php elseif($resource->intendedTemplate() === "resource-document"): ?>
-					<article class="document">
-						<h3 class="headline"><a href="<?php echo $resource->url() ?>"  class="resource-link"><?php echo $resource->title()->html() ?></a></h3>
-						<p class="subtitle"><?php echo $resource->subtitle()->html() ?></p>
-						<p class="body"><?php echo $resource->short()->html() ?></p>
-					</article>
+				<li>
+				
+					<!-- Experience -->
+					<?php if($resource->intendedTemplate() === "resource-experience"): ?>
+						<article class="experience">
+							<h3 class="headline"><a href="<?php echo $resource->url() ?>" class="resource-link"><?php echo $resource->title()->html() ?></a></h3>
+							<!--
+							<p class="partner"><?php echo $resource->partner()->html() ?>, <?php echo $resource->location() ?></p>
+							-->
+							<p class="body"><?php echo $resource->short()->html() ?></p>
+						</article>
 					<?php if( $resource->main_image()->isNotEmpty() ): ?>
 
-					<?php 
-		            // retrieve the alt text from the image, if not present, use a generic one
-		            $img = $resource->image($resource->main_image());
-		            if($img->alt()->isNotEmpty()) {
-		              $alt_img = $img->alt()->html();
-		            }
-		            else {
-		              $alt_img = "Fotografia rappresentativa dell'evento " . $resource->title()->html();
-		            }
-		          ?>
-					<a href="<?php echo $resource->url() ?>"><img src="<?php echo $img->url() ?>" alt="<?php echo $alt_img ?>"></a>
-				<?php endif ?>
-				<?php endif ?>
-			</li>
+						<?php 
+			            // retrieve the alt text from the image, if not present, use a generic one
+			            $img = $resource->image($resource->main_image());
+			            if($img->alt()->isNotEmpty()) {
+			              $alt_img = $img->alt()->html();
+			            }
+			            else {
+			              $alt_img = "Fotografia rappresentativa dell'evento " . $resource->title()->html();
+			            }
+			          ?>
+						<a href="<?php echo $resource->url() ?>"><img src="<?php echo $img->url() ?>" alt="<?php echo $alt_img ?>"></a>
+					<?php endif ?>
 
-			<?php else: ?>
-				<?php break ?>
-			<?php endif ?>
+					<!-- Document -->
+					<?php elseif($resource->intendedTemplate() === "resource-document"): ?>
+						<article class="document">
+							<h3 class="headline"><a href="<?php echo $resource->url() ?>"  class="resource-link"><?php echo $resource->title()->html() ?></a></h3>
+							<p class="subtitle"><?php echo $resource->subtitle()->html() ?></p>
+							<p class="body"><?php echo $resource->short()->html() ?></p>
+						</article>
+						<?php if( $resource->main_image()->isNotEmpty() ): ?>
 
-      		<?php endforeach ?>
+						<?php 
+			            // retrieve the alt text from the image, if not present, use a generic one
+			            $img = $resource->image($resource->main_image());
+			            if($img->alt()->isNotEmpty()) {
+			              $alt_img = $img->alt()->html();
+			            }
+			            else {
+			              $alt_img = "Fotografia rappresentativa dell'evento " . $resource->title()->html();
+			            }
+			          ?>
+						<a href="<?php echo $resource->url() ?>"><img src="<?php echo $img->url() ?>" alt="<?php echo $alt_img ?>"></a>
+					<?php endif ?>
+					<?php endif ?>
+				</li>
+
+				<?php else: ?>
+					<?php break ?>
+				<?php endif ?>
+
+	      		<?php endforeach ?>
       		</ul>
+      		<div id="all-reources-button-contianer">
+      			<a href="<?php echo page('risorse')->url()?>" class="button">Vedi tutte le risorse</a>
+      		</div>
 		</section>
 
 		<!-- end: RESOURCES -->

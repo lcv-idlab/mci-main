@@ -27,7 +27,7 @@ Il layout è gestito con (link: http://neat.bourbon.io/ popup: yes text: Neat).
 Main: 
 
 **SUPSI
-Università professionale
+Scuola universitaria professionale
 della Svizzera Italiana**
 
 Laboratorio cultura visiva

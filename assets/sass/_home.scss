@@ -48,7 +48,9 @@
 	}
 }
 
-.container-boxes {
+.container-boxes.home-page {
+
+	padding-bottom: 1rem;
 
 	.resource-link {
 		//border-bottom: 1px solid color(brand);
@@ -69,6 +71,34 @@
 			@extend %bold-weight;
 			margin-bottom: 1rem;
 			margin-top: 1rem;
+		}
+	}
+}
+
+#all-reources-button-contianer {
+	@include outer-container();
+	@include pads(0 2 3 2);
+
+	text-align: center;
+
+	a {
+		@include span-columns(4);
+	}
+
+	@include media($medium) {
+		a {
+			@include span-columns(4);
+		}
+	}
+
+	@include media($small) {
+		a {
+			@include span-columns(4);
+		}
+	}
+	@include media($x-small) {
+		a {
+			@include span-columns(4);
 		}
 	}
 }

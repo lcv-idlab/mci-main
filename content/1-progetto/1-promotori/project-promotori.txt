@@ -24,13 +24,14 @@ Promotori:
     attraverso progetti acquisiti in modo
     competitivo presso le grandi agenzie
     europee e nazionali o su mandato di
-    aziende e istituzioni. Il progetto Musei
-    Cultura Inclusione è promosso dal
-    Dipartimento ambiente costruzioni e
-    design (DACD), in collaborazione con il
-    Dipartimento formazione e apprendimento
-    (DFA) e il Dipartimento economia
-    aziendale, sanità e sociale (DEASS).
+    aziende e istituzioni. Il progetto
+    Mediazione Cultura Inclusione è
+    promosso dal Dipartimento ambiente
+    costruzioni e design (DACD), in
+    collaborazione con il Dipartimento
+    formazione e apprendimento (DFA) e il
+    Dipartimento economia aziendale, sanità
+    e sociale (DEASS).
   logo: logo_supsi.jpg
   colophon: promotore
   logo_footer: footer_logo_supsi.jpg

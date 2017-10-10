@@ -34,7 +34,7 @@
 
     <?php else: ?>
 
-      <?php if( page()->ext_link()->isNotEmpty()): ?>
+      <?php if(page()->ext_link()->isNotEmpty()): ?>
 
         <a href="<?php echo page()->ext_link()->url() ?>">
         <img src="<?php echo page()->image(page()->main_image())->url() ?>" alt="<?php echo page()->image(page()->main_image())->alt()->html() ?>">
@@ -42,7 +42,19 @@
 
       <?php else: ?>
 
-        <img src="<?php echo page()->image(page()->main_image())->url() ?>" alt="<?php echo page()->image(page()->main_image())->alt()->html() ?>">
+        <?php if(page()->gallery()->isNotEmpty()): ?>
+
+          <a href="<?php echo page()->url()?>/#gallery" alt="Galleria fotografica dell'evento">
+
+          <img src="<?php echo page()->image(page()->main_image())->url() ?>" alt="<?php echo page()->image(page()->main_image())->alt()->html() ?>">
+
+          </a>
+
+        <?php else: ?>
+
+          <img src="<?php echo page()->image(page()->main_image())->url() ?>" alt="<?php echo page()->image(page()->main_image())->alt()->html() ?>">
+
+        <?php endif ?>
 
       <?php endif ?>
 
@@ -82,7 +94,7 @@
 
     <?php echo js('assets/js/lightbox.js'); ?>
 
-    <section class="resource-experience-gallery">
+    <section class="resource-experience-gallery" id="gallery">
       <h2>Fotografie dell'evento</h2>
 
       

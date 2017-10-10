@@ -149,3 +149,18 @@ Partners:
   logo: logo_mediamus.jpg
   colophon: partner
   logo_footer: footer_logo_mediamus.jpg
+- 
+  name: Fondazione Diamante
+  place: Manno
+  url: http://www.f-diamante.ch
+  description: 'La storia della Fondazione Diamante  è profondamente legata all’affermazione dei diritti delle persone disabili, alla comprensione delle loro esigenze in rapporto al contesto sociale nel quale esse vivono e al promovimento della loro autonomia. Nell’ambito del suo mandato si rivolge a persone disabili adulte. Attualmente gestisce 13 laboratori, 4 unità abitative (foyer e appartamenti protetti) 4 servizi di sostegno abitativo e 5 servizi di inserimento lavorativo. Queste diverse attività coinvolgono circa 600 utenti accompagnati da 200 operatori sociali. Tra le diverse strutture, diffuse e decentralizzate sul territorio ticinese, il Canvetto Luganese (www.canvettoluganese.ch) è un ristorante che offre a persone disabili una possibilità formativa e lavorativa nel settore della ristorazione, con lo scopo di favorire la loro integrazione sociale e professionale. Come tutte le strutture ed i servizi della Fondazione Diamante anche il Canvetto Luganese è stato realizzato alfine di promuovere il dialogo con il tessuto sociale ed offrire ai propri clienti prestazioni di qualità in una cornice accogliente e pittoresca.'
+  logo: logo_fondazione_diamante.jpg
+  logo_footer: footer_logo_fondazione_diamante.jpg
+- 
+  name: Lions Club del Canton Ticino
+  place: Ticino
+  url: >
+    https://www.lionsclubs.ch/it/district-centro/inizio.html
+  description: 'I Lions sono l’organizzazione di servizio più grande con 46’000 club e oltre 1.36 milioni di soci in tutto il mondo. Con il motto “we serve”, noi serviamo,  si sviluppano progetti comunitari facendo il necessario per aiutare le comunità locali. I grandi temi di cui si occupano i Lions sono la vista, i giovani, l’ambiente e la fame. Per quanto riguarda la vista i Lions si impegnano nella loro missione di garantire la vista per tutti attraverso lo screening, la fornitura di attrezzature a ospedali e cliniche, la distribuzione di medicinali e la sensibilizzazione dell’opinione pubblica sulle malattie degli occhi.'
+  logo: logo_lions_international.jpg
+  logo_footer: footer_logo_lions.jpg

@@ -94,7 +94,7 @@ html {
   font-family: 'roboto-medium', Arial, sans-serif;
   font-weight: normal; }
 
-.headline, .container-events li article time, .container-events li article .event-list-title, .container-list li div h3, .container-sections h3, .abstact-content section h3, .resource-document-text .border-top .aside h3, .error-page h1, .title, .title-article, .event-title, .main-nav nav .main-logo, .body strong, .container-boxes .document .subtitle, .project-partner article > div .headline, .abstract-lang-nav li a.active, .project-team li article div h2, .resource-document-text .border-top #article .subtitle, .resource-experience-text .border-top .aside #partners, .resource-experience-text .border-top .aside #location, .resource-experience-text .border-top #article .subtitle, .resource-experience-gallery h2, .contacts-contacts strong, .contacts-contacts > address strong, .contacts-colophon .colophon-container h3, .container-events li article div .location, .event-header #time time, .event-content .aside address strong, .newsletter h2, .enti .title-enti, body.senseable-art h2, body.senseable-art .workshop-title h1, body.senseable-art .people-lists .list h3, body.senseable-art .project-lists ul li h3, body.senseable-art.senseable-art-project .project-title h1, body.senseable-art.senseable-art-project h2 {
+.headline, .container-events li article time, .container-events li article .event-list-title, .container-list li div h3, .container-sections h3, .abstact-content section h3, .resource-document-text .border-top .aside h3, .error-page h1, .title, .title-article, .event-title, .main-nav nav .main-logo, .body strong, .container-boxes.home-page .document .subtitle, .project-partner article > div .headline, .abstract-lang-nav li a.active, .project-team li article div h2, .resource-document-text .border-top #article .subtitle, .resource-experience-text .border-top .aside #partners, .resource-experience-text .border-top .aside #location, .resource-experience-text .border-top #article .subtitle, .resource-experience-gallery h2, .contacts-contacts strong, .contacts-contacts > address strong, .contacts-colophon .colophon-container h3, .container-events li article div .location, .event-header #time time, .event-content .aside address strong, .newsletter h2, .enti .title-enti, body.senseable-art h2, body.senseable-art .workshop-title h1, body.senseable-art .people-lists .list h3, body.senseable-art .project-lists ul li h3, body.senseable-art.senseable-art-project .project-title h1, body.senseable-art.senseable-art-project h2 {
   font-family: 'roboto-bold', Arial, sans-serif;
   font-weight: normal; }
 
@@ -1036,15 +1036,57 @@ footer {
   .home-title-container .title {
     padding: 1rem 0rem 0rem 0rem; }
 
-.container-boxes .experience .body {
-  margin-top: 1rem; }
+.container-boxes.home-page {
+  padding-bottom: 1rem; }
+  .container-boxes.home-page .experience .body {
+    margin-top: 1rem; }
+  .container-boxes.home-page .experience .partner {
+    margin-bottom: 1rem; }
+  .container-boxes.home-page .document .subtitle {
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
 
-.container-boxes .experience .partner {
-  margin-bottom: 1rem; }
-
-.container-boxes .document .subtitle {
-  margin-bottom: 1rem;
-  margin-top: 1rem; }
+#all-reources-button-contianer {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem 2rem 3rem 2rem;
+  text-align: center; }
+  #all-reources-button-contianer::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #all-reources-button-contianer a {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    #all-reources-button-contianer a:last-child {
+      margin-right: 0; }
+  @media screen and (min-width: 601px) and (max-width: 840px) {
+    #all-reources-button-contianer a {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 48.21067%; }
+      #all-reources-button-contianer a:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 481px) and (max-width: 600px) {
+    #all-reources-button-contianer a {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%; }
+      #all-reources-button-contianer a:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 480px) {
+    #all-reources-button-contianer a {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%; }
+      #all-reources-button-contianer a:last-child {
+        margin-right: 0; } }
 
 /*
 
