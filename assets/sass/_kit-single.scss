@@ -1,0 +1,408 @@
+//--- KIT SINGLE ---//
+
+#kit #kit-single {
+
+	//--- Categories colors specifications ---//
+	&.visita, &.visit, &.visite {
+		#title-bar {
+			background-color: color(visita-light);
+			h1, h2, div > p {
+				color: color(visita);
+			}
+		}
+		article aside h2, #more-articles > div li h3 {
+			color: color(visita);
+		}
+		#more-articles > div a {
+			//border: 1px solid color(visita);
+
+			li .box-image {
+				background-color: color(visita-light);
+			}
+		}
+	}
+	&.comunicazione, &.communication, &.comunication, &.kommunikation {
+		#title-bar {
+			background-color: color(comunicazione-light);
+			h1, h2, div > p  {
+				color: color(comunicazione);
+			}
+		}
+		article aside h2, #more-articles > div li h3 {
+			color: color(comunicazione);
+		}
+		#more-articles > div a {
+			//border: 1px solid color(comunicazione);
+
+			li .box-image {
+				background-color: color(comunicazione-light);
+			}
+		}
+	}
+	&.opere, &.artpieces {
+		#title-bar {
+			background-color: color(opere-light);
+			h1, h2, div > p  {
+				color: color(opere);
+			}
+		}
+		article aside h2, #more-articles > div li h3 {
+			color: color(opere);
+		}
+		#more-articles > div a {
+			//border: 1px solid color(opere);
+
+			li .box-image {
+				background-color: color(opere-light);
+			}
+		}
+	}
+	&.orientamento, &.orientation, &.orientation {
+		#title-bar {
+			background-color: color(orientamento-light);
+			h1, h2, div > p  {
+				color: color(orientamento);
+			}
+		}
+		article aside h2, #more-articles > div li h3 {
+			color: color(orientamento);
+		}
+		#more-articles > div a {
+			//border: 1px solid color(orientamento);
+
+			li .box-image {
+				background-color: color(orientamento-light);
+			}
+		}
+	}
+
+	//--- end ---//
+
+
+	#title-bar header {
+
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+
+
+		#back-icon {
+			@include span-columns(1);
+
+			svg {
+				width: 3.081923rem;
+				height: 2.39615rem;
+
+				max-width: 100%;
+			}
+
+
+
+		}
+
+		#center-titles {
+			@include span-columns(8);
+
+			h2 {
+				@extend %h2-title-size;
+				margin-bottom: 0.7rem;
+				margin-top: 0.5rem;
+			}
+
+			h1 {
+				@extend %h1-title-size;
+				@extend %bold-weight;
+			}
+		}
+
+		#kit-icon {
+			@include span-columns(3);
+			float: right;
+			text-align: right;
+
+			img {
+				max-width: 100%;
+			}
+		}
+
+		@media screen and (max-width: 420px) {
+
+			#back-icon {
+				display: none;
+			}
+
+			#center-titles {
+				@include span-columns(12);
+			}
+
+			#kit-icon {
+				@include span-columns(12);
+				text-align: center;
+				margin-top: 2rem;
+
+				img {
+					max-height: 13rem;
+				}
+			}
+		}
+
+
+		/*
+
+		div#header-first-line {
+
+			margin-bottom: 2rem;
+
+			svg {
+				margin-left: 0;
+				margin-right: 1rem;
+				float: left;
+				width: 2.081923rem;
+				height: 1.39615rem;
+				
+			}
+
+			h2 {
+				@extend %p-title-size;
+				float: left;
+			}
+		}
+
+		h1 {
+			
+		}
+	
+
+		
+
+		> div {
+			float: none;
+			width: auto;
+			@include outer-container();
+
+			> div {
+				margin-top: 0;
+				@include span-columns(4);
+				margin-right: 0;
+				img {
+					max-width: 100%;
+					display: block;
+					margin-right: auto;
+					margin-left: auto;
+					padding-right: 1rem;
+					padding-left: 1rem;
+				}
+			}
+
+			p {
+				@include span-columns(6);
+			}
+
+			@media screen and (max-width: 720px) {
+				> div {
+					@include span-columns(12);
+					img {
+						transform: translate(45%);
+					}
+				}
+
+				p {
+					@include span-columns(12);
+					margin-top: 3rem;
+				}
+			}
+
+			@media screen and (max-width: 420px) {
+				> div {
+					img {
+						transform: translate(0);
+					}
+				}
+			}
+		}
+
+		*/
+	}
+
+	article {
+		@include outer-container();
+		@include pads(5 2 7 2);
+
+		aside {
+
+			> div {
+				@include span-columns(4);
+
+				h2 {
+					@extend %p-title-size;
+					margin-bottom: 1rem;
+				}
+
+				li {
+					line-height: 160%;
+					a {
+						text-decoration: none;
+						color: color(black);
+					}
+				}
+			}
+		}
+
+		#single-article-container {
+			@include span-columns(8);
+
+			> h2 {
+				@extend %p-title-size;
+				@extend %bold-weight;
+				margin-bottom: 2rem;
+				margin-top: 5rem;
+			}
+
+			> h2:first-child {
+				margin-top: 0;
+			}
+
+			> h3 {
+				@extend %article-h3;
+				@extend %bold-weight;
+				margin-top: 1rem;
+				margin-bottom: 1rem;
+			}
+
+			p + h3 {
+				margin-top: 3rem;
+			}
+
+			p + p {
+				margin-top: 1rem;
+			}
+		}
+
+		@media screen and (max-width: 720px) {
+			aside {
+				display: none;
+			}
+
+			#single-article-container {
+				@include span-columns(12);
+
+				> h2 {
+					margin-top: 3rem;
+				}
+
+				> h2:first-child {
+					margin-top: 0;
+				}
+			}
+		}
+
+	}
+
+	#more-articles {
+		background-color: color(gray-light-bg);
+		
+		> div {
+			@include outer-container();
+			@include pads(3 2 7 2);
+
+			h2 {
+				@extend %p-title-size;
+				margin-bottom: 5rem;
+			}
+
+			a {
+				@include span-columns(4);
+				background-color: color(white);
+				text-decoration: none;
+				//padding: 1rem;
+
+				border: 1px solid color(grey);
+
+				
+				li {
+
+					.box-image {
+						width: 100%;
+						text-align: center;
+						padding: 1rem;
+
+						img {
+							display: block;
+							margin: auto;
+							max-width: 100%;
+						}
+					}
+
+					.box-text {
+						padding: 1rem;
+						h3 {
+							@extend %kit-title-box;
+							@extend %bold-weight;
+							margin-bottom: 1rem;
+						}
+
+						p {
+							color: color(black);
+						}
+					}
+				}
+			}
+
+			@media screen and (max-width: 720px) and (min-width: 420px) {
+				a {
+					@include span-columns(12);
+
+					li {
+						min-height: 4rem;
+						
+						.box-image {
+							@include span-columns(4 of 12);
+							float: right;
+							margin-right: 0;
+
+							/*
+							position: absolute;
+							top: 0;
+							bottom: 0;
+							height: 100%;
+							right: 0;
+							*/
+
+							img {
+								max-height: 8rem;
+								max-width: 100%;
+							}
+						}
+						.box-text {
+							@include span-columns(8 of 12);
+							float: left;
+						}
+
+					}
+				}
+
+				a + a {
+					margin-top: 2rem;
+				}
+			}
+
+			@media screen and (max-width: 420px) {
+				a {
+					@include span-columns(12);
+
+					li .box-image img {
+						max-height: 12rem;
+					}
+
+					li .box-text p {
+						//display: none;
+					}
+
+				}
+
+				a + a {
+					margin-top: 2rem;
+				}
+			}
+		}
+	}
+}

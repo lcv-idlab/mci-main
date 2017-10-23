@@ -1,0 +1,32 @@
+// blueprint title (template title)
+title: kit-main
+
+// page settings
+options:
+  delete: false
+  preview: true
+  status: true
+  url: false
+  template: false
+
+// subpages settings
+pages: true
+
+// files
+files: true
+  fields: 
+    alt:
+      label: Alt text
+      type: text
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo
+    type: text
+  subtitle:
+    label: Sottotitolo
+    type: text
+  description:
+    label: Descrizione
+    type: textarea

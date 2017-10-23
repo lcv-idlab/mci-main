@@ -1,0 +1,48 @@
+// blueprint title (template title)
+title: kit-single
+
+// page settings
+options:
+  delete: true
+  preview: true
+  status: true
+  url: true
+  template: true
+
+// subpages settings
+pages: false
+
+// files
+files: true
+  fields: 
+    alt:
+      label: Alt text
+      type: text
+
+// fields with their fields types and options
+fields:
+  title:
+    label: Titolo
+    type: text
+  description:
+    label: Descrizione
+    type: textarea
+  icon:
+    label: Icona
+    type: image
+  article:
+    label: Articolo
+    type: structure
+    entry:  >
+      <b>{{section_title}}</b>
+      <p>{{content}}</p>
+    fields:
+      section_title:
+        label: Titolo della sezione
+        type: text
+      content:
+        label: Contenuto della sezione
+        type: markdown
+        header1: h2
+        header2: h3
+

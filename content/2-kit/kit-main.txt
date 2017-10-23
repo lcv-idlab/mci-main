@@ -1,0 +1,21 @@
+Title: kit
+
+----
+
+Subtitle: 
+
+----
+
+Description: Descrizione del kit.... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+----
+
+Communication: Due parole sulla comunicazione ....
+
+----
+
+Orientation: Due parole sul orientamento ....
+
+----
+
+Art-pieces: Due parole sulle opere d'arte ....

@@ -1,0 +1,227 @@
+//--- KIT BASE ---//
+
+#kit {
+
+	// font baseline
+	@include media($x-small) {
+		font-size: 14px;
+	}
+	@include media($small) {
+		font-size: 14px;
+	}
+	@include media($medium) {
+		font-size: 14px;
+	}
+	@include media($large) {
+		font-size: 16px;
+	}
+	@include media($desktop) {
+		font-size: 16px;
+	}
+}
+
+//--- KIT FONT SIZE ---//
+
+%nav-size {
+	font-size: 18px;
+}
+
+%article-h3 {
+		@include media($x-small) {
+		font-size: 1.1rem;
+	}
+	@include media($small) {
+		font-size: 1.1rem;
+	}
+	@include media($medium) {
+		font-size: 1.1rem;
+	}
+	@include media($large) {
+		font-size: 1.1rem;
+	}
+	@include media($desktop) {
+		font-size: 1.1rem;
+	}
+}
+
+%p-title-size {
+
+	@include media($x-small) {
+		font-size: 1.286rem;
+	}
+	@include media($small) {
+		font-size: 1.286rem;
+	}
+	@include media($medium) {
+		font-size: 1.714rem;
+	}
+	@include media($large) {
+		font-size: 1.5rem;
+	}
+	@include media($desktop) {
+		font-size: 1.5rem;
+	}
+}
+
+%kit-title-box {
+
+	@include media($x-small) {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
+	@include media($small) {
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+	}
+	@include media($medium) {
+		font-size: 1.5rem;
+		line-height: 1.75rem;
+	}
+	@include media($large) {
+		font-size: 1.5rem;
+		line-height: 1.75rem;
+	}
+	@include media($desktop) {
+		font-size: 1.5rem;
+		line-height: 1.75rem;
+	}
+}
+
+%kit-main-categories-title {
+
+	@include media($x-small) {
+		font-size: 2rem;
+	}
+	@include media($small) {
+		font-size: 2rem;
+	}
+	@include media($medium) {
+		font-size: 2.5rem;
+	}
+	@include media($large) {
+		font-size: 3rem;
+	}
+	@include media($desktop) {
+		font-size: 3rem;
+	}
+
+	@extend %medium-weight;
+}
+
+%h1-title-size {
+
+	@include media($x-small) {
+		font-size: 2.286rem;
+	}
+	@include media($small) {
+		font-size: 2.286rem;
+	}
+	@include media($medium) {
+		font-size: 2.286rem;
+	}
+	@include media($large) {
+		font-size: 3rem;
+	}
+	@include media($desktop) {
+		font-size: 3rem;
+	}
+
+	line-height: 3rem;
+}
+
+
+%h2-title-size {
+
+	@include media($x-small) {
+		font-size: 1.5rem;
+	}
+	@include media($small) {
+		font-size: 1.5rem;
+	}
+	@include media($medium) {
+		font-size: 1.5rem;
+	}
+	@include media($large) {
+		font-size: 1.7rem;
+	}
+	@include media($desktop) {
+		font-size: 1.7rem;
+	}
+
+	@extend %medium-weight;
+
+}
+
+//--- KIT BORDER SPECS ---//
+%border-heavy {
+	border-top: 4px solid color(brand-kit);
+}
+
+%border-light {
+	border-top: 0.05rem solid color(brand-kit);
+}
+
+
+//--- COTEGORIES TEXT COLOR --//
+%visita {
+	color: color(visita);
+}
+%comunicazione {
+	color: color(comunicazione);
+}
+%opere {
+	color: color(opere);
+}
+%orientamento {
+	color: color(orientamento);
+}
+
+//--- SHARED PARTS ---//
+
+#title-bar {
+	//background-color: color(brand-kit-header);
+	//color: color(white);
+
+	header {
+		@include outer-container();
+		@include pads(5 2 5 2);
+
+		h1 {
+			@extend %h1-title-size;
+			@extend %bold-weight;
+		}
+
+		/*
+		> div {
+			@include media($x-small) {
+				@include span-columns(4);
+			}
+			@include media($small) {
+				@include span-columns(4);
+			}
+			@include media($medium) {
+				@include span-columns(6);
+			}
+			@include media($large) {
+				@include span-columns(8);
+			}
+			@include media($desktop) {
+				@include span-columns(8);
+			}
+			
+
+			//margin-top: 5rem;
+		}
+		*/
+	}
+}
+
+#kit .button {
+	background-color: color(brand-kit);
+}
+
+%kit-menu-button {
+	color: color(white);
+	font-size: 1.286rem;
+	text-decoration: none;
+}
