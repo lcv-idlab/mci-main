@@ -51,9 +51,9 @@
 						</ul>
 					</div>
 				</li>
-			<?php elseif($page->title() == "risorse"): ?>
+			<?php elseif($page->title() == "kit"): ?>
 
-				<li><a href="<?php echo page('risorse')->url() ?>" class="<?php e($page->isOpen(), 'active');?> resources-li-menu-mobile"><span class="<?php e($page->isOpen(), 'active'); ?>"><?php echo $page->title() ?></span></a></li>
+				<li><a href="<?php echo page('kit')->url() ?>" class="<?php e($page->isOpen(), 'active');?> after-secondmenu-li-menu-mobile"><span class="<?php e($page->isOpen(), 'active'); ?>"><?php echo $page->title() ?></span></a></li>
 
 			<?php else: ?>
 				
