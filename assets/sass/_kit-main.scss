@@ -103,6 +103,8 @@ $mobile-small: 400px;
 					@extend %kit-main-categories-title;
 					margin-bottom: 1rem;
 
+					color: #222 !important;
+
 					@media screen and (max-width: $mobile) {
 						margin-left: 2.35765%;
 						position: absolute;
@@ -298,7 +300,9 @@ $mobile-small: 400px;
 						position: relative;
 						height: 100%;
 						min-height: 200px;
-						border: 1px solid color(gray);
+						//border: 1px solid color(gray);
+						//border-top: 1px solid color(grey);
+
 
 						@media screen and (max-width: $mobile-small) {
 							position: static;
@@ -313,6 +317,8 @@ $mobile-small: 400px;
 							top: 0;
 							right: 0;
 							height: 100%;
+
+							background-color: none !important;
 
 
 
@@ -357,6 +363,9 @@ $mobile-small: 400px;
 									@extend %kit-title-box;
 									margin-bottom: 1rem;
 									text-decoration: none;
+
+									//
+									color: #111 !important;
 								}
 							}
 						}
