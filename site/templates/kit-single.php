@@ -53,7 +53,10 @@
 			<!-- INDEX -->
 			<aside>
 				<div>
-					<h2><?php echo l::get('index') ?></h2>
+					<h2>
+						<!-- <?php echo l::get('index') ?> -->
+						index	
+					</h2>
 					<ul>
 					<?php foreach (page()->article()->toStructure() as $article): ?>
 						<li><a href="#<?php echo str_replace(' ', '-', strtolower($article->section_title())) ?>"><?php echo $article->section_title() ?></a></li>
