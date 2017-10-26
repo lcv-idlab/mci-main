@@ -6,7 +6,7 @@ Description: Breve descrizione scheda Ihicti berion con cus dolo et, quianis et 
 
 ----
 
-Icon: icone_mci_04.png
+Icon: icone_mci4_v4.png
 
 ----
 

@@ -5,8 +5,13 @@
 	//--- Categories colors specifications ---//
 	&.visita, &.visit, &.visite {
 		#title-bar {
-			background-color: color(visita-light);
-			h1, h2, div > p {
+			// background-color: color(visita-light);
+
+			header {
+				border-bottom-color: color(visita);
+			}
+
+			div > p {
 				color: color(visita);
 			}
 		}
@@ -23,8 +28,13 @@
 	}
 	&.comunicazione, &.communication, &.comunication, &.kommunikation {
 		#title-bar {
-			background-color: color(comunicazione-light);
-			h1, h2, div > p  {
+			// background-color: color(comunicazione-light);
+
+			header {
+				border-bottom-color: color(comunicazione);
+			}
+
+			div > p  {
 				color: color(comunicazione);
 			}
 		}
@@ -41,8 +51,13 @@
 	}
 	&.opere, &.artpieces {
 		#title-bar {
-			background-color: color(opere-light);
-			h1, h2, div > p  {
+			// background-color: color(opere-light);
+
+			header {
+				border-bottom-color: color(opere);
+			}
+
+			div > p  {
 				color: color(opere);
 			}
 		}
@@ -59,8 +74,13 @@
 	}
 	&.orientamento, &.orientation, &.orientation {
 		#title-bar {
-			background-color: color(orientamento-light);
-			h1, h2, div > p  {
+			// background-color: color(orientamento-light);
+
+			header {
+				border-bottom-color: color(orientamento);
+			}
+
+			div > p  {
 				color: color(orientamento);
 			}
 		}
@@ -83,6 +103,8 @@
 
 		padding-top: 2rem;
 		padding-bottom: 2rem;
+
+		border-bottom: 0.25rem solid;
 
 
 		#back-icon {

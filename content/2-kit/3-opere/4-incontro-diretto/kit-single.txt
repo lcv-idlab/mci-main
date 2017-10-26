@@ -6,7 +6,7 @@ Description: Il design specifico per un .... Lorem ipsum dolor sit amet, consect
 
 ----
 
-Icon: icone_mci_09.png
+Icon: icone_mci9_v4.png
 
 ----
 

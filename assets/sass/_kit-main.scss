@@ -13,6 +13,8 @@ $mobile-small: 400px;
 		@include pads(0 2 0 2);
 		@extend %nav-size;
 
+		margin-bottom: 3rem;
+
 		ul {
 			border-top: 1px solid color(gray);
 			border-bottom: 1px solid color(gray);
@@ -79,15 +81,17 @@ $mobile-small: 400px;
 
 		section {
 			@include span-columns(12);
-			@include pads(3 0 5 0);
+			@include pads(1.5 0 8 0);
 
-			border-top: 1px solid color(grey);
-			
+			border-top: 0.25rem solid;
+
+			/*			
 			@media screen and (min-width: $mobile) {
 				&:first-child {
-					border-top: none;
+					//border-top: none;
 				}
 			}
+			*/
 			
 			&:last-child {
 				border-bottom: none;
@@ -97,7 +101,7 @@ $mobile-small: 400px;
 			> header {
 				@include span-columns(12 of 12);
 				@include pads(1 1 1 0.5);
-				margin-top: 2rem;
+				margin-bottom: 2rem;
 				
 				h2 {
 					@extend %kit-main-categories-title;
@@ -183,6 +187,9 @@ $mobile-small: 400px;
 			//--- Categories colors specifications ---//
 
 			&#visita, &#visit, &#visite {
+
+				border-top-color: color(visita);
+
 				header h2, article div div header h3 {
 					@extend %visita;
 				}
@@ -205,10 +212,13 @@ $mobile-small: 400px;
 				}
 
 				aside {
-					background-color: color(visita-light);
+					//background-color: color(visita-light);
 				}
 			}
 			&#comunicazione, &#communication, &#comunication, &#kommunikation {
+
+				border-top-color: color(comunicazione);
+
 				header h2, article div div header h3 {
 					@extend %comunicazione;
 				}
@@ -231,10 +241,13 @@ $mobile-small: 400px;
 				}
 
 				aside {
-					background-color: color(comunicazione-light);
+					//background-color: color(comunicazione-light);
 				}
 			}
 			&#opere, &%artpieces {
+
+				border-top-color: color(opere);
+
 				header h2, article div div header h3 {
 					@extend %opere;
 				}
@@ -257,10 +270,13 @@ $mobile-small: 400px;
 				}
 
 				aside {
-					background-color: color(opere-light);
+					//background-color: color(opere-light);
 				}
 			}
 			&#orientamento, &%orientation, &%orientation {
+
+				border-top-color: color(orientamento);
+
 				header h2, article div div header h3 {
 					@extend %orientamento;
 				}
@@ -283,7 +299,7 @@ $mobile-small: 400px;
 				}
 
 				aside {
-					background-color: color(orientamento-light);
+					//background-color: color(orientamento-light);
 				}
 			}
 
