@@ -131,7 +131,7 @@ html {
 %title {
 	@extend %bold-weight;
 	@extend %large-size;
-	color: color(black);
+	color: color(white);
 }
 
 %title-secondary {
@@ -157,9 +157,9 @@ html {
 }
 
 %main-nav-button {
-	@extend %light-weight;
+	@extend %medium-weight;
 	@extend %medium-size;
-	color: color(white);
+	color: color(gray-dark);
 	text-decoration: none;
 
 	@include media($x-small) {

@@ -1,14 +1,19 @@
 //--- MAIN NAVIGATION (HEADER) ---//
 
 .main-nav {
-	background-color: color(brand);
+	//background-color: color(brand);
 
 	nav {
 		@include outer-container();
 
+		//margin-top: 2rem;
+		//margin-bottom: 5rem;
+
 		.main-logo {
 			@extend %main-logo;
-			@include pads(2 2 2 2);
+			@include pads(1 1 1 1);
+			margin: 0, 1rem, 0rem, 1rem;
+			background-color: color(black);
 			display: inline-block;
 
 			&::after {
@@ -104,6 +109,9 @@
 			}
 
 			> li {
+
+
+
 				display: inline;
 
 				@include media($main-nav-mobile) {
@@ -120,9 +128,32 @@
 					@extend .class-main-nav-button;
 					@include pads(2 1.5625 2 1.5625);
 					display: inline-block;
+
+
+					position: relative;
+
+					.menu-selection-line {
+						position: absolute;
+						background-color: color(black);
+						bottom: 1rem;
+						right: 0;
+						left: 0;
+						width: 100%;
+						height: 0;
+
+						@include transition(height 0.2s ease-in-out);
+					}
 					
 					&:hover {
 
+						.menu-selection-line {
+							//height: 0.5rem;
+
+						}
+
+						color: color(black);
+
+						/*
 						span {
 							padding-bottom: 0.33333rem;
 							border-bottom: 1px solid color(white);
@@ -131,11 +162,20 @@
 								border-bottom: none;
 							}
 						}
+						*/
 					}
 
 					&.active {
-						@include pads(2 2 1.5 2);
-						border-bottom: 0.5rem solid color(white);
+						//@include pads(2 2 1.5 2);
+						//border-bottom: 0.5rem solid color(white);
+
+						color: color(black);
+
+
+						.menu-selection-line {
+							//height: 0.5rem;
+						}
+
 					}
 
 					@include media($main-nav-mobile) {

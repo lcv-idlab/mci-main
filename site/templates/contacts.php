@@ -2,7 +2,9 @@
 
 <main>
 
-	<h1 class="title"><?php echo page()->title()->html() ?></h1>
+	<div class="title">
+		<h1><?php echo page()->title()->html() ?></h1>
+	</div>
 
 	<div class="contacts-contacts">
 		<address><?php echo page()->main()->kt() ?></address>
@@ -20,7 +22,7 @@
 	</div>
 
 	<section class="contacts-colophon">
-		<h2 class="title">colophon</h2>
+		<h2>colophon</h2>
 
 		<div class="colophon-container">
 

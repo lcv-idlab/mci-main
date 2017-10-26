@@ -2,7 +2,9 @@
 
 <main>
 
-	<h1 class="title"><?php echo page()->title()->html() ?></h1>
+	<div class="title">
+		<h1><?php echo page()->title()->html() ?></h1>
+	</div>
 
 	<section>
 		<h2 class="hidden home-title-container" id="risorse-home"><?php echo page('risorse')->title()->html() ?></h2>

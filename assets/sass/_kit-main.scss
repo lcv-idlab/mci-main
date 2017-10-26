@@ -8,61 +8,9 @@ $mobile-small: 400px;
 
 #kit {
 
-	#categories-nav {
-		@include outer-container();
-		@include pads(0 2 0 2);
-		@extend %nav-size;
+	.categories-nav {
 
-		margin-bottom: 3rem;
-
-		ul {
-			border-top: 1px solid color(gray);
-			border-bottom: 1px solid color(gray);
-			min-height: 4rem;
-
-			li {
-				/*
-				display: inline;
-				@include span-columns(3);
-				text-align: center;
-				//border-right: 1px solid color(black);
-				*/
-			}
-
-			a {
-				@extend %regular-weight;
-				@extend %baseline-size;
-				@include pads(1.3 2 1.3 0);
-				text-decoration: none;
-				display: inline-block;
-
-				&:hover {
-
-					span {
-						padding-bottom: 0.3333333rem;
-						border-bottom: 1px solid color(brand);
-						@extend %bold-weight;
-					}
-
-				}
-			}
-		}
-
-		/*
-		.visita {
-			@extend %visita;
-		}
-
-		.comunicazione {
-			@extend %comunicazione;
-		}
-		.opere {
-			@extend %opere;
-		}
-		.orientamento {
-			@extend %orientamento;
-		}
-		*/
+		@extend %category-nav;
 
 		@media screen and (max-width: $mobile) {
 			display: none;

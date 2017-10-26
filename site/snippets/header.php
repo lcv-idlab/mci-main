@@ -10,26 +10,26 @@
 		<?php foreach ($site->pages()->visible() as $page): ?>
 
 			<?php if ( $page->title() == "progetto" ): ?>
-				<li><a href="<?php echo $page->url() ?>" class="<?php e($page->isOpen(), 'active'); ?>"><span class="<?php e($page->isOpen(), 'active'); ?>"><?php echo $page->title() ?></span></a>
+				<li><a href="<?php echo $page->url() ?>" class="<?php e($page->isOpen(), 'active'); ?>"><div class="menu-selection-line"></div><span class="<?php e($page->isOpen(), 'active'); ?>"><?php echo $page->title() ?></span></a>
 
 					<!-- hide the second level menu if the page isns't part of "progetto" or "abstract" -->
 					<div class="conatiner-second-level <?php $parent = page()->parent()->title(); if( $parent!='progetto' && $parent!='abstract' ) { echo "visuallyhidden"; } ?>">
 
 						<ul class="second-level">
 							<?php foreach ( $page->children()->visible() as $intpage): ?>
-								<li><a href="<?php echo $intpage->url() ?>" class="<?php e($intpage->isOpen(), 'active'); ?>"><span class="<?php e($intpage->isOpen(), 'active'); ?>"><?php echo $intpage->title() ?></span></a></li>
+								<li><a href="<?php echo $intpage->url() ?>" class="<?php e($intpage->isOpen(), 'active'); ?>"><div class="menu-selection-line"></div><span class="<?php e($intpage->isOpen(), 'active'); ?>"><?php echo $intpage->title() ?></span></a></li>
 							<?php endforeach ?>
 						</ul>
 					</div>
 				</li>
 			<?php elseif($page->title() == "kit"): ?>
 
-				<li><a href="<?php echo page('kit')->url() ?>" class="<?php e($page->isOpen(), 'active');?> after-secondmenu-li-menu-mobile"><span class="<?php e($page->isOpen(), 'active'); ?>"><?php echo $page->title() ?></span></a></li>
+				<li><a href="<?php echo page('kit')->url() ?>" class="<?php e($page->isOpen(), 'active');?> after-secondmenu-li-menu-mobile"><div class="menu-selection-line"></div><span class="<?php e($page->isOpen(), 'active'); ?>"><?php echo $page->title() ?></span></a></li>
 
 			<?php else: ?>
 				
 
-				<li><a href="<?php echo $page->url() ?>" class="<?php e($page->isOpen(), 'active'); ?>"><span class="<?php e($page->isOpen(), 'active'); ?>"><?php echo $page->title() ?></span></a></li>
+				<li><a href="<?php echo $page->url() ?>" class="<?php e($page->isOpen(), 'active'); ?>"><div class="menu-selection-line"></div><span class="<?php e($page->isOpen(), 'active'); ?>"><?php echo $page->title() ?></span></a></li>
 
 			<?php endif ?>
       		

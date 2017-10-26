@@ -15,17 +15,21 @@
 		</div>
 		-->
 
-		<h1 class="title"><?php echo page()->title()->html() ?></h1>
+		<div class="title">
+			<h1><?php echo page()->title()->html() ?></h1>
 
-		<!-- SECOND NAV -->
+			<!-- SECOND NAV -->
 
-		<nav id="categories-nav">
-			<ul>
-				<?php foreach (page()->children() as $cat): ?>
-					<a href="#<?php echo str_replace(' ', '-', strtolower($cat->title())) ?>" class="<?php echo str_replace(' ', '-', strtolower($cat->title())) ?>"><li><span><?php echo ucfirst($cat->title()) ?><span></li></a>
-				<?php endforeach ?>
-			</ul>
-		</nav>
+			<nav class="categories-nav">
+				<ul>
+					<?php foreach (page()->children() as $cat): ?>
+						<a href="#<?php echo str_replace(' ', '-', strtolower($cat->title())) ?>" class="<?php echo str_replace(' ', '-', strtolower($cat->title())) ?>"><li><span><?php echo ucfirst($cat->title()) ?></span></li></a>
+					<?php endforeach ?>
+				</ul>
+			</nav>
+		</div>
+
+
 
 		<!-- CATEGORIES WITH SINGLE KITS -->
 
