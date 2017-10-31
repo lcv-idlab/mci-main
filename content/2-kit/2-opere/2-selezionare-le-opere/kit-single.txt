@@ -1,12 +1,12 @@
-Title: Visita guidata
+Title: Selezionare le opere
 
 ----
 
-Description: Il design specifico per un .... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+Description: Breve descrizione scheda Ihicti berion con cus dolo et, quianis et as autat exce- scium vendae
 
 ----
 
-Icon: icone_mci_hot_v2.png
+Icon: icone_mci7_hot_v2.png
 
 ----
 

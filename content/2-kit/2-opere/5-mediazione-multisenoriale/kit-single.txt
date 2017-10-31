@@ -1,12 +1,12 @@
-Title: Visita guidata
+Title: Mediazione multisenoriale
 
 ----
 
-Description: Il design specifico per un .... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+Description: Il design specifico per un .... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 
 ----
 
-Icon: icone_mci_hot_v2.png
+Icon: icone_mci10_hot_v2.png
 
 ----
 

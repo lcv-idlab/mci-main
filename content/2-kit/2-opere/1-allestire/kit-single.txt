@@ -1,12 +1,12 @@
-Title: Visita guidata
+Title: Allestire
 
 ----
 
-Description: Il design specifico per un .... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+Description: la descrizione consiste nel.... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 
 ----
 
-Icon: icone_mci_hot_v2.png
+Icon: icone_mci6_hot_v2.png
 
 ----
 

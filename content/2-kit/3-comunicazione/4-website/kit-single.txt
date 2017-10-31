@@ -1,12 +1,12 @@
-Title: Visita guidata
+Title: Website
 
 ----
 
-Description: Il design specifico per un .... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+Description: Il web è ... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 
 ----
 
-Icon: icone_mci_hot_v2.png
+Icon: icone_mci14_hot_v2.png
 
 ----
 

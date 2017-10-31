@@ -1,12 +1,12 @@
-Title: Visita guidata
+Title: Design
 
 ----
 
-Description: Il design specifico per un .... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+Description: Il design specifico per un .... Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 ----
 
-Icon: icone_mci_hot_v2.png
+Icon: icone_mci12_hot_v2.png
 
 ----
 
@@ -36,3 +36,7 @@ Article:
     Prioris generis est docilitas, memoria; Ergo in utroque exercebantur, eaque disciplina effecit tantam illorum utroque in genere dicendi copiam. Summus dolor plures dies manere non potest? Universa enim illorum ratione cum tota vestra confligendum puto. Hic ego: Pomponius quidem, inquam, noster iocari videtur, et fortasse suo iure. Si quae forte-possumus.
     
     Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere. Haec et tu ita posuisti, et verba vestra sunt. Duo Reges: constructio interrete. Hoc loco tenere se Triarius non potuit. Te ipsum, dignissimum maioribus tuis, voluptasne induxit, ut adolescentulus eriperes P. Hi curatione adhibita levantur in dies, valet alter plus cotidie, alter videt. At certe gravius. Respondent extrema primis, media utrisque, omnia omnibus.
+
+----
+
+Introduction: dsagsdfg s
