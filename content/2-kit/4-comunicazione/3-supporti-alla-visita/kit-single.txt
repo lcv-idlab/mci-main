@@ -6,7 +6,7 @@ Description: Per supporti fisici si ... Lorem ipsum dolor sit amet, consectetur 
 
 ----
 
-Icon: icone_mci13_v4.png
+Icon: icone_mci13_hot_v1.png
 
 ----
 

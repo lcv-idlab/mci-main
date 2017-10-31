@@ -6,7 +6,7 @@ Description: Il web è ... Lorem ipsum dolor sit amet, consectetur adipiscing el
 
 ----
 
-Icon: icone_mci14_v4.png
+Icon: icone_mci14_hot_v1.png
 
 ----
 

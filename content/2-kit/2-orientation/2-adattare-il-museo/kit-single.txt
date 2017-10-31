@@ -6,7 +6,7 @@ Description: Nel museo ... Lorem ipsum dolor sit amet, consectetur adipiscing el
 
 ----
 
-Icon: icone_mci5_v4.png
+Icon: icone_mci5_hot_v1.png
 
 ----
 
