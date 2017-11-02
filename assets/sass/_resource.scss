@@ -264,6 +264,59 @@ a.resource-link {
 				margin-bottom: 1rem;
 			}
 
+			#audio_recordings {
+
+				ul#artworks_list_audio {
+					> li {
+						border-top: 10px solid color(black);
+						padding-top: 1rem;
+						margin-top: 7rem;
+					}
+				}
+
+				& p.image_copyright {
+					@extend %light-weight;
+					font-size: 0.8rem;
+				}
+
+				h4 {
+					@extend %medium-size;
+					@extend %bold-weight;
+					margin-bottom: 1rem;
+				}
+
+				p {
+					@extend %light-weight;
+					em {
+						@extend %regular-weight;
+					}
+				}
+
+				img {
+					min-width: 100%;
+					max-width: 100%;
+				}
+
+				& ul.audio_files {
+
+					li {
+					}
+
+					li + li {
+						margin-top: 1rem;
+					}
+
+					h5 {
+						margin-bottom: 0.5rem;
+
+					}
+
+					audio {
+						width: 100%;
+					}
+				}
+			}
+
 			@include media($mobile) {
 				@include span-columns(8);
 				margin-top: 2rem;

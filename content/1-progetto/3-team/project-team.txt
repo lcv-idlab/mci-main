@@ -646,3 +646,39 @@ People:
   biography: "Pedagogista di formazione, ottiene il dottorato “Uomo-ambiente” (Università di Padova) e il post-doc in “Scienze della terra”. Docente-ricercatrice e coordinatrice del settore ricerca presso il Dipartimento formazione e apprendimento della SUPSI, è responsabile dell’Asse di ricerca SUPSI sui Sistemi formativi ed educativi. Nel 2011 è Visiting Professor all'Università di Köln, nel 2010 all'Università di Caxias do Sul, nel 2009 all'Università di Würzburg. All'Università di Padova è docente aggregato di geografia e didattica, vice-coordinatrice del dottorato in geografia umana e fisica della Scuola Superiore di Studi Storici, Geografici e Antropologici, responsabile della costituzione di un museo di Ateneo sulla ricerca geografica e coordina un team di ricerca internazionale e multidisciplinare  sul tema dei paesaggi sonori. È membro attivo del Gruppo AGEI in “Geografia della Società dell’Informazione”. Ha coordinato progetti di ricerca legati alle TIC, alla partecipazione e alla valorizzazione dei beni tangibili e intangibili delle comunità locali all’interno del sesto e del settimo programma quadro della ricerca scientifica (Comunità Europea)."
   image: lorena_rocca.jpg
   colophon: collaborazione
+- 
+  name: Viviana
+  surname: Rossi
+  affiliation: SUPSI (DACD-LCV)
+  biography: >
+    Dopo aver conseguito il diploma di
+    laurea triennale in Comunicazione e
+    didattica dell’arte all’Accademia di
+    belle arti a Bologna inizia a
+    collaborare con il Museo in Erba di
+    Bellinzona in veste di animatrice. Nel
+    2011 entra nello staff di mediazione
+    culturale del Dicastero Attività
+    Culturali della città di Lugano e con
+    l’apertura del LAC prosegue
+    l’attività nel rinnovato settore di
+    mediazione culturale, in particolare per
+    LACedu. Dal 2017 è attiva in seno al
+    Laboratorio cultura visiva in qualità
+    di collaboratrice per il progetto
+    Mediazione Cultura Inclusione.
+    Parallelamente ha ripreso l’attività
+    di animazione didattico-creativa presso
+    il Museo in Erba a Lugano e
+    all’occasione collabora con le scuole
+    cantonali come supplente di Storia
+    dell’arte.
+  image: empty.jpg
+  colophon: collaborazione
+- 
+  name: Valentina
+  surname: Meldi
+  affiliation: SUPSI (DACD-LCV)
+  biography: 'Nel 2015 consegue il Bachelor in Comunicazione visiva presso la SUPSI e successivamente inizia a lavorare in qualità di Assistente presso il medesimo corso di laurea. Affianca i docenti nei corsi dell’area digitale: Web, User Interface, il progetto interdisciplinare Crossmedia: Orientation and Identity Design e Interaction Design.  Nel 2016 inizia a lavorare, sempre in qualità di assistente, presso il Laboratorio cultura visiva svolgendo vari compiti dalla grafica tradizionale al photoshooting e video riprese.'
+  image: empty.jpg
+  colophon: collaborazione
