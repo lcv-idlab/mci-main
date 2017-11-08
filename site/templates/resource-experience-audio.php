@@ -101,15 +101,101 @@
                 <img src="<?php echo page()->image($rec->picture())->url() ?>">
                 <p class="image_copyright"><?php echo $rec->copyright() ?></p>
 
-                <?php if( $rec->audio()->isNotEmpty()): ?>
-
                   <ul class="audio_files">
 
+                  <?php if( $rec->audio1()->isNotEmpty()): ?>
+                    <li>
+                      <h5>Informazioni generali</h5>
+                      <audio controls controlsList="nodownload">
+                        <source src="<?php echo $rec->audio1()->toFile()->url() ?>" type="audio/mp3" >
+                      </audio>
+
+                      <!--[if lt IE 9]>
+                        <object id="myTuneObj" type="audio/x-mpeg" data="<?php echo $rec->audio1()->toFile()->url() ?>" autoplay="false" height="45">
+                          <param name="src" value="<?php echo $rec->audio1()->toFile()->url() ?>" />
+                          <param name="controller" value="true" />
+                          <param name="autoplay" value="false" />
+                          <param name="autostart" value="0" />
+                        </object>
+                      <![endif]-->
+
+                    </li>
+                  <?php endif ?>
+
+
+
+                  <?php if( $rec->audio2()->isNotEmpty()): ?>
+                    <li>
+                      <h5>Descrizione</h5>
+                      <audio controls controlsList="nodownload">
+                        <source src="<?php echo $rec->audio2()->toFile()->url() ?>" type="audio/mp3" >
+                      </audio>
+
+                      <!--[if lt IE 9]>
+                        <object id="myTuneObj" type="audio/x-mpeg" data="<?php echo $rec->audio2()->toFile()->url() ?>" autoplay="false" height="45">
+                          <param name="src" value="<?php echo $rec->audio2()->toFile()->url() ?>" />
+                          <param name="controller" value="true" />
+                          <param name="autoplay" value="false" />
+                          <param name="autostart" value="0" />
+                        </object>
+                      <![endif]-->
+
+                    </li>
+                  <?php endif ?>
+
+
+                  <?php if( $rec->audio3()->isNotEmpty()): ?>
+                    <li>
+                      <h5>Luce e colore</h5>
+                      <audio controls controlsList="nodownload">
+                        <source src="<?php echo $rec->audio3()->toFile()->url() ?>" type="audio/mp3" >
+                      </audio>
+
+                      <!--[if lt IE 9]>
+                        <object id="myTuneObj" type="audio/x-mpeg" data="<?php echo $rec->audio3()->toFile()->url() ?>" autoplay="false" height="45">
+                          <param name="src" value="<?php echo $rec->audio3()->toFile()->url() ?>" />
+                          <param name="controller" value="true" />
+                          <param name="autoplay" value="false" />
+                          <param name="autostart" value="0" />
+                        </object>
+                      <![endif]-->
+
+                    </li>
+                  <?php endif ?>
+
+
+                  <?php if( $rec->audio4()->isNotEmpty()): ?>
+                    <li>
+                      <h5>Composizione</h5>
+                      <audio controls controlsList="nodownload">
+                        <source src="<?php echo $rec->audio4()->toFile()->url() ?>" type="audio/mp3" >
+                      </audio>
+
+                      <!--[if lt IE 9]>
+                        <object id="myTuneObj" type="audio/x-mpeg" data="<?php echo $rec->audio4()->toFile()->url() ?>" autoplay="false" height="45">
+                          <param name="src" value="<?php echo $rec->audio4()->toFile()->url() ?>" />
+                          <param name="controller" value="true" />
+                          <param name="autoplay" value="false" />
+                          <param name="autostart" value="0" />
+                        </object>
+                      <![endif]-->
+
+                    </li>
+                  <?php endif ?>
+
+                  </ul>
+
+
+
+                  <!-- OLD FOR SELECTOR MULTIPLE FILES
                   <?php 
                     $filenames = $rec->audio()->split(',');
                     if(count($filenames) < 2) $files = array_pad($filenames, 2, '');
                     $files = call_user_func_array(array(page()->files(), 'find'), $filenames);
                   ?>
+                  -->
+
+                  <!--
                   <?php foreach($files as $file): ?>
                     <li>
                       <?php if($file->alt()->isNotEmpty()): ?>
@@ -130,13 +216,11 @@
                      
                     <![endif]-->
 
-
-
+                    <!--
                     </li>
                   <?php endforeach ?>
-
-                  </ul>
-                <?php endif ?>
+                  -->
+                  
 
               </li>
             <?php endforeach ?>

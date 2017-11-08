@@ -73,10 +73,28 @@ fields:
       copyright:
         label: copyright
         type: text
-      audio:
-        label: Registrazione della descrizione
+      audio1:
+        label: Audio1
         type: selector
-        mode: multiple
+        mode: single
+        types:
+          - audio
+      audio2:
+        label: Audio2
+        type: selector
+        mode: single
+        types:
+          - audio
+      audio3:
+        label: Audio3
+        type: selector
+        mode: single
+        types:
+          - audio
+      audio4:
+        label: Audio4
+        type: selector
+        mode: single
         types:
           - audio
   movie:

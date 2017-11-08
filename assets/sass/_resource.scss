@@ -51,11 +51,11 @@ a.resource-link {
 		display: block;
 
 		filter: blur(25px);
-		@include transition( filter .8s);
+		@include transition( filter .4s);
 
 		&:hover {
 			filter: blur(0px);
-			@include transition( filter .8s);
+			@include transition( filter .4s);
 		}
 	}
 }

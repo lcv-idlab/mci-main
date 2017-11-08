@@ -1393,16 +1393,16 @@ a.resource-link {
     width: 100%;
     display: block;
     filter: blur(25px);
-    -webkit-transition: filter 0.8s;
-    -moz-transition: filter 0.8s;
-    transition: filter 0.8s; }
+    -webkit-transition: filter 0.4s;
+    -moz-transition: filter 0.4s;
+    transition: filter 0.4s; }
     .resource-document img:last-child {
       margin-right: 0; }
     .resource-document img:hover {
       filter: blur(0px);
-      -webkit-transition: filter 0.8s;
-      -moz-transition: filter 0.8s;
-      transition: filter 0.8s; }
+      -webkit-transition: filter 0.4s;
+      -moz-transition: filter 0.4s;
+      transition: filter 0.4s; }
 
 .resource-document-text {
   max-width: 1024px;
