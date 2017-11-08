@@ -51,20 +51,4 @@ Subtitle: Attività culturali e artistiche  della Svizzera italiana: esperienze 
 
 ----
 
-Pdf-it: attivita-culturali-e-artistiche-della-svizzera-italiana.pdf
-
-----
-
-Pdf-de: abstract-indagine-preliminare-ted.pdf
-
-----
-
-Pdf-fr: abstract-indagine-preliminare-fr.pdf
-
-----
-
-Pdf-en: abstract-indagine-preliminare-ingle.pdf
-
-----
-
 Main-image: indagine_preliminare_cover.jpg

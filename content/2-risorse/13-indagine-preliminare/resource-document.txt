@@ -68,3 +68,40 @@ Pdf-en: abstract-indagine-preliminare-ingle.pdf
 ----
 
 Main-image: indagine_preliminare_cover.jpg
+
+----
+
+Pdfs: 
+
+- 
+  button_label: Documento completo
+  file: >
+    attivita-culturali-e-artistiche-della-svizzera-italiana.pdf
+- 
+  button_label: Abstract auf Deutsch
+  file: abstract-indagine-preliminare-ted.pdf
+- 
+  button_label: Abstract en Français
+  file: abstract-indagine-preliminare-ted.pdf
+- 
+  button_label: Abstract in English
+  file: abstract-indagine-preliminare-ingle.pdf
+
+----
+
+Docs: 
+
+- 
+  button_label: Documento completo
+  file: >
+    attivita-culturali-e-artistiche-della-svizzera-italiana.pdf
+  main_doc: "1"
+- 
+  button_label: Abstract auf Deutsch
+  file: abstract-indagine-preliminare-ted.pdf
+- 
+  button_label: Abstract en Français
+  file: abstract-indagine-preliminare-fr.pdf
+- 
+  button_label: Abstract in English
+  file: abstract-indagine-preliminare-ingle.pdf

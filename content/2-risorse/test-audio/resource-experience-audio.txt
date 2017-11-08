@@ -57,6 +57,13 @@ Ext-link-desc:
 Recordings: 
 
 - 
+  title: Titolo
+  caption: adsfdsf
+  picture: opera2.jpg
+  copyright: ""
+  audio: >
+    audio1.mp3,audio2.mp3,audio3.mp3,audio4.mp3
+- 
   title: Lo scrittore
   picture: opera1.jpg
   copyright: Copyright1
@@ -67,11 +74,4 @@ Recordings:
   picture: opera2.jpg
   copyright: Copyright2
   audio: audio3.mp3,audio4.mp3
-  caption: '*autore* Nome Cognome / *anno* 1853 / *tecnica* pittura ad olio / *dimensione* 15x25cm / *luogo* Pinacoteca Zuest'
-- 
-  title: Opera3
-  picture: opera3.jpg
-  copyright: Copyright3
-  audio: >
-    groove.mp3,jimbarrett_-_the_hero_in_the_novel_wofgang_iser.mp3
   caption: '*autore* Nome Cognome / *anno* 1853 / *tecnica* pittura ad olio / *dimensione* 15x25cm / *luogo* Pinacoteca Zuest'
