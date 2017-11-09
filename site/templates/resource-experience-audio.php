@@ -52,7 +52,15 @@
 
         <?php else: ?>
 
+          <?php if(page()->main_image()->isNotEmpty()): ?>
+
+          <!-- don't show it on the experience audio page 
+          
           <img src="<?php echo page()->image(page()->main_image())->url() ?>" alt="<?php echo page()->image(page()->main_image())->alt()->html() ?>">
+
+          -->
+
+          <?php endif ?>
 
         <?php endif ?>
 
@@ -67,8 +75,8 @@
         <div class="aside">
           <h3 id="partners">In collaborazione con</h3>
           <p><?php echo page()->partner()->html() ?></p>
-          <h3 id="location">Data e luogo</h3>
-          <p><?php echo page()->date('d.m.Y') ?>, <?php echo page()->location()->html() ?></p>
+          <h3 id="location">Data</h3>
+          <p><?php echo page()->date('d.m.Y') ?> <!--, <?php echo page()->location()->html() ?> --> </p>
 
           <?php if(page()->ext_link()->isNotEmpty()): ?>
   
@@ -98,7 +106,7 @@
                 <?php if($rec->caption()->isNotEmpty()): ?>
                   <?php echo $rec->caption()->kt() ?>
                 <?php endif ?>
-                <img src="<?php echo page()->image($rec->picture())->url() ?>">
+                <img src="<?php echo page()->image($rec->picture())->url() ?>" <?php $size = page()->image($rec->picture())->dimensions(); if($size->height() > $size->width()) { echo 'class="smaller"';} ?> alt="<?php echo $rec->title() . ", " . $rec->caption() ?>">
                 <p class="image_copyright"><?php echo $rec->copyright() ?></p>
 
                   <ul class="audio_files">

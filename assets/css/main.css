@@ -94,7 +94,7 @@ html {
   font-family: 'roboto-medium', Arial, sans-serif;
   font-weight: normal; }
 
-.headline, .container-events li article time, .container-events li article .event-list-title, .container-list li div h3, .container-sections h3, .abstact-content section h3, .resource-document-text .border-top .aside h3, .error-page h1, .title, .title-article, .event-title, .main-nav nav .main-logo, .body strong, .container-boxes.home-page .document .subtitle, .project-partner article > div .headline, .abstract-lang-nav li a.active, .project-team li article div h2, .resource-document-text .border-top #article .subtitle, .resource-experience-text .border-top .aside #partners, .resource-experience-text .border-top .aside #location, .resource-experience-text .border-top #article .subtitle, .resource-experience-text .border-top #article #audio_recordings h4, .resource-experience-gallery h2, .contacts-contacts strong, .contacts-contacts > address strong, .contacts-colophon .colophon-container h3, .container-events li article div .location, .event-header #time time, .event-content .aside address strong, .newsletter h2, .enti .title-enti, body.senseable-art h2, body.senseable-art .workshop-title h1, body.senseable-art .people-lists .list h3, body.senseable-art .project-lists ul li h3, body.senseable-art.senseable-art-project .project-title h1, body.senseable-art.senseable-art-project h2 {
+.headline, .container-events li article time, .container-events li article .event-list-title, .container-list li div h3, .container-sections h3, .abstact-content section h3, .resource-document-text .border-top .aside h3, .error-page h1, .title, .title-article, .event-title, .main-nav nav .main-logo, .body strong, p a:hover, p a:active, .container-boxes.home-page .document .subtitle, .project-partner article > div .headline, .abstract-lang-nav li a.active, .project-team li article div h2, .resource-document-text .border-top #article .subtitle, .resource-experience-text .border-top .aside #partners, .resource-experience-text .border-top .aside #location, .resource-experience-text .border-top #article .subtitle, .resource-experience-text .border-top #article #audio_recordings h4, .resource-experience-gallery h2, .contacts-contacts strong, .contacts-contacts > address strong, .contacts-colophon .colophon-container h3, .container-events li article div .location, .event-header #time time, .event-content .aside address strong, .newsletter h2, .enti .title-enti, body.senseable-art h2, body.senseable-art .workshop-title h1, body.senseable-art .people-lists .list h3, body.senseable-art .project-lists ul li h3, body.senseable-art.senseable-art-project .project-title h1, body.senseable-art.senseable-art-project h2 {
   font-family: 'roboto-bold', Arial, sans-serif;
   font-weight: normal; }
 
@@ -524,6 +524,16 @@ hr {
     border-bottom: 1px solid; }
   .link:hover span, .contacts-contacts a:hover span, .contacts-colophon .colophon-container a:hover span {
     border-bottom: 2px solid; }
+
+p a:hover, p a:active {
+  color: #C20F2F;
+  text-decoration: none;
+  border-bottom: 1px solid #C20F2F; }
+
+p a, p a:visited {
+  color: #C20F2F;
+  text-decoration: none;
+  border-bottom: 1px solid #C20F2F; }
 
 .link-back {
   max-width: 1024px;
@@ -1621,7 +1631,7 @@ a.resource-link {
       .resource-experience-text .border-top #article p {
         margin-bottom: 1rem; }
       .resource-experience-text .border-top #article #audio_recordings ul#artworks_list_audio > li {
-        border-top: 10px solid #212121;
+        border-top: 1px solid #212121;
         padding-top: 1rem;
         margin-top: 7rem; }
       .resource-experience-text .border-top #article #audio_recordings p.image_copyright {
@@ -1631,6 +1641,13 @@ a.resource-link {
       .resource-experience-text .border-top #article #audio_recordings img {
         min-width: 100%;
         max-width: 100%; }
+      .resource-experience-text .border-top #article #audio_recordings img.smaller {
+        min-width: 70%;
+        max-width: 70%; }
+        @media screen and (max-width: 480px) {
+          .resource-experience-text .border-top #article #audio_recordings img.smaller {
+            min-width: 100%;
+            max-width: 100%; } }
       .resource-experience-text .border-top #article #audio_recordings ul.audio_files li + li {
         margin-top: 1rem; }
       .resource-experience-text .border-top #article #audio_recordings ul.audio_files h5 {

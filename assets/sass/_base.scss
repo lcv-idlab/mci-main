@@ -345,6 +345,21 @@ hr {
   */
 }
 
+// general paragraph link
+
+p a:hover, p a:active {
+  color: color(brand);
+  text-decoration: none;
+  border-bottom: 1px solid color(brand);
+  @extend %bold-weight;
+}
+
+p a, p a:visited {
+  color: color(brand);
+  text-decoration: none;
+  border-bottom: 1px solid color(brand);
+}
+
 .link-back {
   @include outer-container();
   @include pads(4 2 0 2);
