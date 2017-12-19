@@ -10,7 +10,7 @@ Partner: Pinacoteca cantonale Giovanni Zuest, Rancate
 
 ----
 
-Date: 2017-11-08
+Date: 2017-11-10
 
 ----
 
@@ -18,7 +18,7 @@ Short: La collezione della Pinacoteca cantonale Giovanni Zuest raccoglie un impo
 
 ----
 
-Long: La collezione della Pinacoteca cantonale Giovanni Zuest raccoglie un importante nucleo di opere di artisti ticinesi, attivi tra il XVII al XIX secolo. Nel contesto del progetto Mediazione cultura inclusione, l’attività organizzata dal Laboratorio cultura visiva della SUPSI in collaborazione con la Pinacoteca Zuest è incentrata sulla fruizione a distanza di alcune opere della collezione cantonale. Dopo aver realizzato delle descrizioni specifiche in relazione a cinque opere particolarmente rappresentative della collezione, in collaborazione con Unitas e grazie alla voce di Elisabetta Lazzaroni si è proceduto con la registrazione delle tracce audio. Ogni descrizione prevede quattro livelli di approfondimento: il primo livello fornisce le informazioni generali e il soggetto primario dell’opera, il secondo la descrive e ne offre un’interpretazione, il terzo si occupa di luce, colore e materialità e l’ultimo tratta della struttura compositiva. A ogni livello di approfondimento corrisponde un traccia audio ascoltabile anche separatamente. Le descrizioni, pensate in primo luogo per favorire l’accesso alle opere d’arte per le persone con disabilità visiva, sono indirizzate a tutto il pubblico, che ne può liberamente fruire a distanza tramite il sito web del progetto MCI. Inoltre, le persone ipovedenti possono richiedere direttamente alla (email: decs-pinacoteca.zuest@ti.ch text: Pinacoteca Zuest) le immagini delle opere in alta risoluzione.
+Long: La collezione della Pinacoteca cantonale Giovanni Zuest raccoglie un importante nucleo di opere di artisti ticinesi, attivi tra il XVII al XIX secolo. Nel contesto del progetto Mediazione Cultura Inclusione (MCI), l’attività organizzata dal Laboratorio cultura visiva della SUPSI in collaborazione con la Pinacoteca Zuest si è articolata sulla fruizione a distanza di alcune opere della collezione cantonale. Dopo aver realizzato delle descrizioni specifiche in relazione a cinque opere particolarmente rappresentative della collezione, in collaborazione con Unitas e grazie alla voce di Elisabetta Lazzaroni si è proceduto con la registrazione delle tracce audio. Ogni descrizione prevede quattro livelli di approfondimento: il primo livello fornisce le informazioni generali e il soggetto primario dell’opera, il secondo la descrive e ne offre un’interpretazione, il terzo si occupa di luce, colore e matericità e l’ultimo tratta della struttura compositiva. A ogni livello di approfondimento corrisponde una traccia audio ascoltabile anche separatamente. Le descrizioni, pensate in primo luogo per favorire l’accesso alle opere d’arte per le persone con disabilità visiva, sono indirizzate a tutto il pubblico, che ne può liberamente fruire a distanza tramite il sito web del progetto MCI. Ai partecipanti ipovedenti è stata inoltre offerta la possibilità di poter richiedere direttamente alla Pinacoteca Zuest le immagini delle opere in alta risoluzione al fine di poterle ingrandire a schermo secondo le proprie necessità. La comodità di un accesso a distanza e la facilità di fruizione dei contenuti proposti online, sono stati particolarmente apprezzati dal pubblico di riferimento. Infatti, per le persone con disabilità visiva spostarsi al museo può richiedere tempo e, molto spesso, è necessaria un’articolata organizzazione di trasporti, accompagnatori, autisti, ecc.  La fruizione a distanza è quindi una soluzione efficace per promuovere il contatto tra istituzioni museali e pubblico di riferimento, e per permettere ai visitatori di accedere alle opere in maniera autonoma, nel luogo e nel momento più adatti alle esigenze personali. Tale approccio permette inoltre di stimolare maggiormente gli utenti a spostarsi fisicamente per visitare il museo e le sue esposizioni. Anche se l’ascolto di descrizioni delle opere a distanza non permette lo scambio e dialogo interpersonale tra mediatori e fruitori, le tracce audio sono state molto apprezzate poiché chiaramente comprensibili, liberamente fruibili e piacevoli all’ascolto. Anche la loro suddivisione in categorie di analisi è stata recepita positivamente, con il suggerimento di aggiungere una traccia comprensiva di tutte le altre, in modo tale da poter ascoltare l’analisi dell’opera completa, senza interruzioni. Relativamente alla pertinenza delle informazioni fornite, una partecipante cieca ha segnalato particolare apprezzamento per la maniera in cui sono stati descritti gli aspetti prettamente visivi, come per esempio il punto di vista dell’osservatore: questi elementi hanno contribuito notevolmente alla costruzione mentale dell’immagine dell’opera.
 
 ----
 
@@ -35,8 +35,8 @@ Recordings:
 - 
   title: I papaveri
   caption: >
-    Giochimo Galbusera, 1930-40, olio su
-    tela, 165 x 78 cm
+    Gioachimo Galbusera, 1930-1940, olio su
+    tela, 165 cm x 78 cm
   picture: galbusera_i_papaveri.jpg
   copyright: ""
   audio1: 01_galbusera-i_papaveri.mp3
@@ -78,7 +78,7 @@ Recordings:
 - 
   title: La raccolta delle ostriche
   caption: >
-    Luigi Rossi, 1905-10, olio su tela, 90
+    Luigi Rossi, 1905-1910, olio su tela, 90
     cm x 55 cm
   picture: rossi_la-raccolta-delle-ostriche.jpg
   copyright: ""

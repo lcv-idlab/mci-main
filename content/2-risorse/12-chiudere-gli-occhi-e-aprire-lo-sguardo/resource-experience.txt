@@ -20,7 +20,7 @@ Short: In occasione di questo workshop, settantacinque studenti hanno elaborato 
 
 Long: 
 
-Nel quadro del progetto “Mediazione Cultura Inclusione” (MCI) promosso dal Laboratorio cultura visiva della SUPSI, una particolare attività di mediazione culturale è stata organizzata in collaborazione con il Bachelor in Lavoro Sociale (corso “Individuo e identità” tenuto da Claudio Mustacchi - docente di pedagogia socioculturale), Unitas e il Museo Vincenzo Vela di Ligornetto.
+Nel quadro del progetto Mediazione Cultura Inclusione (MCI) promosso dal Laboratorio cultura visiva della SUPSI, una particolare attività di mediazione culturale è stata organizzata in collaborazione con il Bachelor in Lavoro sociale (corso “Individuo e identità” tenuto da Claudio Mustacchi - docente di pedagogia socioculturale), Unitas e il Museo Vincenzo Vela di Ligornetto.
 
 Il workshop sperimentale, che si è svolto giovedì 10 novembre 2016 presso il Museo Vincenzo Vela, ha visto coinvolti settantacinque studenti e otto persone cieche e ipovedenti. In quest’occasione ogni studente ha potuto elaborare un personale testo narrativo volto a “rendere visibile” un’opera d’arte della collezione. Massima libertà è stata data ai partecipanti per quanto riguarda la scelta delle opere e gli stili narrativi. Mentre gli studenti erano intenti ad elaborare le proprie narrazioni negli spazi museali, un gruppo di mentori ciechi e ipovedenti rispondeva ai loro quesiti, fornendo sostegno e precise indicazioni per aiutarli ad individuare le soluzioni più adatte. Infine, i partecipanti hanno selezionato in maniera condivisa una quindicina di testi per una lettura collettiva al buio. 
 
@@ -30,7 +30,7 @@ Le sculture e i dipinti conservati nel museo hanno così letteralmente “preso 
 
 Un sondaggio presso tutti i partecipanti ha permesso di valutare l’attività: emozionante, arricchente e coinvolgente sono stati gli aggettivi più utilizzati per qualificare l’esperienza vissuta. 
 
-Ricevere un riscontro da parte dei partecipanti ha permesso in particolare di migliorare e adeguare l’offerta delle attività di mediazione culturale in vista delle sperimentazioni previste nel corso del 2017 nel quadro del progetto “Mediazione Cultura Inclusione”.
+Ricevere un riscontro da parte dei partecipanti ha permesso in particolare di migliorare e adeguare l’offerta delle attività di mediazione culturale in vista delle sperimentazioni previste nel corso del 2017 nel quadro del progetto MCI.
 
 ----
 
@@ -44,15 +44,15 @@ Movie: 200029357
 
 Alt-video: 
 
-Gli studenti della SUPSI del primo anno di Lavoro sociale, sono invitati a prendere posto all’interno delle sale del Museo Vela per creare delle descrizioni delle opere il più complete possibile.
+Gli studenti della SUPSI del primo anno di Lavoro sociale, sono invitati a prendere posto all’interno delle sale del Museo Vincenzo Vela per creare delle descrizioni delle opere il più complete possibile.
 
-Il video mostra le sale del Museo Vela da diverse inquadrature, con gli studenti intenti a scrivere, seduti per terra, le loro descrizioni delle opere. Queste inquadrature iniziali sono accompagnate sia dalle voci di due studentesse, che raccontano un estratto della loro descrizione, che da un sottofondo musicale.  Successivamente vengono mostrati due scatti delle opere descritte dalle voci narranti, il tutto accompagnato dai sottotitoli che seguono il testo e spaziano all’interno dell’inquadratura.
+Il video mostra le sale del museo da diverse inquadrature, con gli studenti intenti a scrivere, seduti per terra, le loro descrizioni delle opere. Queste inquadrature iniziali sono accompagnate sia dalle voci di due studentesse, che raccontano un estratto della loro descrizione, che da un sottofondo musicale.  Successivamente vengono mostrati due scatti delle opere descritte dalle voci narranti, il tutto accompagnato dai sottotitoli che seguono il testo e spaziano all’interno dell’inquadratura.
 
 Gli studenti vengono divisi in gruppi, uno per sala, in cui leggeranno ad alta voce le descrizioni delle opere ai membri di Unitas, i quali le commenteranno e ne sceglieranno alcune da presentare a tutti alla fine dell’incontro.
-Viene inquadrato un membro di Unitas, seduto per terra insieme agli studenti, che spiega come avviene la percezione dell’opera per una persona ipovedente. In dissolvenza viene inquadrata la sala principale del Museo Vela, nel frattempo allestita a sala presentazioni, con gli studenti seduti sulle sedie, con indosso una mascherina che gli copre gli occhi.
+Viene inquadrato un membro di Unitas, seduto per terra insieme agli studenti, che spiega come avviene la percezione dell’opera per una persona ipovedente. In dissolvenza viene inquadrata la sala principale del museo, nel frattempo allestita a sala presentazioni, con gli studenti seduti sulle sedie, con indosso una mascherina che copre loro gli occhi.
 A turno, alcuni studenti, leggeranno le loro descrizioni. Successivamente vengono inquadrati due docenti, uno in piedi davanti al leggio e l’altro seduto affianco su una sedia, che tramite uno sketch mettono in luce aspetti chiave di questa ricerca.
 
-Il video termina con i nomi di tutti i partecipanti (docenti e allievi) e con i loghi di chi ha reso possibile l’attività. Infine viene mostrato ancora qualche secondo di sketch tra due docenti SUPSI del Bachelor in Lavoro Sociale.
+Il video termina con i nomi di tutti i partecipanti (docenti e allievi) e con i loghi di chi ha reso possibile l’attività. Infine viene mostrato ancora qualche secondo di sketch tra due docenti SUPSI del Bachelor in Lavoro sociale.
 
 ----
 
@@ -86,3 +86,11 @@ Gallery:
 ----
 
 Ext-link: 
+
+----
+
+Docs: 
+
+----
+
+Ext-link-desc: 

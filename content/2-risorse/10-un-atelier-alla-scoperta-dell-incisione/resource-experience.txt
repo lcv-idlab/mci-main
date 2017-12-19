@@ -20,7 +20,7 @@ Short: In occasione dell'atelier relazionato alla mostra “L’anima del segno:
 
 Long: 
 
-Organizzato dal Museo Civico di Villa dei Cedri di Bellinzona in collaborazione con il Laboratorio cultura visiva della SUPSI, l'atelier creativo volto alla scoperta dell’incisione è stato animato dall’artista Loredana Müller Donadini e si è svolto venerdì 20 Gennaio 2017 dalle 10.00 alle 12.00 presso il Museo Civico Villa dei Cedri. Il laboratorio creativo era relazionato alla mostra “L’anima del segno: Hartung – Cavalli – Strazza”. 
+Organizzato dal Museo Civico Villa dei Cedri di Bellinzona in collaborazione con il Laboratorio cultura visiva della SUPSI, l'atelier creativo volto alla scoperta dell’incisione è stato animato dall’artista Loredana Müller Donadini e si è svolto venerdì 20 Gennaio 2017 dalle 10.00 alle 12.00 presso il Museo Civico Villa dei Cedri. Il laboratorio creativo era relazionato alla mostra “L’anima del segno: Hartung – Cavalli – Strazza”. 
 
 A cura di Carole Haensler Huguet, l’esposizione ha proposto un dialogo tra l’artista ticinese Massimo Cavalli (1930), l’italiano Guido Strazza (1922) e il franco-tedesco Hans Hartung (1904-1989). Una proposta impegnativa dove i tre artisti combinano l’intensità di un pensiero maggiormente interessato al gesto, con l’esplorazione sistematica dei fondamenti della pittura – superficie, spazio, colore, luce, pennellata e segno grafico. La mostra si è concentrata sulla nozione di incisore-pittore. 
 
@@ -68,3 +68,7 @@ Ext-link:
 ----
 
 Ext-link-desc: 
+
+----
+
+Docs: 
